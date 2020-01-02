@@ -35,7 +35,7 @@ The OSVVM model library provides off the shelf models for:
    - Receiver (aka slave) - with error injection
  - [OSVVM Common - Required](https://github.com/OSVVM/OSVVM-Common)
    - Shared transcript interfaces
- - [OSVVM Scripts](https://github.com/OSVVM/OSVVM-Common/tree/master/src)
+ - [OSVVM Scripts](https://github.com/OSVVM/OSVVM-Scripts)
    - Recommended.  Script layer on top of tcl
    - Common simulator compilation and execution methodology
  - Verification IP
