@@ -38,4 +38,5 @@ The OSVVM model library provides off the shelf models for:
  - [OSVVM Scripts](https://github.com/OSVVM/OSVVM-Common/tree/master/src)
    - Recommended.  Script layer on top of tcl
    - Common simulator compilation and execution methodology
- - Verification IP is intended to include the above as submodules, but currently something is broken in the linking in GitHub.
+ - Verification IP
+   - Intended to include the above as submodules, but currently something is broken in the linking in GitHub.
