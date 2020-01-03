@@ -22,7 +22,13 @@ The [OSVVM utility library](https://github.com/OSVVM/OSVVM) offers the same capa
  - Memory models
  
 ## The OSVVM Model Library
-The OSVVM model library provides off the shelf models for:
+The OSVVM model library provides the following models.
+The models all use records for the transaction interfaces, so connecting
+them to the testbench only requires a single signal.
+
+Testbenches are in the Git repository, so you can 
+run a simulation and see a live example of how to use the models.
+
 
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
    - Master
