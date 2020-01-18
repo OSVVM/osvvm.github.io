@@ -1,5 +1,8 @@
 # Open Source VHDL Verification Methodology (OSVVM)
-Open Source VHDL Verification Methodology (OSVVM) reduces the complexity of your verification task by providing utility and model libraries.
+Open Source VHDL Verification Methodology (OSVVM) simplifies your FPGA and ASIC verification tasks by providing utility and model libraries.   
+Using these libraries one can create a simple, readable, and 
+powerful testbench that is suitable for either a simple FPGA block
+or a complex ASIC.
 
 ## OSVVM is the #1 VHDL Verification Methodology 
 According to the [2018 Wilson Verification Survey](https://blogs.mentor.com/verificationhorizons/blog/2019/01/15/part-6-the-2018-wilson-research-group-functional-verification-study/), OSVVM is the:
