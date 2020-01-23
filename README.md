@@ -25,14 +25,14 @@ The [OSVVM utility library](https://github.com/OSVVM/OSVVM) offers the same capa
  - Memory models
  
 ## The OSVVM Model Library
-The OSVVM model library provides the following models.
-The models all use records for the transaction interfaces, so connecting
-them to the testbench only requires a single signal.
+The OSVVM model library is a growing set of models 
+commonly used for FPGA and ASIC verification.  
+The library currently contains the following repositories:
 
-Testbenches are in the Git repository, so you can 
-run a simulation and see a live example of how to use the models.
-
-
+ - [Verification IP](https://github.com/OSVVM/VerificationIP)
+   - Repository that includes all Verification IP as a submodule. 
+   - Note submodules do not get included in the GitHub zip files, instead check out with:  
+        `$ git clone --recursive https://github.com/OSVVM/VerificationIP.git`
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
    - Master
    - Slave transactor model
@@ -47,5 +47,22 @@ run a simulation and see a live example of how to use the models.
  - [OSVVM Scripts](https://github.com/OSVVM/OSVVM-Scripts)
    - Recommended.  Script layer on top of tcl
    - Common simulator compilation and execution methodology
- - Verification IP
-   - Intended to include the above as submodules, but currently something is broken in the linking in GitHub.
+
+We use the word models as short hand for 
+Transaction Based Models (TBM). 
+They are simply an entity and architecture coded in 
+an effective manner for verification.
+Some use other terminology such as 
+VHDL verification components (VVC) - 
+these are the same thing.
+Historically we used Bus Functional Models (BFM). 
+However, recently we abandoned BFM due to others using BFM to 
+refer to their own lesser capable subprogram based approach.
+
+OSVVM models use records for the transaction interfaces, 
+so connecting them to your testbench is simple - 
+connect only a single signal.
+
+Testbenches are in the Git repository, so you can 
+run a simulation and see a live example 
+of how to use the models.
