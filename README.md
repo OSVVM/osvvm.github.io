@@ -26,6 +26,9 @@ The [OSVVM utility library](https://github.com/OSVVM/OSVVM) offers the same capa
  - Scoreboards and FIFOs (data structures for verification)
  - Memory models
  
+Download the OSVVM Utility library using git:    
+   `git clone https://github.com/OSVVM/OSVVM.git`
+
 ## The OSVVM Model Library
 The OSVVM model library is a growing set of models 
 commonly used for FPGA and ASIC verification.  
@@ -33,9 +36,9 @@ The library currently contains the following repositories:
 
  - [Verification IP](https://github.com/OSVVM/VerificationIP)
    - Repository that includes all of the 
-   OSVVM model library  IP as submodules. 
+   OSVVM model library  as submodules. 
    - Download the entire OSVVM model library using git clone with the "--recursive" flag:  
-        `$ git clone --recursive https://github.com/OSVVM/VerificationIP.git`
+        `git clone --recursive https://github.com/OSVVM/VerificationIP.git`
    - Note submodules are not included in the GitHub zip files
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
    - Master
