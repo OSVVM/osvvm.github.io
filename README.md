@@ -34,7 +34,7 @@ The library currently contains the following repositories:
  - [Verification IP](https://github.com/OSVVM/VerificationIP)
    - Repository that includes all of the 
    OSVVM model library  IP as submodules. 
-   - Facilitates easy download using git clone with the "--recursive" flag:  
+   - Download the entire OSVVM model library using git clone with the "--recursive" flag:  
         `$ git clone --recursive https://github.com/OSVVM/VerificationIP.git`
    - Note submodules are not included in the GitHub zip files
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
