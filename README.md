@@ -2,7 +2,7 @@
 Open Source VHDL Verification Methodology (OSVVM) provides 
 utility and model libraries that simplify 
 your FPGA and ASIC verification tasks.
-Using these libraries one can create a simple, readable, and 
+Using these libraries you can create a simple, readable, and 
 powerful testbench that is suitable for either a simple FPGA block
 or a complex ASIC.
 
@@ -32,8 +32,9 @@ commonly used for FPGA and ASIC verification.
 The library currently contains the following repositories:
 
  - [Verification IP](https://github.com/OSVVM/VerificationIP)
-   - Repository that includes all Verification IP as a submodule. 
-   - Note submodules do not get included in the GitHub zip files, instead check out with:  
+   - Repository that includes all the other
+   OSVVM model library  IP as submodules. 
+   - Note submodules do not get included in the GitHub zip files, so instead use get clone with the "--recursive" flag:  
         `$ git clone --recursive https://github.com/OSVVM/VerificationIP.git`
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
    - Master
