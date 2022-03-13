@@ -54,8 +54,8 @@ jobs:
     - name: '📓 Publish site to GitHub Pages'
       if: github.event_name != 'pull_request'
       run: |
-        sudo chown -R "$USER:$USER" docs/_build/html
-        cd docs/_build/html
+        sudo chown -R "$USER:$USER" _build/html
+        cd _build/html
         touch .nojekyll
         git init
         cp ../../../.git/config ./.git/config
