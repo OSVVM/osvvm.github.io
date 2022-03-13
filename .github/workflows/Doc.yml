@@ -58,7 +58,7 @@ jobs:
         cd _build/html
         touch .nojekyll
         git init
-        cp ../../../.git/config ./.git/config
+        cp ../../.git/config ./.git/config
         git add .
         git config --local user.email "BuildTheDocs@GitHubActions"
         git config --local user.name "GitHub Actions"
