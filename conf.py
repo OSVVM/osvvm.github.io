@@ -7,11 +7,11 @@ ROOT = Path(__file__).resolve().parent
 
 # -- Project information -----------------------------------------------------
 
-project = 'OSVVM-Documentation'
+project = 'OSVVM Documentation'
 author = 'Jim Lewis'
 copyright = f'2022, {author} Licensed under CC BY-NC-ND 4.0'
 
-version = '2022.02'
+version = '2022.03'
 release = version
 
 
@@ -22,7 +22,14 @@ master_doc = "index"
 extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
+    'myst_parser'
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 templates_path = ['_templates']
 

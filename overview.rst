@@ -41,6 +41,8 @@ Further information about OSVVM’s Logs:
 
     Using Logs
     For more, see :ghsrc:`AlertLogPkg_User_Guide.pdf`.
+    See also :ghsrc:`AlertLog User Guide <AlertLogPkg_User_Guide.pdf>`
+       
 
 Transcript files
 ----------------
