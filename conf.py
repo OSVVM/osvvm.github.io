@@ -33,9 +33,16 @@ source_suffix = {
 
 templates_path = ['_templates']
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '*.*_bak', 'z_*']
 
 numfig = True
+
+numfig_format = {
+    'figure': 'Figure %s: ', 
+    'table': 'Table %s: ', 
+    'code-block': 'Listing %s', 
+    'section': 'Section %s'
+}
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -77,9 +84,13 @@ intersphinx_mapping = {
 # -- Sphinx.Ext.ExtLinks -----------------------------------------------------------------------------------------------
 
 extlinks = {
+    "gh": ("https://github.com/OSVVM/%s", ""),
+    "pdfdoc": ("https://github.com/OSVVM/Documentation/blob/main/%s", ""),
+    "AXI4": ("https://github.com/OSVVM/AXI4/tree/main/%s", ""),
+    "UART": ("https://github.com/OSVVM/UART/tree/main/%s", ""),
+    "DpRam": ("https://github.com/OSVVM/UART/tree/main/%s", ""),
     "wikipedia": ("https://en.wikipedia.org/wiki/%s", None),
     "awesome": ("https://hdl.github.io/awesome/items/%s", ""),
-    "gh": ("https://github.com/%s", "gh:"),
     "ghsharp": ("https://github.com/OSVVM/osvvm.github.io/issues/%s", "#"),
     "ghissue": ("https://github.com/OSVVM/osvvm.github.io/issues/%s", "issue #"),
     "ghpull": ("https://github.com/OSVVM/osvvm.github.io/pull/%s", "pull request #"),
