@@ -36,9 +36,9 @@ Important benefits of OSVVM:
     * Our Model Independent Transactions (MIT) define a common set of transactions for Address Bus and Streaming Interfaces
 
 * Utility Library
-    * Creates functionality that feels build in language capability
     * Simplifies Self-checking, Error handling, and Message Filtering
     * Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models
+    * Capabilities are simple to use and feel like build in language features
 
 * Unmatched Test reporting
     * JUnit XML for use with CI/CD tools.
