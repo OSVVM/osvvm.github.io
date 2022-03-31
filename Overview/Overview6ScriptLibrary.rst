@@ -6,7 +6,8 @@ Scripting Library
 The goal of OSVVM's scripting is to have 
 "One Script to Run them All" - where all is any simulator.
 
-Currently supported simulators are:
+Current supported simulators are
+
 * GHDL (Free Open Source simulator),
 * Aldec's Active-HDL and Riviera-PRO, 
 * Siemen's ModelSim and QuestaSim, 
