@@ -12,7 +12,7 @@ OSVVM Table Of Contents
     :maxdepth: 1
     :glob:
 
-    Overview/Overview*
+    Overview/*
 
 .. toctree::
     :caption: Appendix
