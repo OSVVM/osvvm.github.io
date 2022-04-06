@@ -21,11 +21,12 @@ master_doc = "index"
 
 extensions = [
     "sphinx.ext.extlinks",
-    "sphinx.ext.intersphinx"
+    "sphinx.ext.intersphinx", 
+    'myst_parser'
 ]
 
 source_suffix = {
-    '.rst': 'restructuredtext'
+    '.rst': 'restructuredtext', '.md': 'markdown'
 }
 
 templates_path = ['_templates']
