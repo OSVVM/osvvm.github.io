@@ -38,7 +38,7 @@ Important benefits of OSVVM:
 * Utility Library
     * Simplifies Self-checking, Error handling, and Message Filtering
     * Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models
-    * Capabilities are simple to use and feel like build in language features
+    * Capabilities are simple to use and feel like built-in language features
 
 * Unmatched Test reporting
     * JUnit XML for use with CI/CD tools.
