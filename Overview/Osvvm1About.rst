@@ -62,7 +62,7 @@ have helped develop VHDL standards.
 We have used our expert VHDL skills to create
 advanced verification capabilities that are easy to use.
 
-SynthWorks has been OSVVM for 25+ years in our
+SynthWorks has been using OSVVM for 25+ years in our
 training classes and consulting work.
 During that time, we have innovated new capabilities
 and evolved our existing ones to increase

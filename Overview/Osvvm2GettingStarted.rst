@@ -21,20 +21,25 @@ Download all OSVVM libraries using git clone with the "--recursive" flag:
 
 Running the Demos
 ----------------------------------------------------
-Prior to starting the OSVVM scripting environment, at the same
-level of the OsvvmLibraries directory, create a directory
-named sim.
-Start your simulator and go to the sim directory.
-Once there, for Aldec Riviera-PRO or Siemen's QuestaSim/ModelSim
-do the following in your simulator.
+A great way to get oriented with OSVVM is to run the demos.
+
+If you are using Aldec's Rivera-PRO or Siemen's QuestaSim/ModelSim do the following.
+
+- Step 1:  Create a directory named sim that is in the same
+directory that contains the OsvvmLibraries directory.
+- Step 2:  Start your simulator and go to the sim directory. 
+- Step 3:  Do the following in your simulator command line:
 
 .. code-block::
 
   source ../OsvvmLibraries/Scripts/StartUp.tcl
   build  ../OsvvmLibraries
   build  ../OsvvmLibraries/RunDemoTests.pro
+  
+These will produce some reports, such as OsvvmLibraries_RunDemoTests.html.
+We will discuss these in the next section, OSVVM Reports.
 
-If you are running GHDL, Aldec Active-HDL, Synopsys VCS, or
+If you are using GHDL, Aldec Active-HDL, Synopsys VCS, or
 Cadence Xcelium, see the OSVVM Script User Guide for details on
 running the scripts in these tool.
 The start up aspect for each of these is slightly different, however,
