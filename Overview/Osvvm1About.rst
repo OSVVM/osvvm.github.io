@@ -52,11 +52,11 @@ Important benefits of OSVVM:
     * Is simple to use and works like built-in language features
 
 * Unmatched Test reporting
-    * JUnit XML for use with CI/CD tools.
+    * JUnit XML for use with continuous integration (CI/CD) tools.
     * HTML Build Summary Report for reporting test suite level information
     * HTML Test Case Detailed report for each test case.
     * HTML based Alert, Functional Coverage, and Scoreboard Reports
-    * HTML based test log files
+    * HTML based test transcript/log files
     * Find and debug issues faster
 
 * Verification component library
