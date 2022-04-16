@@ -10,8 +10,8 @@ About OSVVM
 ====================================================
 
 OSVVM is an advanced verification methodology that
-defines a verification framework, VHDL utility library,
-VHDL verification component library, and a scripting library.
+defines a VHDL verification framework, verification utility library, 
+verification component library, and a scripting library.
 
 OSVVM supports the same capabilities that verification languages
 such as SystemVerilog + UVM support - including transaction level modeling,
