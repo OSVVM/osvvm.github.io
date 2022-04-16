@@ -11,15 +11,26 @@ About OSVVM
 
 OSVVM is an advanced verification methodology that
 defines a VHDL verification framework, verification utility library, 
-verification component library, and a scripting library.
+verification component library, and a scripting flow
+that simplifies your FPGA or ASIC verification project 
+from start to finish.
+Using these libraries you can create a simple, readable, 
+and powerful testbench that is suitable for either a 
+simple FPGA block or a complex ASIC.
 
-OSVVM supports the same capabilities that verification languages
-such as SystemVerilog + UVM support - including transaction level modeling,
-verification components, functional coverage, constrained random tests,
-Intelligent Coverage random tests,
-data structures (such as scoreboards, FIFOs, and Memories),
-error logging and reporting, message filtering, and
-advanced test reporting (HTML and JUnit XML for CI/CD).
+OSVVM is developed by the same VHDL experts who
+have helped develop VHDL standards.
+We have used our expert VHDL skills to create
+advanced verification capabilities that:
+
+- Are simple to use and work like built-in language features.
+- Maximize reuse and reduce project schedule.
+- Facilitate readabilty and reviewability by the whole team including software and system engineers.
+- Facilitate debug with HTML based test suite and test case reporting.
+- Facilitate continuous integration (CI/CD) with JUnit XML test suite reporting.
+- Provide buzz word features including Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models, error logging and reporting, and message filtering.
+- Rival the verification capabilities of SystemVerilog + UVM.
+
 
 Important benefits of OSVVM:
 
@@ -32,18 +43,19 @@ Important benefits of OSVVM:
     * It is powerful enough to use on large, complex FPGAs and ASICs
     * Using the same framework architecture for RTL, Core, and System tests facilitates reuse between them
     * Test cases are readable by RTL, verification, software, and system engineers
-    * We don't use OO language constructs so RTL engineers can write test environments
+    * It is simple enough that you just need VHDL engineers and not verification specialists.
     * Our Model Independent Transactions (MIT) define a common set of transactions for Address Bus and Streaming Interfaces
 
-* Utility Library
+* Verification utility library that
     * Simplifies Self-checking, Error handling, and Message Filtering
-    * Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models
-    * Capabilities are simple to use and feel like built-in language features
+    * Implements Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models
+    * Is simple to use and works like built-in language features
 
 * Unmatched Test reporting
     * JUnit XML for use with CI/CD tools.
     * HTML Build Summary Report for reporting test suite level information
     * HTML Test Case Detailed report for each test case.
+    * HTML based Alert, Functional Coverage, and Scoreboard Reports
     * HTML based test log files
     * Find and debug issues faster
 
@@ -56,11 +68,6 @@ Important benefits of OSVVM:
 
 * It is free open source.
     * It upgrades an ordinary VHDL license with full featured verification capabilities.
-
-OSVVM is developed by the same VHDL experts who
-have helped develop VHDL standards.
-We have used our expert VHDL skills to create
-advanced verification capabilities that are easy to use.
 
 SynthWorks has been using OSVVM for 25+ years in our
 training classes and consulting work.
