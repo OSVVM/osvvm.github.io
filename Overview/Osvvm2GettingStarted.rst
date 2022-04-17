@@ -25,10 +25,9 @@ A great way to get oriented with OSVVM is to run the demos.
 
 If you are using Aldec's Rivera-PRO or Siemen's QuestaSim/ModelSim do the following.
 
-- Step 1:  Create a directory named sim that is in the same
-directory that contains the OsvvmLibraries directory.
+- Step 1:  Create a directory named sim that is in the same directory that contains the OsvvmLibraries directory.  
 - Step 2:  Start your simulator and go to the sim directory. 
-- Step 3:  Do the following in your simulator command line:
+- Step 3:  Do the following in your simulator command line:  
 
 .. code-block::
 
