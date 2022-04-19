@@ -4,10 +4,6 @@ OSVVM Reports
 
 OSVVM Reports
 ====================================================
-If you did not run the demos in the last step, if you
-go back and do it, you can explore a live version of 
-OSVVM's reports.
-
 Good reports simplify debug and help find problems 
 quickly.   
 This is important as
@@ -15,6 +11,11 @@ according to the `2020 Wilson Verification Survey <https://blogs.sw.siemens.com/
 FPGA verification engineers spend 46% of their time debugging.
 
 Lets take a look at the reports created in the demo.
+If you did not run the demos in the last step, if you
+go back and do it, you can explore a live version of 
+OSVVM's reports.
+
+
 
 Explore the Build Summary Report
 ----------------------------------------------------
