@@ -40,7 +40,7 @@ See :numref:`Figure {number} {name} <BuildSummaryReportFig>`.
 
 .. figure:: images/DemoBuildSummaryReport.png
   :name: BuildSummaryReportFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Build Summary Report
@@ -60,7 +60,7 @@ the results at the bottom of the Build Summary Report.
 
 .. figure:: images/DemoBuildStatus.png
   :name: BuildStatusFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Build Status
@@ -77,7 +77,7 @@ that this build includes the test suites Axi4Full, AxiStream, and UART.
 
 .. figure:: images/DemoTestSuiteSummary.png
   :name: TestSuiteSummaryFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Test Suite Summary
@@ -91,7 +91,7 @@ See :numref:`Figure {number} {name} <TestCaseSummaryFig>`.
 
 .. figure:: images/DemoTestCaseSummaries.png
   :name: TestCaseSummaryFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Test Case Summary
@@ -143,7 +143,7 @@ and a link to any transcript files opened by OSVVM.
 
 .. figure:: images/DemoTestCaseLinks.png
   :name: TestInfoFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Test Information Link Table
@@ -157,7 +157,7 @@ See :numref:`Figure {number} {name} <AlertFig>`
 
 .. figure:: images/DemoAlertReport.png
   :name: AlertFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Alert Report
@@ -173,7 +173,7 @@ Note this report is not from the demo.
 
 .. figure:: images/CoverageReport.png
   :name: FunctionalCoverageFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Functional Coverage Report
@@ -187,7 +187,7 @@ See :numref:`Figure {number} {name} <ScoreboardFig>`
 
 .. figure:: images/DemoScoreboardReport.png
   :name: ScoreboardFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Scoreboard Report
