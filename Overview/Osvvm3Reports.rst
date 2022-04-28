@@ -40,7 +40,7 @@ See :numref:`Figure {number} {name} <BuildSummaryReportFig>`.
 
 .. figure:: images/DemoBuildSummaryReport.png
   :name: BuildSummaryReportFig
-  :scale: 25 %
+  :scale: 50 %
   :align: center
   
   Build Summary Report
@@ -60,7 +60,7 @@ the results at the bottom of the Build Summary Report.
 
 .. figure:: images/DemoBuildStatus.png
   :name: BuildStatusFig
-  :scale: 50 %
+  :scale: 100 %
   :align: center
   
   Build Status
