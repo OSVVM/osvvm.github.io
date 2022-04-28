@@ -86,7 +86,7 @@ that this build includes the test suites Axi4Full, AxiStream, and UART.
 Test Case Summary
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The remainder of the Build Summary Report is Test Case Summary.
-There is a seprate Test Case Summary for each test suite in the build.
+There is a separate Test Case Summary for each test suite in the build.
 See :numref:`Figure {number} {name} <TestCaseSummaryFig>`.
 
 .. figure:: images/DemoTestCaseSummaries.png
