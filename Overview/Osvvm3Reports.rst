@@ -60,7 +60,7 @@ the results at the bottom of the Build Summary Report.
 
 .. figure:: images/DemoBuildStatus.png
   :name: BuildStatusFig
-  :scale: 100 %
+  :scale: 50 %
   :align: center
   
   Build Status
