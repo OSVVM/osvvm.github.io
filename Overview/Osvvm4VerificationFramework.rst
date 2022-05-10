@@ -57,3 +57,15 @@ OSVVM's Structured Testbench Framework.
       - :pdfdoc:`UG <Address_Bus_Model_Independent_Transactions_user_guide.pdf>`
     * - OSVVM's Stream Model Independent Transactions Users Guide
       - :pdfdoc:`UG <Stream_Model_Independent_Transactions_user_guide.pdf>`
+
+
+Related publications and webinars
+.. list-table:: 
+    :widths: 40 10  
+    :header-rows: 1
+    
+    * - Publications and Webinars
+      - Link
+    * - OSVVM: Leading Edge Verification for the VHDL Community
+      - `DVClub Europe April 2022 <https://www.youtube.com/watch?v=KVmGDy_PHNI>`_
+

@@ -72,4 +72,13 @@ OSVVM's VHDL Utility Library.
       - :pdfdoc:`UG <TextUtilPkg_user_guide.pdf>`
       - None
 
+Related publications and webinars
+.. list-table:: 
+    :widths: 40 10  
+    :header-rows: 1
+    
+    * - Publications and Webinars
+      - Link
+    * - OSVVM: Leading Edge Verification for the VHDL Community
+      - `DVClub Europe April 2022 <https://www.youtube.com/watch?v=KVmGDy_PHNI>`_
 
