@@ -37,14 +37,17 @@ Important benefits of OSVVM:
 * Each piece is independent
     * Add them to your current VHDL testbench incrementally.
 
-* Verification framework that is
-    * Simple enough to use on small blocks
-    * So simple in fact that we don't need a "Lite" or "Easy" approach
-    * It is powerful enough to use on large, complex FPGAs and ASICs
-    * Using the same framework architecture for RTL, Core, and System tests facilitates reuse between them
-    * Test cases are readable by RTL, verification, software, and system engineers
-    * It is simple enough that you just need VHDL engineers and not verification specialists.
-    * Our Model Independent Transactions (MIT) define a common set of transactions for Address Bus and Streaming Interfaces
+* Verification Framework (aka. Structured Testbench Framework) that 
+    * Is based on transactions and verification components - just like SystemVerilog and SystemC
+    * Is simple enough to use on small blocks - unlike SystemVerilog
+    * Is powerful enough to use on large, complex FPGAs and ASICs - like SystemVerilog
+    * Is so simple that we don’t need a “Lite” or “Easy” approach - unlike SystemVerilog
+    * Uses transaction calls to create test cases which accelerates their development and simplifies readability.
+    * Defines a pattern and utilities for verification component (VC) development 
+    * Defines a pattern and utilities for using VHDL records as an interface to connect testbench components
+    * Defines a common set of Model Independent Transactions (MIT) that can be used for any address bus or streaming interface. 
+    * Facilitates reuse between RTL, Core, and System tests by using the same framework and verification components
+    * Makes test cases readable by RTL, verification, software, and system engineers
 
 * Verification utility library that
     * Simplifies Self-checking, Error handling, and Message Filtering
