@@ -42,7 +42,7 @@ Important benefits of OSVVM:
     * Is simple enough to use on small blocks - unlike SystemVerilog
     * Is powerful enough to use on large, complex FPGAs and ASICs - like SystemVerilog
     * Is so simple that we don’t need a “Lite” or “Easy” approach - unlike SystemVerilog
-    * Uses transaction calls to create test cases which accelerates their development and simplifies readability.
+    * Uses transaction calls to write test cases which accelerates their development and simplifies readability.
     * Defines a pattern and utilities for verification component (VC) development 
     * Defines a pattern and utilities for using VHDL records as an interface to connect testbench components
     * Defines a common set of Model Independent Transactions (MIT) that can be used for any address bus or streaming interface. 
