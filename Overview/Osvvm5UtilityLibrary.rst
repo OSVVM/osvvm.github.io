@@ -75,7 +75,7 @@ OSVVM's VHDL Utility Library.
 Related publications and webinars
 
 .. list-table:: 
-    :widths: 20 30  
+    :widths: 100  
     :header-rows: 1
     
     * - Publications and Webinars

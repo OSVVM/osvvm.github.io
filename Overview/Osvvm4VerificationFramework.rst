@@ -62,7 +62,6 @@ OSVVM's Structured Testbench Framework.
 Related publications and webinars
 
 .. list-table:: 
-    :widths: 20 30  
     :header-rows: 1
     
     * - Publications and Webinars
