@@ -73,12 +73,18 @@ OSVVM's VHDL Utility Library.
       - None
 
 Related publications and webinars
+
 .. list-table:: 
-    :widths: 40 10  
+    :widths: 20 30  
     :header-rows: 1
     
     * - Publications and Webinars
-      - Link
-    * - OSVVM: Leading Edge Verification for the VHDL Community
-      - `DVClub Europe April 2022 <https://www.youtube.com/watch?v=KVmGDy_PHNI>`_
+    * - Series: Better FPGA Verification with VHDL, With Aldec May - June 2022 
+    * - `Part1:  OSVVM Leading Edge Verification for the VHDL Community <https://www.aldec.com/en/support/resources/multimedia/webinars/2186>`_
+    *  - Part 2: Faster than Lite Verification Component Development with OSVVM <https://www.aldec.com/en/support/resources/multimedia/webinars/2187>`_
+    * - Part 3: OSVVM's Test Reports and Simulator Independent Scripting <https://www.aldec.com/en/support/resources/multimedia/webinars/2188>`_
+    * - Part 4: Advances in OSVVM's Verification Data Structures
+       <https://www.aldec.com/en/support/resources/multimedia/webinars/2190>`_
+    * - DVClub Europe April 2022 
+    * - `OSVVM: Leading Edge Verification for the VHDL Community <https://www.youtube.com/watch?v=KVmGDy_PHNI>`_
 
