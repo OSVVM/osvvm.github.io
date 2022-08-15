@@ -75,16 +75,19 @@ OSVVM's VHDL Utility Library.
 Related publications and webinars
 
 .. list-table:: 
-    :widths: 100  
+    :widths: 30 20  
     :header-rows: 1
     
     * - Publications and Webinars
-    * - Series: Better FPGA Verification with VHDL, With Aldec May - June 2022 
-    * - `Part1:  OSVVM Leading Edge Verification for the VHDL Community <https://www.aldec.com/en/support/resources/multimedia/webinars/2186>`_
-    *  - Part 2: Faster than Lite Verification Component Development with OSVVM <https://www.aldec.com/en/support/resources/multimedia/webinars/2187>`_
-    * - Part 3: OSVVM's Test Reports and Simulator Independent Scripting <https://www.aldec.com/en/support/resources/multimedia/webinars/2188>`_
-    * - Part 4: Advances in OSVVM's Verification Data Structures
-       <https://www.aldec.com/en/support/resources/multimedia/webinars/2190>`_
-    * - DVClub Europe April 2022 
+      - Event
+    * - `OSVVM Leading Edge Verification for the VHDL Community <https://www.aldec.com/en/support/resources/multimedia/webinars/2186>`_
+      - Part 1 of Better FPGA Verification with VHDL, With Aldec May 2022 
+    * - `Faster than Lite Verification Component Development with OSVVM <https://www.aldec.com/en/support/resources/multimedia/webinars/2187>`_
+      - Part 2 of Better FPGA Verification with VHDL, With Aldec June 2022 
+    * - `OSVVM's Test Reports and Simulator Independent Scripting <https://www.aldec.com/en/support/resources/multimedia/webinars/2188>`_
+      - Part 3 of Better FPGA Verification with VHDL, With Aldec June 2022 
+    * - `Advances in OSVVM's Verification Data Structures <https://www.aldec.com/en/support/resources/multimedia/webinars/2190>`_
+      - Part 4 of Better FPGA Verification with VHDL, With Aldec June 2022 
     * - `OSVVM: Leading Edge Verification for the VHDL Community <https://www.youtube.com/watch?v=KVmGDy_PHNI>`_
+      - DVClub Europe April 2022 
 
