@@ -191,9 +191,10 @@ Note this report is not from the demo.
 Scoreboard Report(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Test Case Detailed Report contains a 
-Scoreboard Report for each 
+Scoreboard Report, shown in 
+:numref:`Figure {number} {name} <ScoreboardFig>`
+There is a row in the table for each
 scoreboard model used in the test case.
-See :numref:`Figure {number} {name} <ScoreboardFig>`
 
 .. figure:: images/DemoScoreboardReport.png
   :name: ScoreboardFig
