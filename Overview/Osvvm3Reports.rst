@@ -124,6 +124,15 @@ contains consists of the following information:
 
 After running one of the regressions, open one of the HTML files 
 in the directory ./reports/<test-suite-name>. 
+See :numref:`Figure {number} {name} <TestCaseDetailedFig>`.
+
+.. figure:: images/DemoTestCaseDetailedReport.png
+  :name: TestCaseDetailedFig
+  :scale: 100 %
+  :align: center
+  
+  Test Case Detailed Report
+
 
 Note that any place in the report there is a triangle preceding text,
 pressing on the triangle will rotate it and either hide or reveal
@@ -152,7 +161,8 @@ and a link to any transcript files opened by OSVVM.
 Alert Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Alert Report provides detailed information for each AlertLogID
-that is used in a test case.   
+that is used in a test case. Note that in the case of expected errors, the errors
+still show up as FAILED in the Alert Report and are rectified in the total error count.
 See :numref:`Figure {number} {name} <AlertFig>`
 
 .. figure:: images/DemoAlertReport.png
