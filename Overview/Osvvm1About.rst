@@ -16,21 +16,30 @@ that simplifies your FPGA or ASIC verification project
 from start to finish.
 Using these libraries you can create a simple, readable, 
 and powerful testbench that is suitable for either a 
-simple FPGA block or a complex ASIC.
+simple FPGA block or a complex ASIC.  
 
 OSVVM is developed by the same VHDL experts who
 have helped develop VHDL standards.
 We have used our expert VHDL skills to create
 advanced verification capabilities that:  
 
-- Are simple to use and work like built-in language features.  
-- Maximize reuse and reduce project schedule.  
-- Improve readabilty and reviewability by the whole team including software and system engineers.  
-- Facilitate debug with HTML based test suite and test case reporting.  
-- Support continuous integration (CI/CD) with JUnit XML test suite reporting.  
-- Provide buzz word features including Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models, error logging and reporting, and message filtering.  
-- Rival the verification capabilities of SystemVerilog + UVM.  
+- A structured transaction-based verification framework using verification components.  
+- A common, shared transaction API for address bus (AXI4, Axi4Lite, Avalon, …) and streaming (AXI Stream, UART) verification components.    
+- Improved readability and reviewability by the whole team including software and system engineers.   
+- Improved reuse and reduced project schedules.    
+- Buzz word features including Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models, error logging and reporting, and message filtering that are simple to use and work like built-in language features.    
+- A common scripting API to run all simulators.  OSVVM scripting supports GHDL, NVC, Aldec Riviera-PRO and ActiveHDL, Siemens Questa and ModelSim, Synopsys VCS, and Cadence Xcelium.  
+- Unmatched test reporting with HTML based test suite reports, test case reports, and logs that facilitate debug and test artifact collection.   
+- Support for continuous integration (CI/CD) with JUnit XML test suite reporting.  
+- A rival to the verification capabilities of SystemVerilog + UVM.  
 
+
+Looking to improve your VHDL verification methodology? 
+OSVVM provides a complete solution for VHDL ASIC or FPGA verification. 
+There is no new language to learn. 
+It is simple, powerful, and concise. 
+Each piece can be used separately. 
+Hence, you can learn and adopt pieces as you need them.  
 
 Important benefits of OSVVM:
 
