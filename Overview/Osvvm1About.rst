@@ -21,7 +21,7 @@ simple FPGA block or a complex ASIC.
 OSVVM is developed by the same VHDL experts who
 have helped develop VHDL standards.
 We have used our expert VHDL skills to create
-advanced verification capabilities that:  
+advanced verification capabilities that provide:  
 
 - A structured transaction-based verification framework using verification components.  
 - A common, shared transaction API for address bus (AXI4, Axi4Lite, Avalon, …) and streaming (AXI Stream, UART) verification components.    
