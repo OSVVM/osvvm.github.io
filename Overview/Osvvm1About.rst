@@ -11,9 +11,8 @@ About OSVVM
 
 OSVVM is an advanced verification methodology that
 defines a VHDL verification framework, verification utility library, 
-verification component library, and a scripting flow
-that simplifies your FPGA or ASIC verification project 
-from start to finish.
+verification component library, scripting API, and co-simulation capability 
+that simplifies your FPGA or ASIC verification project from start to finish. 
 Using these libraries you can create a simple, readable, 
 and powerful testbench that is suitable for either a 
 simple FPGA block or a complex ASIC.  
