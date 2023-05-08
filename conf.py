@@ -83,15 +83,16 @@ intersphinx_mapping = {
 # -- Sphinx.Ext.ExtLinks -----------------------------------------------------------------------------------------------
 
 extlinks = {
-    "gh": ("https://github.com/OSVVM/%s", ""),
-    "pdfdoc": ("https://github.com/OSVVM/Documentation/blob/main/%s", ""),
-    "AXI4": ("https://github.com/OSVVM/AXI4/tree/main/%s", ""),
-    "UART": ("https://github.com/OSVVM/UART/tree/main/%s", ""),
-    "DpRam": ("https://github.com/OSVVM/UART/tree/main/%s", ""),
-    "wikipedia": ("https://en.wikipedia.org/wiki/%s", None),
-    "awesome": ("https://hdl.github.io/awesome/items/%s", ""),
-    "ghsharp": ("https://github.com/OSVVM/osvvm.github.io/issues/%s", "#"),
-    "ghissue": ("https://github.com/OSVVM/osvvm.github.io/issues/%s", "issue #"),
-    "ghpull": ("https://github.com/OSVVM/osvvm.github.io/pull/%s", "pull request #"),
-    "ghsrc": ("https://github.com/OSVVM/osvvm.github.io/blob/main/%s", ""),
+    "gh": ("https://github.com/OSVVM/%s", "%s"),
+    "pdfdoc": ("https://github.com/OSVVM/Documentation/blob/main/%s", "%s"),
+    "AXI4": ("https://github.com/OSVVM/AXI4/tree/main/%s", "%s"),
+    "UART": ("https://github.com/OSVVM/UART/tree/main/%s", "%s"),
+    "DpRam": ("https://github.com/OSVVM/UART/tree/main/%s", "%s"),
 }
+
+# # Removed from extlinks    "wikipedia": ("https://en.wikipedia.org/wiki/%s", None),
+# # Removed from extlinks    "awesome": ("https://hdl.github.io/awesome/items/%s", ""),
+# # Removed from extlinks    "ghsharp": ("https://github.com/OSVVM/osvvm.github.io/issues/%s", "#"),
+# # Removed from extlinks    "ghissue": ("https://github.com/OSVVM/osvvm.github.io/issues/%s", "issue #"),
+# # Removed from extlinks    "ghpull": ("https://github.com/OSVVM/osvvm.github.io/pull/%s", "pull request #"),
+# # Removed from extlinks    "ghsrc": ("https://github.com/OSVVM/osvvm.github.io/blob/main/%s", ""),
