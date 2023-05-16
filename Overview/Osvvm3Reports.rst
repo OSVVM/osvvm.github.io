@@ -25,11 +25,11 @@ The best way to see the reports is to look at the reports in html form.   The fo
     * - Report Description
       - Link
     * - Run of OsvvmLibraries/RunAllTestsWithCoverage.pro: 
-      - `OsvvmLibraries_RunAllTestsWithCoverage.html <file:../_static/riviera/OsvvmLibraries_RunAllTestsWithCoverage.html>`__
+      - `OsvvmLibraries_RunAllTestsWithCoverage.html <https://osvvm.github.io/_static/riviera/OsvvmLibraries_RunAllTestsWithCoverage.html>`__
     * - Run of OsvvmLibraries/RunErrorTestsWithCoverage.pro which has test case errors
-      - `sim_RunDemo.html <file:../_static/questa/sim_OsvvmDemo.html>`__
+      - `sim_RunDemo.html <https://osvvm.github.io/_static/questa/sim_OsvvmDemo.html>`__
     * - Alternately, create your own
-      - `run the demo <file:Osvvm2GettingStarted.html>`__
+      - `run the demo <https://osvvm.github.io/Overview/Osvvm2GettingStarted.html>`__
 
 
 HTML Build Summary Report
