@@ -1,0 +1,105 @@
+Version: 1.0
+Coverage: 100.00
+Settings: 
+  WritePassFail: 0
+Models: 
+  - Name: "Cov1"
+    TestCases: 
+      - "TbAxi4_DemoErrorMemoryReadWrite1"
+    Coverage: 100.00
+    Settings: 
+      CovWeight: 1
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [1610375381, 1671002156]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 12
+      TotalCovGoal: 12
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Generate"
+      NumBins: 4
+    Bins: 
+      - Name: "Small"
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 7}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+      - Name: "Medium1"
+        Type: "COUNT"
+        Range: 
+          - {Min: 32, Max: 39}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+      - Name: "Medium2"
+        Type: "COUNT"
+        Range: 
+          - {Min: 64, Max: 71}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+      - Name: "Large"
+        Type: "COUNT"
+        Range: 
+          - {Min: 96, Max: 103}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+
+  - Name: "Cov2"
+    TestCases: 
+      - "TbAxi4_DemoErrorMemoryReadWrite1"
+    Coverage: 100.00
+    Settings: 
+      CovWeight: 1
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [1610375381, 1671002156]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 12
+      TotalCovGoal: 12
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Observed"
+      NumBins: 4
+    Bins: 
+      - Name: "Small"
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 7}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+      - Name: "Medium1"
+        Type: "COUNT"
+        Range: 
+          - {Min: 32, Max: 39}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+      - Name: "Medium2"
+        Type: "COUNT"
+        Range: 
+          - {Min: 64, Max: 71}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+      - Name: "Large"
+        Type: "COUNT"
+        Range: 
+          - {Min: 96, Max: 103}
+        Count: 3
+        AtLeast: 3
+        PercentCov: 100.0000
+

@@ -1,0 +1,50 @@
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010001  Data: 1001  Operation# 2 at 110 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020001  Data: 2001  Operation# 2 at 110 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010002  Data: 1002  Operation# 3 at 120 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020002  Data: 2002  Operation# 3 at 120 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010003  Data: 1003  Operation# 4 at 130 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020003  Data: 2003  Operation# 4 at 130 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010004  Data: 1004  Operation# 5 at 140 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020004  Data: 2004  Operation# 5 at 140 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010005  Data: 1005  Operation# 6 at 150 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020005  Data: 2005  Operation# 6 at 150 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010006  Data: 1006  Operation# 7 at 160 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020006  Data: 2006  Operation# 7 at 160 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010007  Data: 1007  Operation# 8 at 170 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020007  Data: 2007  Operation# 8 at 170 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010008  Data: 1008  Operation# 9 at 180 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020008  Data: 2008  Operation# 9 at 180 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 010009  Data: 1009  Operation# 10 at 190 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 020009  Data: 2009  Operation# 10 at 190 ns
+%% Log    INFO      in dpramcontroller_1,   Write Operation, Address: 01000A  Data: 100A  Operation# 11 at 200 ns
+%% Log    INFO      in dpramcontroller_2,   Write Operation, Address: 02000A  Data: 200A  Operation# 11 at 200 ns
+%% Log    INFO      in dpramcontroller_1,   Read Operation, Address: FDFFFE  Data: 2001  Operation# 13 at 260 ns
+%% Log    INFO      in dpramcontroller_2,   Read Operation, Address: FEFFFE  Data: 1001  Operation# 13 at 260 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 2001 at 260 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 1001 at 260 ns
+%% Log    INFO      in dpramcontroller_1,   Read Operation, Address: FDFFFD  Data: 2002  Operation# 14 at 280 ns
+%% Log    INFO      in dpramcontroller_2,   Read Operation, Address: FEFFFD  Data: 1002  Operation# 14 at 280 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 2002 at 280 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 1002 at 280 ns
+%% Log    INFO      in dpramcontroller_1,   Read Operation, Address: FDFFFC  Data: 2003  Operation# 15 at 300 ns
+%% Log    INFO      in dpramcontroller_2,   Read Operation, Address: FEFFFC  Data: 1003  Operation# 15 at 300 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 2003 at 300 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 1003 at 300 ns
+%% Log    INFO      in dpramcontroller_1,   Read Operation, Address: FDFFFB  Data: 2004  Operation# 16 at 320 ns
+%% Log    INFO      in dpramcontroller_2,   Read Operation, Address: FEFFFB  Data: 1004  Operation# 16 at 320 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 2004 at 320 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 1004 at 320 ns
+%% Log    INFO      in dpramcontroller_1,   Read Operation, Address: FDFFFA  Data: 2005  Operation# 17 at 340 ns
+%% Log    INFO      in dpramcontroller_2,   Read Operation, Address: FEFFFA  Data: 1005  Operation# 17 at 340 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 2005 at 340 ns
+%% Log    PASSED    in Testbench: Manager1,   Read Data Received : 1005 at 340 ns
+%% Log    PASSED    in dpramcontroller_1,   Read Operation, Address: FDFFF9  Operation# 18  Data:  Received : 2006 at 360 ns
+%% Log    PASSED    in dpramcontroller_2,   Read Operation, Address: FEFFF9  Operation# 18  Data:  Received : 1006 at 360 ns
+%% Log    PASSED    in dpramcontroller_1,   Read Operation, Address: FDFFF8  Operation# 19  Data:  Received : 2007 at 380 ns
+%% Log    PASSED    in dpramcontroller_2,   Read Operation, Address: FEFFF8  Operation# 19  Data:  Received : 1007 at 380 ns
+%% Log    PASSED    in dpramcontroller_1,   Read Operation, Address: FDFFF7  Operation# 20  Data:  Received : 2008 at 400 ns
+%% Log    PASSED    in dpramcontroller_2,   Read Operation, Address: FEFFF7  Operation# 20  Data:  Received : 1008 at 400 ns
+%% Log    PASSED    in dpramcontroller_1,   Read Operation, Address: FDFFF6  Operation# 21  Data:  Received : 2009 at 420 ns
+%% Log    PASSED    in dpramcontroller_2,   Read Operation, Address: FEFFF6  Operation# 21  Data:  Received : 1009 at 420 ns
+%% Log    PASSED    in dpramcontroller_1,   Read Operation, Address: FDFFF5  Operation# 22  Data:  Received : 200A at 440 ns
+%% Log    PASSED    in dpramcontroller_2,   Read Operation, Address: FEFFF5  Operation# 22  Data:  Received : 100A at 440 ns

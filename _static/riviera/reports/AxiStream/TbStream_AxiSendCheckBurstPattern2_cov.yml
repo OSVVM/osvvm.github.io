@@ -1,0 +1,675 @@
+Version: 1.0
+Coverage: 100.00
+Settings: 
+  WritePassFail: 0
+Models: 
+  - Name: "Cov1"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 100.00
+    Settings: 
+      CovWeight: 1
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [2132829893, 237973941]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 32
+      TotalCovGoal: 32
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Bin1"
+      NumBins: 32
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 0}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 1, Max: 1}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 2, Max: 2}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 3, Max: 3}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 4, Max: 4}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 5, Max: 5}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 6, Max: 6}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 7, Max: 7}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 32, Max: 32}
+        Count: 5
+        AtLeast: 1
+        PercentCov: 500.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 33, Max: 33}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 34, Max: 34}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 35, Max: 35}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 36, Max: 36}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 37, Max: 37}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 38, Max: 38}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 39, Max: 39}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 64, Max: 64}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 65, Max: 65}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 66, Max: 66}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 67, Max: 67}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 68, Max: 68}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 69, Max: 69}
+        Count: 6
+        AtLeast: 1
+        PercentCov: 600.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 70, Max: 70}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 71, Max: 71}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 96, Max: 96}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 97, Max: 97}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 98, Max: 98}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 99, Max: 99}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 100, Max: 100}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 101, Max: 101}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 102, Max: 102}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 103, Max: 103}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+
+  - Name: "Cov2"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 100.00
+    Settings: 
+      CovWeight: 1
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [2132829893, 237973941]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 32
+      TotalCovGoal: 32
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Bin1"
+      NumBins: 32
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 0}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 1, Max: 1}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 2, Max: 2}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 3, Max: 3}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 4, Max: 4}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 5, Max: 5}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 6, Max: 6}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 7, Max: 7}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 32, Max: 32}
+        Count: 5
+        AtLeast: 1
+        PercentCov: 500.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 33, Max: 33}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 34, Max: 34}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 35, Max: 35}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 36, Max: 36}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 37, Max: 37}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 38, Max: 38}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 39, Max: 39}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 64, Max: 64}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 65, Max: 65}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 66, Max: 66}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 67, Max: 67}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 68, Max: 68}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 69, Max: 69}
+        Count: 6
+        AtLeast: 1
+        PercentCov: 600.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 70, Max: 70}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 71, Max: 71}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 96, Max: 96}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 97, Max: 97}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 98, Max: 98}
+        Count: 3
+        AtLeast: 1
+        PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 99, Max: 99}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 100, Max: 100}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 101, Max: 101}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 102, Max: 102}
+        Count: 1
+        AtLeast: 1
+        PercentCov: 100.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 103, Max: 103}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
+
+  - Name: "AxiStreamTx BurstLength"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 0.00
+    Settings: 
+      CovWeight: 0
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [374938227, 122164511]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 0
+      TotalCovGoal: 1
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Bin1"
+      NumBins: 1
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 2, Max: 10}
+        Count: 0
+        AtLeast: 1
+        PercentCov: 0.0000
+
+  - Name: "AxiStreamTx BurstDelay"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 0.00
+    Settings: 
+      CovWeight: 0
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [1854475640, 401323761]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 0
+      TotalCovGoal: 1
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Bin1"
+      NumBins: 1
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 2, Max: 5}
+        Count: 0
+        AtLeast: 1
+        PercentCov: 0.0000
+
+  - Name: "AxiStreamTx BeatDelay"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 0.00
+    Settings: 
+      CovWeight: 0
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [544851619, 2029468088]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 0
+      TotalCovGoal: 1
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Bin1"
+      NumBins: 1
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 1}
+        Count: 0
+        AtLeast: 1
+        PercentCov: 0.0000
+
+  - Name: "BurstLength"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 0.00
+    Settings: 
+      CovWeight: 0
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [1291599691, 1409335376]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 0
+      TotalCovGoal: 1
+    BinInfo: 
+      Dimensions: 1
+      FieldNames: 
+        - "Bin1"
+      NumBins: 1
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 2, Max: 10}
+        Count: 0
+        AtLeast: 1
+        PercentCov: 0.0000
+
+  - Name: "BurstDelay"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 0.00
+    Settings: 
+      CovWeight: 0
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [1346587888, 1834712971]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 0
+      TotalCovGoal: 1
+    BinInfo: 
+      Dimensions: 2
+      FieldNames: 
+        - "Bin1"
+        - "Bin2"
+      NumBins: 1
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 1}
+          - {Min: 2, Max: 5}
+        Count: 0
+        AtLeast: 1
+        PercentCov: 0.0000
+
+  - Name: "BeatDelay"
+    TestCases: 
+      - "TbStream_AxiSendCheckBurstPattern2"
+    Coverage: 0.00
+    Settings: 
+      CovWeight: 0
+      Goal: 100.0
+      WeightMode: "AT_LEAST"
+      Seeds: [562922845, 1845033891]
+      CountMode: "COUNT_FIRST"
+      IllegalMode: "ILLEGAL_ON"
+      Threshold: 45.0
+      ThresholdEnable: "FALSE"
+      TotalCovCount: 0
+      TotalCovGoal: 1
+    BinInfo: 
+      Dimensions: 2
+      FieldNames: 
+        - "Bin1"
+        - "Bin2"
+      NumBins: 1
+    Bins: 
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 0, Max: 1}
+          - {Min: 0, Max: 1}
+        Count: 0
+        AtLeast: 1
+        PercentCov: 0.0000
+

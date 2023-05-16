@@ -1,0 +1,1 @@
+ -d C:/tools/sim/riviera/compile -s C:/tools/sim/riviera/library.cfg -2008 -relax -work Ethernet_TestStandAlone C:/SynthWorks/Dev/_osvvm/OsvvmLibraries/Ethernet/TestStandAlone/Tb_xMii1.vhd
