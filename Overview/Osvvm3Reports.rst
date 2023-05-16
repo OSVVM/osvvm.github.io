@@ -16,7 +16,9 @@ OSVVM produces the following reports:
 - HTML based simulator transcript/log files (simulator output)  
 - Text based test case transcript file (from TranscriptOpen)  
 
-The best way to see the reports is to look at the reports in html form.   The following table provides links to a couple of them.
+The best way to see the reports is to look at the reports in html form. 
+The following table provides links to a couple of them.
+As you examine the reports also read the text below as it highlights important aspects of the reports.   
 
 .. list-table:: 
     :widths: 30 20  
@@ -24,7 +26,7 @@ The best way to see the reports is to look at the reports in html form.   The fo
     
     * - Report Description
       - Link
-    * - Run of OsvvmLibraries/RunAllTestsWithCoverage.pro: 
+    * - Run of OsvvmLibraries/RunAllTestsWithCoverage.pro 
       - `OsvvmLibraries_RunAllTestsWithCoverage.html <https://osvvm.github.io/_static/riviera/OsvvmLibraries_RunAllTestsWithCoverage.html>`__
     * - Run of OsvvmLibraries/RunErrorTestsWithCoverage.pro which has test case errors
       - `sim_RunDemo.html <https://osvvm.github.io/_static/questa/sim_OsvvmDemo.html>`__
