@@ -30,8 +30,12 @@ As you examine the reports also read the text below as it highlights important a
       - `OsvvmLibraries_RunAllTestsWithCoverage.html <https://osvvm.github.io/_static/riviera/OsvvmLibraries_RunAllTestsWithCoverage.html>`__
     * - Run of OsvvmLibraries/RunErrorTestsWithCoverage.pro which has test case errors
       - `sim_RunDemo.html <https://osvvm.github.io/_static/questa/sim_OsvvmDemo.html>`__
+    * - Run of Coverage on Public and Private OSVVM Test Suites 
+      - `sim_RunAllTestsWithCoverage.html <https://synthworks.com/papers/riviera/sim_RunAllTestsWithCov.html>`__
     * - Alternately, create your own
       - `run the demo <https://osvvm.github.io/Overview/Osvvm2GettingStarted.html>`__
+
+
 
 
 HTML Build Summary Report
