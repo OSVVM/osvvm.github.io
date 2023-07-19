@@ -123,20 +123,20 @@ body {
   <tr>
       <th rowspan="2">Name</th>
       <th rowspan="2">Status</th>
-      <th colspan="2">Checks</th>
-      <th rowspan="2">Total<br>Errors</th>
-      <th colspan="3">Alert Counts</th>
+      <th colspan="3">Checks</th>
       <th colspan="2">Requirements</th>
+      <th colspan="3">Alert Counts</th>
       <th colspan="3">Disabled Alert Counts</th>
   </tr>
   <tr>
-      <th>Passed</th>
       <th>Total</th>
+      <th>Passed</th>
+      <th>Failed</th>
+      <th>Goal</th>
+      <th>Passed</th>
       <th>Failures</th>
       <th>Errors</th>
       <th>Warnings</th>
-      <th>Passed</th>
-      <th>Checked</th>
       <th>Failures</th>
       <th>Errors</th>
       <th>Warnings</th>
@@ -232,51 +232,6 @@ body {
       <td style=color:#000000>0</td>
   </tr>
   <tr>
-      <td>&emsp; &emsp; AxiStreamTx BurstLength</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; &emsp; AxiStreamTx BurstDelay</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; &emsp; AxiStreamTx BeatDelay</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
       <td>&emsp; receiver_1</td>
       <td style=color:#00C000>PASSED</td>
       <td style=color:#00C000>0</td>
@@ -336,51 +291,6 @@ body {
       <td style=color:#000000>0</td>
       <td style=color:#000000>0</td>
   </tr>
-  <tr>
-      <td>&emsp; &emsp; BurstLength</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; &emsp; BurstDelay</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; &emsp; BeatDelay</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
 </table>
 <br>
 </details>
@@ -390,29 +300,29 @@ body {
 <h2 id="FunctionalCoverage">TbStream_AxiTxValidDelay1 Coverage Report</h2>
 <strong>Total Coverage: 100.00</strong>
 <br><br>
-  <details open><summary style="font-size: 16px;"><strong>AxiStreamTx BurstLength Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
+  <details open><summary style="font-size: 16px;"><strong>DelayCov BurstLength Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
   <div  style="margin: 5px 30px;">
     <DIV STYLE="font-size:5px"><BR></DIV>
-    <details><summary>AxiStreamTx BurstLength Coverage Settings</summary>
+    <details><summary>DelayCov BurstLength Coverage Settings</summary>
     <DIV STYLE="font-size:10px"><BR></DIV>
     <div  style="margin: 0px 30px;">
     <table>
       <tr><td>CovWeight</td><td>0</td></tr>
       <tr><td>Goal</td><td>100.0</td></tr>
       <tr><td>WeightMode</td><td>AT_LEAST</td></tr>
-      <tr><td>Seeds</td><td>374938227, &nbsp;122164511</td></tr>
+      <tr><td>Seeds</td><td>2016085819, &nbsp;391374762</td></tr>
       <tr><td>CountMode</td><td>COUNT_FIRST</td></tr>
       <tr><td>IllegalMode</td><td>ILLEGAL_ON</td></tr>
       <tr><td>Threshold</td><td>45.0</td></tr>
       <tr><td>ThresholdEnable</td><td>FALSE</td></tr>
       <tr><td>TotalCovCount</td><td>0</td></tr>
-      <tr><td>TotalCovGoal</td><td>1</td></tr>
+      <tr><td>TotalCovGoal</td><td>100</td></tr>
     </table>
     </div>
     <DIV STYLE="font-size:10px"><BR></DIV>
     </details>
       <DIV STYLE="font-size:5px"><BR></DIV>
-      <details open><summary>AxiStreamTx BurstLength Coverage Bins</summary>
+      <details open><summary>DelayCov BurstLength Coverage Bins</summary>
       <DIV STYLE="font-size:10px"><BR></DIV>
       <div  style="margin: 0px 30px;">
       <table>
@@ -428,9 +338,17 @@ body {
       <tr>
         <td></td>
         <td>COUNT</td>
-        <td>2 to 10</td>
+        <td>3 to 11</td>
         <td>0</td>
-        <td>1</td>
+        <td>80</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>109 to 131</td>
+        <td>0</td>
+        <td>20</td>
         <td>0.0</td>
       </tr>
       <tr>
@@ -443,29 +361,29 @@ body {
   <br>
   </div>
   </details>
-  <details open><summary style="font-size: 16px;"><strong>AxiStreamTx BurstDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
+  <details open><summary style="font-size: 16px;"><strong>DelayCov BurstDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
   <div  style="margin: 5px 30px;">
     <DIV STYLE="font-size:5px"><BR></DIV>
-    <details><summary>AxiStreamTx BurstDelay Coverage Settings</summary>
+    <details><summary>DelayCov BurstDelay Coverage Settings</summary>
     <DIV STYLE="font-size:10px"><BR></DIV>
     <div  style="margin: 0px 30px;">
     <table>
       <tr><td>CovWeight</td><td>0</td></tr>
       <tr><td>Goal</td><td>100.0</td></tr>
       <tr><td>WeightMode</td><td>AT_LEAST</td></tr>
-      <tr><td>Seeds</td><td>1854475640, &nbsp;401323761</td></tr>
+      <tr><td>Seeds</td><td>584492730, &nbsp;724303693</td></tr>
       <tr><td>CountMode</td><td>COUNT_FIRST</td></tr>
       <tr><td>IllegalMode</td><td>ILLEGAL_ON</td></tr>
       <tr><td>Threshold</td><td>45.0</td></tr>
       <tr><td>ThresholdEnable</td><td>FALSE</td></tr>
       <tr><td>TotalCovCount</td><td>0</td></tr>
-      <tr><td>TotalCovGoal</td><td>1</td></tr>
+      <tr><td>TotalCovGoal</td><td>100</td></tr>
     </table>
     </div>
     <DIV STYLE="font-size:10px"><BR></DIV>
     </details>
       <DIV STYLE="font-size:5px"><BR></DIV>
-      <details open><summary>AxiStreamTx BurstDelay Coverage Bins</summary>
+      <details open><summary>DelayCov BurstDelay Coverage Bins</summary>
       <DIV STYLE="font-size:10px"><BR></DIV>
       <div  style="margin: 0px 30px;">
       <table>
@@ -481,9 +399,17 @@ body {
       <tr>
         <td></td>
         <td>COUNT</td>
-        <td>2 to 5</td>
+        <td>2 to 8</td>
         <td>0</td>
-        <td>1</td>
+        <td>80</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>108 to 156</td>
+        <td>0</td>
+        <td>20</td>
         <td>0.0</td>
       </tr>
       <tr>
@@ -496,29 +422,29 @@ body {
   <br>
   </div>
   </details>
-  <details open><summary style="font-size: 16px;"><strong>AxiStreamTx BeatDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
+  <details open><summary style="font-size: 16px;"><strong>DelayCov BeatDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
   <div  style="margin: 5px 30px;">
     <DIV STYLE="font-size:5px"><BR></DIV>
-    <details><summary>AxiStreamTx BeatDelay Coverage Settings</summary>
+    <details><summary>DelayCov BeatDelay Coverage Settings</summary>
     <DIV STYLE="font-size:10px"><BR></DIV>
     <div  style="margin: 0px 30px;">
     <table>
       <tr><td>CovWeight</td><td>0</td></tr>
       <tr><td>Goal</td><td>100.0</td></tr>
       <tr><td>WeightMode</td><td>AT_LEAST</td></tr>
-      <tr><td>Seeds</td><td>544851619, &nbsp;2029468088</td></tr>
+      <tr><td>Seeds</td><td>604855810, &nbsp;1127426884</td></tr>
       <tr><td>CountMode</td><td>COUNT_FIRST</td></tr>
       <tr><td>IllegalMode</td><td>ILLEGAL_ON</td></tr>
       <tr><td>Threshold</td><td>45.0</td></tr>
       <tr><td>ThresholdEnable</td><td>FALSE</td></tr>
       <tr><td>TotalCovCount</td><td>0</td></tr>
-      <tr><td>TotalCovGoal</td><td>1</td></tr>
+      <tr><td>TotalCovGoal</td><td>100</td></tr>
     </table>
     </div>
     <DIV STYLE="font-size:10px"><BR></DIV>
     </details>
       <DIV STYLE="font-size:5px"><BR></DIV>
-      <details open><summary>AxiStreamTx BeatDelay Coverage Bins</summary>
+      <details open><summary>DelayCov BeatDelay Coverage Bins</summary>
       <DIV STYLE="font-size:10px"><BR></DIV>
       <div  style="margin: 0px 30px;">
       <table>
@@ -534,9 +460,25 @@ body {
       <tr>
         <td></td>
         <td>COUNT</td>
-        <td>0 to 1</td>
         <td>0</td>
+        <td>0</td>
+        <td>85</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
         <td>1</td>
+        <td>0</td>
+        <td>10</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>2</td>
+        <td>0</td>
+        <td>5</td>
         <td>0.0</td>
       </tr>
       <tr>
@@ -549,29 +491,29 @@ body {
   <br>
   </div>
   </details>
-  <details open><summary style="font-size: 16px;"><strong>BurstLength Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
+  <details open><summary style="font-size: 16px;"><strong>DelayCov BurstLength Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
   <div  style="margin: 5px 30px;">
     <DIV STYLE="font-size:5px"><BR></DIV>
-    <details><summary>BurstLength Coverage Settings</summary>
+    <details><summary>DelayCov BurstLength Coverage Settings</summary>
     <DIV STYLE="font-size:10px"><BR></DIV>
     <div  style="margin: 0px 30px;">
     <table>
       <tr><td>CovWeight</td><td>0</td></tr>
       <tr><td>Goal</td><td>100.0</td></tr>
       <tr><td>WeightMode</td><td>AT_LEAST</td></tr>
-      <tr><td>Seeds</td><td>1291599691, &nbsp;1409335376</td></tr>
+      <tr><td>Seeds</td><td>1363448122, &nbsp;912705812</td></tr>
       <tr><td>CountMode</td><td>COUNT_FIRST</td></tr>
       <tr><td>IllegalMode</td><td>ILLEGAL_ON</td></tr>
       <tr><td>Threshold</td><td>45.0</td></tr>
       <tr><td>ThresholdEnable</td><td>FALSE</td></tr>
       <tr><td>TotalCovCount</td><td>0</td></tr>
-      <tr><td>TotalCovGoal</td><td>1</td></tr>
+      <tr><td>TotalCovGoal</td><td>100</td></tr>
     </table>
     </div>
     <DIV STYLE="font-size:10px"><BR></DIV>
     </details>
       <DIV STYLE="font-size:5px"><BR></DIV>
-      <details open><summary>BurstLength Coverage Bins</summary>
+      <details open><summary>DelayCov BurstLength Coverage Bins</summary>
       <DIV STYLE="font-size:10px"><BR></DIV>
       <div  style="margin: 0px 30px;">
       <table>
@@ -587,9 +529,17 @@ body {
       <tr>
         <td></td>
         <td>COUNT</td>
-        <td>2 to 10</td>
+        <td>3 to 11</td>
         <td>0</td>
-        <td>1</td>
+        <td>80</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>109 to 131</td>
+        <td>0</td>
+        <td>20</td>
         <td>0.0</td>
       </tr>
       <tr>
@@ -602,29 +552,29 @@ body {
   <br>
   </div>
   </details>
-  <details open><summary style="font-size: 16px;"><strong>BurstDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
+  <details open><summary style="font-size: 16px;"><strong>DelayCov BurstDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
   <div  style="margin: 5px 30px;">
     <DIV STYLE="font-size:5px"><BR></DIV>
-    <details><summary>BurstDelay Coverage Settings</summary>
+    <details><summary>DelayCov BurstDelay Coverage Settings</summary>
     <DIV STYLE="font-size:10px"><BR></DIV>
     <div  style="margin: 0px 30px;">
     <table>
       <tr><td>CovWeight</td><td>0</td></tr>
       <tr><td>Goal</td><td>100.0</td></tr>
       <tr><td>WeightMode</td><td>AT_LEAST</td></tr>
-      <tr><td>Seeds</td><td>1346587888, &nbsp;1834712971</td></tr>
+      <tr><td>Seeds</td><td>2125824101, &nbsp;873322509</td></tr>
       <tr><td>CountMode</td><td>COUNT_FIRST</td></tr>
       <tr><td>IllegalMode</td><td>ILLEGAL_ON</td></tr>
       <tr><td>Threshold</td><td>45.0</td></tr>
       <tr><td>ThresholdEnable</td><td>FALSE</td></tr>
       <tr><td>TotalCovCount</td><td>0</td></tr>
-      <tr><td>TotalCovGoal</td><td>1</td></tr>
+      <tr><td>TotalCovGoal</td><td>100</td></tr>
     </table>
     </div>
     <DIV STYLE="font-size:10px"><BR></DIV>
     </details>
       <DIV STYLE="font-size:5px"><BR></DIV>
-      <details open><summary>BurstDelay Coverage Bins</summary>
+      <details open><summary>DelayCov BurstDelay Coverage Bins</summary>
       <DIV STYLE="font-size:10px"><BR></DIV>
       <div  style="margin: 0px 30px;">
       <table>
@@ -641,10 +591,37 @@ body {
       <tr>
         <td></td>
         <td>COUNT</td>
-        <td>0 to 1</td>
-        <td>2 to 5</td>
         <td>0</td>
+        <td>2 to 8</td>
+        <td>0</td>
+        <td>65</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>0</td>
+        <td>108 to 156</td>
+        <td>0</td>
+        <td>10</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
         <td>1</td>
+        <td>2 to 8</td>
+        <td>0</td>
+        <td>15</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>1</td>
+        <td>108 to 156</td>
+        <td>0</td>
+        <td>10</td>
         <td>0.0</td>
       </tr>
       <tr>
@@ -657,29 +634,29 @@ body {
   <br>
   </div>
   </details>
-  <details open><summary style="font-size: 16px;"><strong>BeatDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
+  <details open><summary style="font-size: 16px;"><strong>DelayCov BeatDelay Coverage Model &emsp; &emsp; Coverage: 0.0</strong></summary>
   <div  style="margin: 5px 30px;">
     <DIV STYLE="font-size:5px"><BR></DIV>
-    <details><summary>BeatDelay Coverage Settings</summary>
+    <details><summary>DelayCov BeatDelay Coverage Settings</summary>
     <DIV STYLE="font-size:10px"><BR></DIV>
     <div  style="margin: 0px 30px;">
     <table>
       <tr><td>CovWeight</td><td>0</td></tr>
       <tr><td>Goal</td><td>100.0</td></tr>
       <tr><td>WeightMode</td><td>AT_LEAST</td></tr>
-      <tr><td>Seeds</td><td>562922845, &nbsp;1845033891</td></tr>
+      <tr><td>Seeds</td><td>2125824101, &nbsp;677336943</td></tr>
       <tr><td>CountMode</td><td>COUNT_FIRST</td></tr>
       <tr><td>IllegalMode</td><td>ILLEGAL_ON</td></tr>
       <tr><td>Threshold</td><td>45.0</td></tr>
       <tr><td>ThresholdEnable</td><td>FALSE</td></tr>
       <tr><td>TotalCovCount</td><td>0</td></tr>
-      <tr><td>TotalCovGoal</td><td>1</td></tr>
+      <tr><td>TotalCovGoal</td><td>100</td></tr>
     </table>
     </div>
     <DIV STYLE="font-size:10px"><BR></DIV>
     </details>
       <DIV STYLE="font-size:5px"><BR></DIV>
-      <details open><summary>BeatDelay Coverage Bins</summary>
+      <details open><summary>DelayCov BeatDelay Coverage Bins</summary>
       <DIV STYLE="font-size:10px"><BR></DIV>
       <div  style="margin: 0px 30px;">
       <table>
@@ -696,10 +673,37 @@ body {
       <tr>
         <td></td>
         <td>COUNT</td>
-        <td>0 to 1</td>
-        <td>0 to 1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>85</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
         <td>0</td>
         <td>1</td>
+        <td>0</td>
+        <td>5</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>5</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>COUNT</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>5</td>
         <td>0.0</td>
       </tr>
       <tr>

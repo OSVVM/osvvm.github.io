@@ -1,0 +1,561 @@
+%% Log    PASSED    in TB Manager Proc,   WRITE_ADDRESS_VALID_DELAY_CYCLES Received : 0 at 40 ns
+%% Log    PASSED    in TB Manager Proc,   WRITE_DATA_VALID_DELAY_CYCLES Received : 0 at 40 ns
+%% Log    PASSED    in TB Manager Proc,   READ_ADDRESS_VALID_DELAY_CYCLES Received : 0 at 40 ns
+%% Log    ALWAYS    in TB Manager Proc,   Write Address at 40 ns
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles Default 0 at 40 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000000,  Data: 00000000 at 80 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000000  WStrb: 1111  Operation# 1 at 80 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000000  AWProt: 000  Operation# 1 at 80 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000001  WStrb: 1111  Operation# 2 at 90 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000004  AWProt: 000  Operation# 2 at 90 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000000  AWProt: 000  WData: 00000000  WStrb: 1111  Operation# 0 at 90 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 100 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000002  WStrb: 1111  Operation# 3 at 100 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000008  AWProt: 000  Operation# 3 at 100 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000004  AWProt: 000  WData: 00000001  WStrb: 1111  Operation# 1 at 100 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 110 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000003  WStrb: 1111  Operation# 4 at 110 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000000C  AWProt: 000  Operation# 4 at 110 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000008  AWProt: 000  WData: 00000002  WStrb: 1111  Operation# 2 at 110 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 3 at 120 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000000C  AWProt: 000  WData: 00000003  WStrb: 1111  Operation# 3 at 120 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 4 at 130 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000000,  Data: 00000000 at 170 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000000  ARProt: 000  Operation# 1 at 170 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000004  ARProt: 000  Operation# 2 at 180 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000000  ARProt: 000  RData: 00000000  Operation# 0 at 180 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 190 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000008  ARProt: 000  Operation# 3 at 190 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000004  ARProt: 000  RData: 00000001  Operation# 1 at 190 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000000  Read Address: 00000000  Prot: 0 at 190 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 200 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000000C  ARProt: 000  Operation# 4 at 200 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000001  Read Address: 00000004  Prot: 0 at 200 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000008  ARProt: 000  RData: 00000002  Operation# 2 at 200 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 3 at 210 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000002  Read Address: 00000008  Prot: 0 at 210 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000000C  ARProt: 000  RData: 00000003  Operation# 3 at 210 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 4 at 220 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000003  Read Address: 0000000C  Prot: 0 at 220 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 2 at 260 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000010,  Data: 00000010 at 300 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000010  WStrb: 1111  Operation# 5 at 300 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000011  WStrb: 1111  Operation# 6 at 310 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000010  AWProt: 000  Operation# 5 at 320 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000012  WStrb: 1111  Operation# 7 at 320 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000013  WStrb: 1111  Operation# 8 at 330 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000010  AWProt: 000  WData: 00000010  WStrb: 1111  Operation# 4 at 330 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 5 at 340 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000014  AWProt: 000  Operation# 6 at 350 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000014  AWProt: 000  WData: 00000011  WStrb: 1111  Operation# 5 at 360 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 6 at 370 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000018  AWProt: 000  Operation# 7 at 380 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000018  AWProt: 000  WData: 00000012  WStrb: 1111  Operation# 6 at 390 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 7 at 400 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000001C  AWProt: 000  Operation# 8 at 410 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000001C  AWProt: 000  WData: 00000013  WStrb: 1111  Operation# 7 at 420 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 8 at 430 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000010,  Data: 00000010 at 470 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000010  ARProt: 000  Operation# 5 at 470 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000014  ARProt: 000  Operation# 6 at 480 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000010  ARProt: 000  RData: 00000010  Operation# 4 at 480 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 5 at 490 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000018  ARProt: 000  Operation# 7 at 490 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000014  ARProt: 000  RData: 00000011  Operation# 5 at 490 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000010  Read Address: 00000010  Prot: 0 at 490 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 6 at 500 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000001C  ARProt: 000  Operation# 8 at 500 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000011  Read Address: 00000014  Prot: 0 at 500 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000018  ARProt: 000  RData: 00000012  Operation# 6 at 500 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 7 at 510 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000012  Read Address: 00000018  Prot: 0 at 510 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000001C  ARProt: 000  RData: 00000013  Operation# 7 at 510 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 8 at 520 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000013  Read Address: 0000001C  Prot: 0 at 520 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 4 at 560 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000020,  Data: 00000020 at 600 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000020  WStrb: 1111  Operation# 9 at 600 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000021  WStrb: 1111  Operation# 10 at 610 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000022  WStrb: 1111  Operation# 11 at 620 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000023  WStrb: 1111  Operation# 12 at 630 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000020  AWProt: 000  Operation# 9 at 640 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000020  AWProt: 000  WData: 00000020  WStrb: 1111  Operation# 8 at 650 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 9 at 660 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000024  AWProt: 000  Operation# 10 at 690 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000024  AWProt: 000  WData: 00000021  WStrb: 1111  Operation# 9 at 700 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 10 at 710 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000028  AWProt: 000  Operation# 11 at 740 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000028  AWProt: 000  WData: 00000022  WStrb: 1111  Operation# 10 at 750 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 11 at 760 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000002C  AWProt: 000  Operation# 12 at 790 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000002C  AWProt: 000  WData: 00000023  WStrb: 1111  Operation# 11 at 800 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 12 at 810 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000020,  Data: 00000020 at 850 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000020  ARProt: 000  Operation# 9 at 850 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000024  ARProt: 000  Operation# 10 at 860 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000020  ARProt: 000  RData: 00000020  Operation# 8 at 860 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 9 at 870 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000028  ARProt: 000  Operation# 11 at 870 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000024  ARProt: 000  RData: 00000021  Operation# 9 at 870 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000020  Read Address: 00000020  Prot: 0 at 870 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 10 at 880 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000002C  ARProt: 000  Operation# 12 at 880 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000021  Read Address: 00000024  Prot: 0 at 880 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000028  ARProt: 000  RData: 00000022  Operation# 10 at 880 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 11 at 890 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000022  Read Address: 00000028  Prot: 0 at 890 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000002C  ARProt: 000  RData: 00000023  Operation# 11 at 890 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 12 at 900 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000023  Read Address: 0000002C  Prot: 0 at 900 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 6 at 940 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000030,  Data: 00000030 at 980 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000030  WStrb: 1111  Operation# 13 at 980 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000031  WStrb: 1111  Operation# 14 at 990 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000032  WStrb: 1111  Operation# 15 at 1000 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000033  WStrb: 1111  Operation# 16 at 1010 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000030  AWProt: 000  Operation# 13 at 1040 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000030  AWProt: 000  WData: 00000030  WStrb: 1111  Operation# 12 at 1050 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 13 at 1060 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000034  AWProt: 000  Operation# 14 at 1110 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000034  AWProt: 000  WData: 00000031  WStrb: 1111  Operation# 13 at 1120 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 14 at 1130 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000038  AWProt: 000  Operation# 15 at 1180 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000038  AWProt: 000  WData: 00000032  WStrb: 1111  Operation# 14 at 1190 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 15 at 1200 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000003C  AWProt: 000  Operation# 16 at 1250 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000003C  AWProt: 000  WData: 00000033  WStrb: 1111  Operation# 15 at 1260 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 16 at 1270 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000030,  Data: 00000030 at 1310 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000030  ARProt: 000  Operation# 13 at 1310 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000034  ARProt: 000  Operation# 14 at 1320 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000030  ARProt: 000  RData: 00000030  Operation# 12 at 1320 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 13 at 1330 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000038  ARProt: 000  Operation# 15 at 1330 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000034  ARProt: 000  RData: 00000031  Operation# 13 at 1330 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000030  Read Address: 00000030  Prot: 0 at 1330 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 14 at 1340 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000003C  ARProt: 000  Operation# 16 at 1340 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000031  Read Address: 00000034  Prot: 0 at 1340 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000038  ARProt: 000  RData: 00000032  Operation# 14 at 1340 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 15 at 1350 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000032  Read Address: 00000038  Prot: 0 at 1350 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000003C  ARProt: 000  RData: 00000033  Operation# 15 at 1350 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 16 at 1360 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000033  Read Address: 0000003C  Prot: 0 at 1360 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 0 at 1400 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000040,  Data: 00000040 at 1440 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000040  WStrb: 1111  Operation# 17 at 1440 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000040  AWProt: 000  Operation# 17 at 1440 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000041  WStrb: 1111  Operation# 18 at 1450 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000044  AWProt: 000  Operation# 18 at 1450 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000040  AWProt: 000  WData: 00000040  WStrb: 1111  Operation# 16 at 1450 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 17 at 1460 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000042  WStrb: 1111  Operation# 19 at 1460 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000048  AWProt: 000  Operation# 19 at 1460 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000044  AWProt: 000  WData: 00000041  WStrb: 1111  Operation# 17 at 1460 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 18 at 1470 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000043  WStrb: 1111  Operation# 20 at 1470 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000004C  AWProt: 000  Operation# 20 at 1470 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000048  AWProt: 000  WData: 00000042  WStrb: 1111  Operation# 18 at 1470 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 19 at 1480 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000004C  AWProt: 000  WData: 00000043  WStrb: 1111  Operation# 19 at 1480 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 20 at 1490 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000040,  Data: 00000040 at 1530 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000040  ARProt: 000  Operation# 17 at 1530 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000044  ARProt: 000  Operation# 18 at 1540 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000040  ARProt: 000  RData: 00000040  Operation# 16 at 1540 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 17 at 1550 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000048  ARProt: 000  Operation# 19 at 1550 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000044  ARProt: 000  RData: 00000041  Operation# 17 at 1550 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000040  Read Address: 00000040  Prot: 0 at 1550 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 18 at 1560 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000004C  ARProt: 000  Operation# 20 at 1560 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000041  Read Address: 00000044  Prot: 0 at 1560 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000048  ARProt: 000  RData: 00000042  Operation# 18 at 1560 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 19 at 1570 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000042  Read Address: 00000048  Prot: 0 at 1570 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000004C  ARProt: 000  RData: 00000043  Operation# 19 at 1570 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 20 at 1580 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000043  Read Address: 0000004C  Prot: 0 at 1580 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Write Data at 1620 ns
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles Default 0 at 1620 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000100,  Data: 00000100 at 1660 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000100  WStrb: 1111  Operation# 21 at 1660 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000100  AWProt: 000  Operation# 21 at 1660 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000101  WStrb: 1111  Operation# 22 at 1670 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000104  AWProt: 000  Operation# 22 at 1670 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000100  AWProt: 000  WData: 00000100  WStrb: 1111  Operation# 20 at 1670 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 21 at 1680 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000102  WStrb: 1111  Operation# 23 at 1680 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000108  AWProt: 000  Operation# 23 at 1680 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000104  AWProt: 000  WData: 00000101  WStrb: 1111  Operation# 21 at 1680 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 22 at 1690 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000103  WStrb: 1111  Operation# 24 at 1690 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000010C  AWProt: 000  Operation# 24 at 1690 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000108  AWProt: 000  WData: 00000102  WStrb: 1111  Operation# 22 at 1690 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 23 at 1700 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000010C  AWProt: 000  WData: 00000103  WStrb: 1111  Operation# 23 at 1700 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 24 at 1710 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000100,  Data: 00000100 at 1750 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000100  ARProt: 000  Operation# 21 at 1750 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000104  ARProt: 000  Operation# 22 at 1760 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000100  ARProt: 000  RData: 00000100  Operation# 20 at 1760 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 21 at 1770 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000108  ARProt: 000  Operation# 23 at 1770 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000104  ARProt: 000  RData: 00000101  Operation# 21 at 1770 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000100  Read Address: 00000100  Prot: 0 at 1770 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 22 at 1780 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000010C  ARProt: 000  Operation# 24 at 1780 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000101  Read Address: 00000104  Prot: 0 at 1780 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000108  ARProt: 000  RData: 00000102  Operation# 22 at 1780 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 23 at 1790 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000102  Read Address: 00000108  Prot: 0 at 1790 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000010C  ARProt: 000  RData: 00000103  Operation# 23 at 1790 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 24 at 1800 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000103  Read Address: 0000010C  Prot: 0 at 1800 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 2 at 1840 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000110,  Data: 00000110 at 1880 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000110  AWProt: 000  Operation# 25 at 1880 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000114  AWProt: 000  Operation# 26 at 1890 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000110  WStrb: 1111  Operation# 25 at 1900 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000118  AWProt: 000  Operation# 27 at 1900 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000011C  AWProt: 000  Operation# 28 at 1910 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000110  AWProt: 000  WData: 00000110  WStrb: 1111  Operation# 24 at 1910 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 25 at 1920 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000111  WStrb: 1111  Operation# 26 at 1930 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000114  AWProt: 000  WData: 00000111  WStrb: 1111  Operation# 25 at 1940 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 26 at 1950 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000112  WStrb: 1111  Operation# 27 at 1960 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000118  AWProt: 000  WData: 00000112  WStrb: 1111  Operation# 26 at 1970 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 27 at 1980 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000113  WStrb: 1111  Operation# 28 at 1990 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000011C  AWProt: 000  WData: 00000113  WStrb: 1111  Operation# 27 at 2000 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 28 at 2010 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000110,  Data: 00000110 at 2050 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000110  ARProt: 000  Operation# 25 at 2050 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000114  ARProt: 000  Operation# 26 at 2060 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000110  ARProt: 000  RData: 00000110  Operation# 24 at 2060 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 25 at 2070 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000118  ARProt: 000  Operation# 27 at 2070 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000114  ARProt: 000  RData: 00000111  Operation# 25 at 2070 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000110  Read Address: 00000110  Prot: 0 at 2070 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 26 at 2080 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000011C  ARProt: 000  Operation# 28 at 2080 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000111  Read Address: 00000114  Prot: 0 at 2080 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000118  ARProt: 000  RData: 00000112  Operation# 26 at 2080 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 27 at 2090 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000112  Read Address: 00000118  Prot: 0 at 2090 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000011C  ARProt: 000  RData: 00000113  Operation# 27 at 2090 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 28 at 2100 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000113  Read Address: 0000011C  Prot: 0 at 2100 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 4 at 2140 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000120,  Data: 00000120 at 2180 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000120  AWProt: 000  Operation# 29 at 2180 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000124  AWProt: 000  Operation# 30 at 2190 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000128  AWProt: 000  Operation# 31 at 2200 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000012C  AWProt: 000  Operation# 32 at 2210 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000120  WStrb: 1111  Operation# 29 at 2220 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000120  AWProt: 000  WData: 00000120  WStrb: 1111  Operation# 28 at 2230 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 29 at 2240 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000121  WStrb: 1111  Operation# 30 at 2270 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000124  AWProt: 000  WData: 00000121  WStrb: 1111  Operation# 29 at 2280 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 30 at 2290 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000122  WStrb: 1111  Operation# 31 at 2320 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000128  AWProt: 000  WData: 00000122  WStrb: 1111  Operation# 30 at 2330 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 31 at 2340 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000123  WStrb: 1111  Operation# 32 at 2370 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000012C  AWProt: 000  WData: 00000123  WStrb: 1111  Operation# 31 at 2380 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 32 at 2390 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000120,  Data: 00000120 at 2430 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000120  ARProt: 000  Operation# 29 at 2430 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000124  ARProt: 000  Operation# 30 at 2440 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000120  ARProt: 000  RData: 00000120  Operation# 28 at 2440 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 29 at 2450 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000128  ARProt: 000  Operation# 31 at 2450 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000124  ARProt: 000  RData: 00000121  Operation# 29 at 2450 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000120  Read Address: 00000120  Prot: 0 at 2450 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 30 at 2460 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000012C  ARProt: 000  Operation# 32 at 2460 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000121  Read Address: 00000124  Prot: 0 at 2460 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000128  ARProt: 000  RData: 00000122  Operation# 30 at 2460 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 31 at 2470 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000122  Read Address: 00000128  Prot: 0 at 2470 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000012C  ARProt: 000  RData: 00000123  Operation# 31 at 2470 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 32 at 2480 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000123  Read Address: 0000012C  Prot: 0 at 2480 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 6 at 2520 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000130,  Data: 00000130 at 2560 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000130  AWProt: 000  Operation# 33 at 2560 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000134  AWProt: 000  Operation# 34 at 2570 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000138  AWProt: 000  Operation# 35 at 2580 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000013C  AWProt: 000  Operation# 36 at 2590 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000130  WStrb: 1111  Operation# 33 at 2620 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000130  AWProt: 000  WData: 00000130  WStrb: 1111  Operation# 32 at 2630 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 33 at 2640 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000131  WStrb: 1111  Operation# 34 at 2690 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000134  AWProt: 000  WData: 00000131  WStrb: 1111  Operation# 33 at 2700 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 34 at 2710 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000132  WStrb: 1111  Operation# 35 at 2760 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000138  AWProt: 000  WData: 00000132  WStrb: 1111  Operation# 34 at 2770 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 35 at 2780 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000133  WStrb: 1111  Operation# 36 at 2830 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000013C  AWProt: 000  WData: 00000133  WStrb: 1111  Operation# 35 at 2840 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 36 at 2850 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000130,  Data: 00000130 at 2890 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000130  ARProt: 000  Operation# 33 at 2890 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000134  ARProt: 000  Operation# 34 at 2900 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000130  ARProt: 000  RData: 00000130  Operation# 32 at 2900 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 33 at 2910 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000138  ARProt: 000  Operation# 35 at 2910 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000134  ARProt: 000  RData: 00000131  Operation# 33 at 2910 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000130  Read Address: 00000130  Prot: 0 at 2910 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 34 at 2920 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000013C  ARProt: 000  Operation# 36 at 2920 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000131  Read Address: 00000134  Prot: 0 at 2920 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000138  ARProt: 000  RData: 00000132  Operation# 34 at 2920 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 35 at 2930 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000132  Read Address: 00000138  Prot: 0 at 2930 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000013C  ARProt: 000  RData: 00000133  Operation# 35 at 2930 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 36 at 2940 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000133  Read Address: 0000013C  Prot: 0 at 2940 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 0 at 2980 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000140,  Data: 00000140 at 3020 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000140  WStrb: 1111  Operation# 37 at 3020 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000140  AWProt: 000  Operation# 37 at 3020 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000141  WStrb: 1111  Operation# 38 at 3030 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000144  AWProt: 000  Operation# 38 at 3030 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000140  AWProt: 000  WData: 00000140  WStrb: 1111  Operation# 36 at 3030 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 37 at 3040 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000142  WStrb: 1111  Operation# 39 at 3040 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000148  AWProt: 000  Operation# 39 at 3040 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000144  AWProt: 000  WData: 00000141  WStrb: 1111  Operation# 37 at 3040 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 38 at 3050 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000143  WStrb: 1111  Operation# 40 at 3050 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000014C  AWProt: 000  Operation# 40 at 3050 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000148  AWProt: 000  WData: 00000142  WStrb: 1111  Operation# 38 at 3050 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 39 at 3060 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000014C  AWProt: 000  WData: 00000143  WStrb: 1111  Operation# 39 at 3060 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 40 at 3070 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000140,  Data: 00000140 at 3110 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000140  ARProt: 000  Operation# 37 at 3110 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000144  ARProt: 000  Operation# 38 at 3120 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000140  ARProt: 000  RData: 00000140  Operation# 36 at 3120 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 37 at 3130 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000148  ARProt: 000  Operation# 39 at 3130 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000144  ARProt: 000  RData: 00000141  Operation# 37 at 3130 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000140  Read Address: 00000140  Prot: 0 at 3130 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 38 at 3140 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000014C  ARProt: 000  Operation# 40 at 3140 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000141  Read Address: 00000144  Prot: 0 at 3140 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000148  ARProt: 000  RData: 00000142  Operation# 38 at 3140 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 39 at 3150 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000142  Read Address: 00000148  Prot: 0 at 3150 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000014C  ARProt: 000  RData: 00000143  Operation# 39 at 3150 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 40 at 3160 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000143  Read Address: 0000014C  Prot: 0 at 3160 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Read Address at 3200 ns
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles Default 0 at 3200 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000200,  Data: 00000200 at 3240 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000200  WStrb: 1111  Operation# 41 at 3240 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000200  AWProt: 000  Operation# 41 at 3240 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000201  WStrb: 1111  Operation# 42 at 3250 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000204  AWProt: 000  Operation# 42 at 3250 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000200  AWProt: 000  WData: 00000200  WStrb: 1111  Operation# 40 at 3250 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 41 at 3260 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000202  WStrb: 1111  Operation# 43 at 3260 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000208  AWProt: 000  Operation# 43 at 3260 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000204  AWProt: 000  WData: 00000201  WStrb: 1111  Operation# 41 at 3260 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 42 at 3270 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000203  WStrb: 1111  Operation# 44 at 3270 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000020C  AWProt: 000  Operation# 44 at 3270 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000208  AWProt: 000  WData: 00000202  WStrb: 1111  Operation# 42 at 3270 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 43 at 3280 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000020C  AWProt: 000  WData: 00000203  WStrb: 1111  Operation# 43 at 3280 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 44 at 3290 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000200,  Data: 00000200 at 3330 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000200  ARProt: 000  Operation# 41 at 3330 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000204  ARProt: 000  Operation# 42 at 3340 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000200  ARProt: 000  RData: 00000200  Operation# 40 at 3340 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 41 at 3350 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000208  ARProt: 000  Operation# 43 at 3350 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000204  ARProt: 000  RData: 00000201  Operation# 41 at 3350 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000200  Read Address: 00000200  Prot: 0 at 3350 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 42 at 3360 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000020C  ARProt: 000  Operation# 44 at 3360 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000201  Read Address: 00000204  Prot: 0 at 3360 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000208  ARProt: 000  RData: 00000202  Operation# 42 at 3360 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 43 at 3370 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000202  Read Address: 00000208  Prot: 0 at 3370 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000020C  ARProt: 000  RData: 00000203  Operation# 43 at 3370 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 44 at 3380 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000203  Read Address: 0000020C  Prot: 0 at 3380 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 2 at 3420 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000210,  Data: 00000210 at 3460 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000210  WStrb: 1111  Operation# 45 at 3460 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000210  AWProt: 000  Operation# 45 at 3460 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000211  WStrb: 1111  Operation# 46 at 3470 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000214  AWProt: 000  Operation# 46 at 3470 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000210  AWProt: 000  WData: 00000210  WStrb: 1111  Operation# 44 at 3470 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 45 at 3480 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000212  WStrb: 1111  Operation# 47 at 3480 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000218  AWProt: 000  Operation# 47 at 3480 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000214  AWProt: 000  WData: 00000211  WStrb: 1111  Operation# 45 at 3480 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 46 at 3490 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000213  WStrb: 1111  Operation# 48 at 3490 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000021C  AWProt: 000  Operation# 48 at 3490 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000218  AWProt: 000  WData: 00000212  WStrb: 1111  Operation# 46 at 3490 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 47 at 3500 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000021C  AWProt: 000  WData: 00000213  WStrb: 1111  Operation# 47 at 3500 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 48 at 3510 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000210,  Data: 00000210 at 3550 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000210  ARProt: 000  Operation# 45 at 3570 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000210  ARProt: 000  RData: 00000210  Operation# 44 at 3580 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 45 at 3590 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000210  Read Address: 00000210  Prot: 0 at 3590 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000214  ARProt: 000  Operation# 46 at 3600 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000214  ARProt: 000  RData: 00000211  Operation# 45 at 3610 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 46 at 3620 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000211  Read Address: 00000214  Prot: 0 at 3620 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000218  ARProt: 000  Operation# 47 at 3630 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000218  ARProt: 000  RData: 00000212  Operation# 46 at 3640 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 47 at 3650 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000212  Read Address: 00000218  Prot: 0 at 3650 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000021C  ARProt: 000  Operation# 48 at 3660 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000021C  ARProt: 000  RData: 00000213  Operation# 47 at 3670 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 48 at 3680 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000213  Read Address: 0000021C  Prot: 0 at 3680 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 4 at 3720 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000220,  Data: 00000220 at 3760 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000220  WStrb: 1111  Operation# 49 at 3760 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000220  AWProt: 000  Operation# 49 at 3760 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000221  WStrb: 1111  Operation# 50 at 3770 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000224  AWProt: 000  Operation# 50 at 3770 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000220  AWProt: 000  WData: 00000220  WStrb: 1111  Operation# 48 at 3770 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 49 at 3780 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000222  WStrb: 1111  Operation# 51 at 3780 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000228  AWProt: 000  Operation# 51 at 3780 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000224  AWProt: 000  WData: 00000221  WStrb: 1111  Operation# 49 at 3780 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 50 at 3790 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000223  WStrb: 1111  Operation# 52 at 3790 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000022C  AWProt: 000  Operation# 52 at 3790 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000228  AWProt: 000  WData: 00000222  WStrb: 1111  Operation# 50 at 3790 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 51 at 3800 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000022C  AWProt: 000  WData: 00000223  WStrb: 1111  Operation# 51 at 3800 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 52 at 3810 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000220,  Data: 00000220 at 3850 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000220  ARProt: 000  Operation# 49 at 3890 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000220  ARProt: 000  RData: 00000220  Operation# 48 at 3900 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 49 at 3910 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000220  Read Address: 00000220  Prot: 0 at 3910 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000224  ARProt: 000  Operation# 50 at 3940 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000224  ARProt: 000  RData: 00000221  Operation# 49 at 3950 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 50 at 3960 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000221  Read Address: 00000224  Prot: 0 at 3960 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000228  ARProt: 000  Operation# 51 at 3990 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000228  ARProt: 000  RData: 00000222  Operation# 50 at 4000 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 51 at 4010 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000222  Read Address: 00000228  Prot: 0 at 4010 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000022C  ARProt: 000  Operation# 52 at 4040 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000022C  ARProt: 000  RData: 00000223  Operation# 51 at 4050 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 52 at 4060 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000223  Read Address: 0000022C  Prot: 0 at 4060 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 6 at 4100 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000230,  Data: 00000230 at 4140 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000230  WStrb: 1111  Operation# 53 at 4140 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000230  AWProt: 000  Operation# 53 at 4140 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000231  WStrb: 1111  Operation# 54 at 4150 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000234  AWProt: 000  Operation# 54 at 4150 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000230  AWProt: 000  WData: 00000230  WStrb: 1111  Operation# 52 at 4150 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 53 at 4160 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000232  WStrb: 1111  Operation# 55 at 4160 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000238  AWProt: 000  Operation# 55 at 4160 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000234  AWProt: 000  WData: 00000231  WStrb: 1111  Operation# 53 at 4160 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 54 at 4170 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000233  WStrb: 1111  Operation# 56 at 4170 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000023C  AWProt: 000  Operation# 56 at 4170 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000238  AWProt: 000  WData: 00000232  WStrb: 1111  Operation# 54 at 4170 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 55 at 4180 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000023C  AWProt: 000  WData: 00000233  WStrb: 1111  Operation# 55 at 4180 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 56 at 4190 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000230,  Data: 00000230 at 4230 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000230  ARProt: 000  Operation# 53 at 4290 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000230  ARProt: 000  RData: 00000230  Operation# 52 at 4300 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 53 at 4310 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000230  Read Address: 00000230  Prot: 0 at 4310 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000234  ARProt: 000  Operation# 54 at 4360 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000234  ARProt: 000  RData: 00000231  Operation# 53 at 4370 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 54 at 4380 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000231  Read Address: 00000234  Prot: 0 at 4380 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000238  ARProt: 000  Operation# 55 at 4430 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000238  ARProt: 000  RData: 00000232  Operation# 54 at 4440 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 55 at 4450 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000232  Read Address: 00000238  Prot: 0 at 4450 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000023C  ARProt: 000  Operation# 56 at 4500 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000023C  ARProt: 000  RData: 00000233  Operation# 55 at 4510 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 56 at 4520 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000233  Read Address: 0000023C  Prot: 0 at 4520 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Valid Delay Cycles 0 at 4560 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000240,  Data: 00000240 at 4600 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000240  WStrb: 1111  Operation# 57 at 4600 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000240  AWProt: 000  Operation# 57 at 4600 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000241  WStrb: 1111  Operation# 58 at 4610 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000244  AWProt: 000  Operation# 58 at 4610 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000240  AWProt: 000  WData: 00000240  WStrb: 1111  Operation# 56 at 4610 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 57 at 4620 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000242  WStrb: 1111  Operation# 59 at 4620 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000248  AWProt: 000  Operation# 59 at 4620 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000244  AWProt: 000  WData: 00000241  WStrb: 1111  Operation# 57 at 4620 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 58 at 4630 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000243  WStrb: 1111  Operation# 60 at 4630 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000024C  AWProt: 000  Operation# 60 at 4630 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000248  AWProt: 000  WData: 00000242  WStrb: 1111  Operation# 58 at 4630 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 59 at 4640 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 0000024C  AWProt: 000  WData: 00000243  WStrb: 1111  Operation# 59 at 4640 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 60 at 4650 ns
+%% Log    ALWAYS    in TB Manager Proc,   ManagerRec, Addr: 00000240,  Data: 00000240 at 4690 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000240  ARProt: 000  Operation# 57 at 4690 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000244  ARProt: 000  Operation# 58 at 4700 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000240  ARProt: 000  RData: 00000240  Operation# 56 at 4700 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 57 at 4710 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000248  ARProt: 000  Operation# 59 at 4710 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000244  ARProt: 000  RData: 00000241  Operation# 57 at 4710 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000240  Read Address: 00000240  Prot: 0 at 4710 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 58 at 4720 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000024C  ARProt: 000  Operation# 60 at 4720 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000241  Read Address: 00000244  Prot: 0 at 4720 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000248  ARProt: 000  RData: 00000242  Operation# 58 at 4720 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 59 at 4730 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000242  Read Address: 00000248  Prot: 0 at 4730 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 0000024C  ARProt: 000  RData: 00000243  Operation# 59 at 4730 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 60 at 4740 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000243  Read Address: 0000024C  Prot: 0 at 4740 ns
+
+
