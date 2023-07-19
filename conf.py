@@ -22,7 +22,6 @@ master_doc = "index"
 extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx", 
-    'docxbuilder',
     'myst_parser'
 ]
 
