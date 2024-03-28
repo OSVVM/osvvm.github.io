@@ -1,0 +1,224 @@
+%% Log    ALWAYS    in TB Subordinate Proc,   Checking IF Parameters for Subordinate Write Response at 1 ns
+%% Log    PASSED    in TB Manager Proc,   AWSIZE Received : 2 at 10 ns
+%% Log    PASSED    in TB Subordinate Proc,   BRESP Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWBURST Received : 1 at 10 ns
+%% Log    PASSED    in TB Subordinate Proc,   BID Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWLOCK Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWPROT Received : 0 at 10 ns
+%% Log    PASSED    in TB Subordinate Proc,   BUSER Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWID Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWCACHE Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWQOS Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWREGION Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   AWUSER Received : 0 at 10 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Write Data at 10 ns
+%% Log    PASSED    in TB Manager Proc,   WID Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   WUSER Received : 0 at 10 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager Write Response at 10 ns
+%% Log    PASSED    in TB Manager Proc,   BRESP Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   BID Received : 0 at 10 ns
+%% Log    PASSED    in TB Manager Proc,   BUSER Received : 0 at 10 ns
+%% Log    ALWAYS    in TB Manager Proc,   Write with parameters setting #1, Defaults at 50 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000000  WStrb: 1111  Operation# 1 at 50 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000000  AWProt: 000  Operation# 1 at 50 ns
+%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 00000000  AWProt: 000  Operation# 1 at 60 ns
+%% Log    INFO      in subordinate_1,   Write Data.  WData: 00000000  WStrb: 1111  Operation# 1 at 60 ns
+%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 1 at 60 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000001  WStrb: 1111  Operation# 2 at 60 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000004  AWProt: 000  Operation# 2 at 60 ns
+%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 00000000 at 60 ns
+%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 00000000 at 60 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 70 ns
+%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 00000004  AWProt: 000  Operation# 2 at 70 ns
+%% Log    INFO      in subordinate_1,   Write Data.  WData: 00000001  WStrb: 1111  Operation# 2 at 70 ns
+%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 2 at 70 ns
+%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 00000004 at 70 ns
+%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 00000001 at 70 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 80 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Set Write parameters #2 at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Setting IF Parameters for Write Address at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Setting IF Parameters for Write Data at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Setting IF Parameters for Manager Write Response at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Verify Write parameters #2 were set by doing get at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Write Address at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWBURST Received : 2 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWLOCK Received : 1 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWPROT Received : 3 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWID Received : 4 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWCACHE Received : 5 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWQOS Received : 6 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWREGION Received : 7 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   AWUSER Received : 8 at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Write Data at 110 ns
+%% Log    PASSED    in TB Manager Proc,   WID Received : 9 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   WUSER Received : 10 at 110 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager Write Response at 110 ns
+%% Log    PASSED    in TB Manager Proc,   BRESP Received : 1 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   BID Received : 11 at 110 ns
+%% Log    PASSED    in TB Manager Proc,   BUSER Received : 12 at 110 ns
+%% Log    PASSED    in TB Subordinate Proc,   BRESP Received : 1 at 120 ns
+%% Log    PASSED    in TB Subordinate Proc,   BID Received : 21 at 120 ns
+%% Log    PASSED    in TB Subordinate Proc,   BUSER Received : 22 at 120 ns
+%% Log    ALWAYS    in TB Manager Proc,   Write with parameters setting #2 at 120 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000100  WStrb: 1111  Operation# 3 at 120 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000100  AWProt: 011  Operation# 3 at 120 ns
+%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 00000100  AWProt: 011  Operation# 3 at 130 ns
+%% Log    INFO      in subordinate_1,   Write Data.  WData: 00000100  WStrb: 1111  Operation# 3 at 130 ns
+%% Log    INFO      in subordinate_1,   Write Response.  BResp: 1  Operation# 3 at 130 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000101  WStrb: 1111  Operation# 4 at 130 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000104  AWProt: 011  Operation# 4 at 130 ns
+%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 00000100 at 130 ns
+%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 00000100 at 130 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 1   Item Number: 3 at 140 ns
+%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 00000104  AWProt: 011  Operation# 4 at 140 ns
+%% Log    INFO      in subordinate_1,   Write Data.  WData: 00000101  WStrb: 1111  Operation# 4 at 140 ns
+%% Log    INFO      in subordinate_1,   Write Response.  BResp: 1  Operation# 4 at 140 ns
+%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 00000104 at 140 ns
+%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 00000101 at 140 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 1   Item Number: 4 at 150 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Set Write parameters #3 at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Setting IF Parameters for Write Address at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Write Data at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager Write Response at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Verify Write parameters #3 were set by doing get at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Write Address at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWBURST Received : 1 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWLOCK Received : 0 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWPROT Received : 2 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWID Received : 10 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWCACHE Received : 11 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWQOS Received : 12 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWREGION Received : 13 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   AWUSER Received : 14 at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Write Data at 180 ns
+%% Log    PASSED    in TB Manager Proc,   WID Received : 15 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   WUSER Received : 16 at 180 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager Write Response at 180 ns
+%% Log    PASSED    in TB Manager Proc,   BRESP Received : 2 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   BID Received : 17 at 180 ns
+%% Log    PASSED    in TB Manager Proc,   BUSER Received : 18 at 180 ns
+%% Log    PASSED    in TB Subordinate Proc,   BRESP Received : 2 at 190 ns
+%% Log    PASSED    in TB Subordinate Proc,   BID Received : 27 at 190 ns
+%% Log    PASSED    in TB Subordinate Proc,   BUSER Received : 28 at 190 ns
+%% Log    ALWAYS    in TB Manager Proc,   Write with parameters setting #3 at 190 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000200  WStrb: 1111  Operation# 5 at 190 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000200  AWProt: 010  Operation# 5 at 190 ns
+%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 00000200  AWProt: 010  Operation# 5 at 200 ns
+%% Log    INFO      in subordinate_1,   Write Data.  WData: 00000200  WStrb: 1111  Operation# 5 at 200 ns
+%% Log    INFO      in subordinate_1,   Write Response.  BResp: 2  Operation# 5 at 200 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000201  WStrb: 1111  Operation# 6 at 200 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000204  AWProt: 010  Operation# 6 at 200 ns
+%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 00000200 at 200 ns
+%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 00000200 at 200 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 2   Item Number: 5 at 210 ns
+%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 00000204  AWProt: 010  Operation# 6 at 210 ns
+%% Log    INFO      in subordinate_1,   Write Data.  WData: 00000201  WStrb: 1111  Operation# 6 at 210 ns
+%% Log    INFO      in subordinate_1,   Write Response.  BResp: 2  Operation# 6 at 210 ns
+%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 00000204 at 210 ns
+%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 00000201 at 210 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 2   Item Number: 6 at 220 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Read Address at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARSIZE Received : 2 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARBURST Received : 1 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARLOCK Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARPROT Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARID Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARCACHE Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARQOS Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARREGION Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   ARUSER Received : 0 at 250 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager READ DATA at 250 ns
+%% Log    PASSED    in TB Manager Proc,   RRESP Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   RID Received : 0 at 250 ns
+%% Log    PASSED    in TB Manager Proc,   RUSER Received : 0 at 250 ns
+%% Log    ALWAYS    in TB Subordinate Proc,   Checking IF Parameters for Subordinate Read Data at 251 ns
+%% Log    PASSED    in TB Subordinate Proc,   RRESP Received : 0 at 260 ns
+%% Log    PASSED    in TB Subordinate Proc,   RID Received : 0 at 260 ns
+%% Log    PASSED    in TB Subordinate Proc,   RUSER Received : 0 at 260 ns
+%% Log    ALWAYS    in TB Manager Proc,   Read with parameters setting #1, Defaults at 260 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000000  ARProt: 000  Operation# 1 at 260 ns
+%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 00000000  ARProt: 000  Operation# 1 at 270 ns
+%% Log    INFO      in subordinate_1,   Read Data.  RData: 00000000  RResp: 0  Operation# 1 at 270 ns
+%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 00000000 at 270 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 280 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000000  Read Address: 00000000  Prot: 0 at 280 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000004  ARProt: 000  Operation# 2 at 280 ns
+%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 00000004  ARProt: 000  Operation# 2 at 290 ns
+%% Log    INFO      in subordinate_1,   Read Data.  RData: 00000001  RResp: 0  Operation# 2 at 290 ns
+%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 00000004 at 290 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 300 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000001  Read Address: 00000004  Prot: 0 at 300 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Set Read parameters #2 at 340 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager READ DATA at 340 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Read Address at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARBURST Received : 2 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARLOCK Received : 1 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARPROT Received : 3 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARID Received : 4 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARCACHE Received : 5 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARQOS Received : 6 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARREGION Received : 7 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   ARUSER Received : 8 at 340 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager READ DATA at 340 ns
+%% Log    PASSED    in TB Manager Proc,   RRESP Received : 1 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   RID Received : 9 at 340 ns
+%% Log    PASSED    in TB Manager Proc,   RUSER Received : 10 at 340 ns
+%% Log    PASSED    in TB Subordinate Proc,   RRESP Received : 1 at 350 ns
+%% Log    PASSED    in TB Subordinate Proc,   RID Received : 9 at 350 ns
+%% Log    PASSED    in TB Subordinate Proc,   RUSER Received : 10 at 350 ns
+%% Log    ALWAYS    in TB Manager Proc,   Read with parameters setting #2 at 350 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000100  ARProt: 011  Operation# 3 at 350 ns
+%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 00000100  ARProt: 011  Operation# 3 at 360 ns
+%% Log    INFO      in subordinate_1,   Read Data.  RData: 00000100  RResp: 1  Operation# 3 at 360 ns
+%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 00000100 at 360 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 1   Item Number: 3 at 370 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000100  Read Address: 00000100  Prot: 3 at 370 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000104  ARProt: 011  Operation# 4 at 370 ns
+%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 00000104  ARProt: 011  Operation# 4 at 380 ns
+%% Log    INFO      in subordinate_1,   Read Data.  RData: 00000101  RResp: 1  Operation# 4 at 380 ns
+%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 00000104 at 380 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 1   Item Number: 4 at 390 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000101  Read Address: 00000104  Prot: 3 at 390 ns
+
+
+%% Log    ALWAYS    in TB Manager Proc,   Set Read parameters #3 at 430 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager READ DATA at 430 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Read Address at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARBURST Received : 1 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARLOCK Received : 0 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARPROT Received : 2 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARID Received : 10 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARCACHE Received : 11 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARQOS Received : 12 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARREGION Received : 13 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   ARUSER Received : 14 at 430 ns
+%% Log    ALWAYS    in TB Manager Proc,   Checking IF Parameters for Manager READ DATA at 430 ns
+%% Log    PASSED    in TB Manager Proc,   RRESP Received : 2 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   RID Received : 15 at 430 ns
+%% Log    PASSED    in TB Manager Proc,   RUSER Received : 16 at 430 ns
+%% Log    PASSED    in TB Subordinate Proc,   RRESP Received : 2 at 440 ns
+%% Log    PASSED    in TB Subordinate Proc,   RID Received : 15 at 440 ns
+%% Log    PASSED    in TB Subordinate Proc,   RUSER Received : 16 at 440 ns
+%% Log    ALWAYS    in TB Manager Proc,   Read with parameters setting #3 at 440 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000200  ARProt: 010  Operation# 5 at 440 ns
+%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 00000200  ARProt: 010  Operation# 5 at 450 ns
+%% Log    INFO      in subordinate_1,   Read Data.  RData: 00000200  RResp: 2  Operation# 5 at 450 ns
+%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 00000200 at 450 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 2   Item Number: 5 at 460 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000200  Read Address: 00000200  Prot: 2 at 460 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000204  ARProt: 010  Operation# 6 at 460 ns
+%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 00000204  ARProt: 010  Operation# 6 at 470 ns
+%% Log    INFO      in subordinate_1,   Read Data.  RData: 00000201  RResp: 2  Operation# 6 at 470 ns
+%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 00000204 at 470 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 2   Item Number: 6 at 480 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 00000201  Read Address: 00000204  Prot: 2 at 480 ns
+
+

@@ -1,0 +1,355 @@
+%% Log    PASSED    in Default,   Default BurstMode is ADDRESS_BUS_BURST_WORD_MODE 0 at 110 ns
+%% Log    PASSED    in Default,   BurstMode Received : 0 at 110 ns
+%% Log    ALWAYS    in Default,   Write with ByteAddr = 8, 12 Bytes -- word aligned at 110 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000003  WStrb: 1111  Operation# 1 at 110 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000008  AWProt: 000  Operation# 1 at 110 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 110 ns
+%% Log    ALWAYS    in Default,   Write with ByteAddr = x1A, 13 Words -- unaligned at 110 ns
+%% Log    ALWAYS    in Default,   Write with ByteAddr = 31, 12 Bytes -- unaligned at 110 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00000008  AWProt: 000  AWLen: 00001011  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 1 at 120 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000003  WStrb: 1111  Operation# 1 at 120 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000004  WStrb: 1111  Operation# 2 at 120 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 0000100A  AWProt: 000  Operation# 2 at 120 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00000008  AWProt: 000  WData: 00000003  WStrb: 1111  Operation# 0 at 120 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000004  WStrb: 1111  Operation# 2 at 130 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 0000100A  AWProt: 000  AWLen: 00001100  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 2 at 130 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000005  WStrb: 1111  Operation# 3 at 130 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00003001  AWProt: 000  Operation# 3 at 130 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000005  WStrb: 1111  Operation# 3 at 140 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00003001  AWProt: 000  AWLen: 00001100  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 3 at 140 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000006  WStrb: 1111  Operation# 4 at 140 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000006  WStrb: 1111  Operation# 4 at 150 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000007  WStrb: 1111  Operation# 5 at 150 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000007  WStrb: 1111  Operation# 5 at 160 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000008  WStrb: 1111  Operation# 6 at 160 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000008  WStrb: 1111  Operation# 6 at 170 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000009  WStrb: 1111  Operation# 7 at 170 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000009  WStrb: 1111  Operation# 7 at 180 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000A  WStrb: 1111  Operation# 8 at 180 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000A  WStrb: 1111  Operation# 8 at 190 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000B  WStrb: 1111  Operation# 9 at 190 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000B  WStrb: 1111  Operation# 9 at 200 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000C  WStrb: 1111  Operation# 10 at 200 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000C  WStrb: 1111  Operation# 10 at 210 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000D  WStrb: 1111  Operation# 11 at 210 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000D  WStrb: 1111  Operation# 11 at 220 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000E  WStrb: 1111  Operation# 12 at 220 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000E  WStrb: 1111  Operation# 12 at 230 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0001UUUU  WStrb: 1100  Operation# 13 at 230 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 1 at 230 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 240 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0001UUUU  WStrb: 1100  Operation# 13 at 240 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 240 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000003  WStrb: 1111  Operation# 14 at 240 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 0000100A  AWProt: 000  WData: 0001UUUU  WStrb: 1100  Operation# 1 at 240 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000003  WStrb: 1111  Operation# 14 at 250 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000005  WStrb: 1111  Operation# 15 at 250 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000005  WStrb: 1111  Operation# 15 at 260 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000007  WStrb: 1111  Operation# 16 at 260 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000007  WStrb: 1111  Operation# 16 at 270 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000009  WStrb: 1111  Operation# 17 at 270 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000009  WStrb: 1111  Operation# 17 at 280 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000B  WStrb: 1111  Operation# 18 at 280 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000B  WStrb: 1111  Operation# 18 at 290 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000D  WStrb: 1111  Operation# 19 at 290 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000D  WStrb: 1111  Operation# 19 at 300 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0000000F  WStrb: 1111  Operation# 20 at 300 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0000000F  WStrb: 1111  Operation# 20 at 310 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000011  WStrb: 1111  Operation# 21 at 310 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000011  WStrb: 1111  Operation# 21 at 320 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000013  WStrb: 1111  Operation# 22 at 320 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000013  WStrb: 1111  Operation# 22 at 330 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000015  WStrb: 1111  Operation# 23 at 330 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000015  WStrb: 1111  Operation# 23 at 340 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000017  WStrb: 1111  Operation# 24 at 340 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000017  WStrb: 1111  Operation# 24 at 350 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 00000019  WStrb: 1111  Operation# 25 at 350 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 00000019  WStrb: 1111  Operation# 25 at 360 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: A01528UU  WStrb: 1110  Operation# 26 at 360 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 2 at 360 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 370 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: A01528UU  WStrb: 1110  Operation# 26 at 370 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 370 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 01BB7264  WStrb: 1111  Operation# 27 at 370 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00003001  AWProt: 000  WData: A01528UU  WStrb: 1110  Operation# 2 at 370 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 01BB7264  WStrb: 1111  Operation# 27 at 380 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 62F0377D  WStrb: 1111  Operation# 28 at 380 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 62F0377D  WStrb: 1111  Operation# 28 at 390 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: F78B7C1A  WStrb: 1111  Operation# 29 at 390 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: F78B7C1A  WStrb: 1111  Operation# 29 at 400 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 74194D31  WStrb: 1111  Operation# 30 at 400 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 74194D31  WStrb: 1111  Operation# 30 at 410 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 5569CB19  WStrb: 1111  Operation# 31 at 410 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 5569CB19  WStrb: 1111  Operation# 31 at 420 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 1B21BDCC  WStrb: 1111  Operation# 32 at 420 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 1B21BDCC  WStrb: 1111  Operation# 32 at 430 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: DC353242  WStrb: 1111  Operation# 33 at 430 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: DC353242  WStrb: 1111  Operation# 33 at 440 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: A3258227  WStrb: 1111  Operation# 34 at 440 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: A3258227  WStrb: 1111  Operation# 34 at 450 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 68DBCDDA  WStrb: 1111  Operation# 35 at 450 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 68DBCDDA  WStrb: 1111  Operation# 35 at 460 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 250ED183  WStrb: 1111  Operation# 36 at 460 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 250ED183  WStrb: 1111  Operation# 36 at 470 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 4CB3A1B8  WStrb: 1111  Operation# 37 at 470 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 4CB3A1B8  WStrb: 1111  Operation# 37 at 480 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: E94BF201  WStrb: 1111  Operation# 38 at 480 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: E94BF201  WStrb: 1111  Operation# 38 at 490 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 3 at 490 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 3 at 500 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000008  ARProt: 000  Operation# 1 at 500 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00000008  ARProt: 000  ARLen: 00001011  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 1 at 510 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00000008  ARProt: 000  RData: 00000003  Operation# 0 at 510 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000003  RResp: 0  RID: 00  RUser: 00  Operation# 1 at 510 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 520 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000004  RResp: 0  RID: 00  RUser: 00  Operation# 2 at 520 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 530 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000005  RResp: 0  RID: 00  RUser: 00  Operation# 3 at 530 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 3 at 540 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000006  RResp: 0  RID: 00  RUser: 00  Operation# 4 at 540 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 4 at 550 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000007  RResp: 0  RID: 00  RUser: 00  Operation# 5 at 550 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 5 at 560 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000008  RResp: 0  RID: 00  RUser: 00  Operation# 6 at 560 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 6 at 570 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000009  RResp: 0  RID: 00  RUser: 00  Operation# 7 at 570 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 7 at 580 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000A  RResp: 0  RID: 00  RUser: 00  Operation# 8 at 580 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 8 at 590 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000B  RResp: 0  RID: 00  RUser: 00  Operation# 9 at 590 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 9 at 600 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000C  RResp: 0  RID: 00  RUser: 00  Operation# 10 at 600 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 10 at 610 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000D  RResp: 0  RID: 00  RUser: 00  Operation# 11 at 610 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 11 at 620 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000E  RResp: 0  RID: 00  RUser: 00  Operation# 12 at 620 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 12 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000003   Item Number: 1 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000004   Item Number: 2 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000005   Item Number: 3 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000006   Item Number: 4 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000007   Item Number: 5 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000008   Item Number: 6 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000009   Item Number: 7 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000A   Item Number: 8 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000B   Item Number: 9 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000C   Item Number: 10 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000D   Item Number: 11 at 630 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000E   Item Number: 12 at 630 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 0000100A  ARProt: 000  Operation# 2 at 630 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 0000100A  ARProt: 000  ARLen: 00001100  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 2 at 640 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 0000100A  ARProt: 000  RData: 0001UUUU  Operation# 12 at 640 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0001UUUU  RResp: 0  RID: 00  RUser: 00  Operation# 13 at 640 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 13 at 650 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000003  RResp: 0  RID: 00  RUser: 00  Operation# 14 at 650 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 14 at 660 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000005  RResp: 0  RID: 00  RUser: 00  Operation# 15 at 660 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 15 at 670 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000007  RResp: 0  RID: 00  RUser: 00  Operation# 16 at 670 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 16 at 680 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000009  RResp: 0  RID: 00  RUser: 00  Operation# 17 at 680 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 17 at 690 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000B  RResp: 0  RID: 00  RUser: 00  Operation# 18 at 690 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 18 at 700 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000D  RResp: 0  RID: 00  RUser: 00  Operation# 19 at 700 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 19 at 710 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0000000F  RResp: 0  RID: 00  RUser: 00  Operation# 20 at 710 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 20 at 720 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000011  RResp: 0  RID: 00  RUser: 00  Operation# 21 at 720 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 21 at 730 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000013  RResp: 0  RID: 00  RUser: 00  Operation# 22 at 730 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 22 at 740 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000015  RResp: 0  RID: 00  RUser: 00  Operation# 23 at 740 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 23 at 750 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000017  RResp: 0  RID: 00  RUser: 00  Operation# 24 at 750 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 24 at 760 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 00000019  RResp: 0  RID: 00  RUser: 00  Operation# 25 at 760 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 25 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0001UUUU   Item Number: 13 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000003   Item Number: 14 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000005   Item Number: 15 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000007   Item Number: 16 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000009   Item Number: 17 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000B   Item Number: 18 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000D   Item Number: 19 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0000000F   Item Number: 20 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000011   Item Number: 21 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000013   Item Number: 22 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000015   Item Number: 23 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000017   Item Number: 24 at 770 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 00000019   Item Number: 25 at 770 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00003001  ARProt: 000  Operation# 3 at 770 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00003001  ARProt: 000  ARLen: 00001100  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 3 at 780 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00003001  ARProt: 000  RData: A01528UU  Operation# 25 at 780 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: A01528UU  RResp: 0  RID: 00  RUser: 00  Operation# 26 at 780 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 26 at 790 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 01BB7264  RResp: 0  RID: 00  RUser: 00  Operation# 27 at 790 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 27 at 800 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 62F0377D  RResp: 0  RID: 00  RUser: 00  Operation# 28 at 800 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 28 at 810 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: F78B7C1A  RResp: 0  RID: 00  RUser: 00  Operation# 29 at 810 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 29 at 820 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 74194D31  RResp: 0  RID: 00  RUser: 00  Operation# 30 at 820 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 30 at 830 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 5569CB19  RResp: 0  RID: 00  RUser: 00  Operation# 31 at 830 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 31 at 840 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 1B21BDCC  RResp: 0  RID: 00  RUser: 00  Operation# 32 at 840 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 32 at 850 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: DC353242  RResp: 0  RID: 00  RUser: 00  Operation# 33 at 850 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 33 at 860 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: A3258227  RResp: 0  RID: 00  RUser: 00  Operation# 34 at 860 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 34 at 870 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 68DBCDDA  RResp: 0  RID: 00  RUser: 00  Operation# 35 at 870 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 35 at 880 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 250ED183  RResp: 0  RID: 00  RUser: 00  Operation# 36 at 880 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 36 at 890 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 4CB3A1B8  RResp: 0  RID: 00  RUser: 00  Operation# 37 at 890 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 37 at 900 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: E94BF201  RResp: 0  RID: 00  RUser: 00  Operation# 38 at 900 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 38 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: A01528UU   Item Number: 26 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 01BB7264   Item Number: 27 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 62F0377D   Item Number: 28 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: F78B7C1A   Item Number: 29 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 74194D31   Item Number: 30 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 5569CB19   Item Number: 31 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 1B21BDCC   Item Number: 32 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: DC353242   Item Number: 33 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: A3258227   Item Number: 34 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 68DBCDDA   Item Number: 35 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 250ED183   Item Number: 36 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 4CB3A1B8   Item Number: 37 at 910 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: E94BF201   Item Number: 38 at 910 ns
+%% Log    ALWAYS    in Default,   Write with ByteAddr = 8, 12 Bytes -- word aligned at 910 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: UUUUUU01  WStrb: 0001  Operation# 39 at 910 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005050  AWProt: 000  Operation# 4 at 910 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 910 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005050  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 4 at 920 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: UUUUUU01  WStrb: 0001  Operation# 39 at 920 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: UUUU02UU  WStrb: 0010  Operation# 40 at 920 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005051  AWProt: 000  Operation# 5 at 920 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005050  AWProt: 000  WData: UUUUUU01  WStrb: 0001  Operation# 3 at 920 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 4 at 920 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 4 at 930 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: UUUU02UU  WStrb: 0010  Operation# 40 at 930 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005051  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 5 at 930 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 930 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: UU03UUUU  WStrb: 0100  Operation# 41 at 930 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005052  AWProt: 000  Operation# 6 at 930 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005051  AWProt: 000  WData: UUUU02UU  WStrb: 0010  Operation# 4 at 930 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 5 at 930 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: UU03UUUU  WStrb: 0100  Operation# 41 at 940 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 5 at 940 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005052  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 6 at 940 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 940 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 04UUUUUU  WStrb: 1000  Operation# 42 at 940 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005053  AWProt: 000  Operation# 7 at 940 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005052  AWProt: 000  WData: UU03UUUU  WStrb: 0100  Operation# 5 at 940 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 6 at 940 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 04UUUUUU  WStrb: 1000  Operation# 42 at 950 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 6 at 950 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005053  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 7 at 950 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 950 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: UUUU0605  WStrb: 0011  Operation# 43 at 950 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005060  AWProt: 000  Operation# 8 at 950 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005053  AWProt: 000  WData: 04UUUUUU  WStrb: 1000  Operation# 6 at 950 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 7 at 950 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: UUUU0605  WStrb: 0011  Operation# 43 at 960 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 7 at 960 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005060  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 8 at 960 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 960 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: UU0807UU  WStrb: 0110  Operation# 44 at 960 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005071  AWProt: 000  Operation# 9 at 960 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005060  AWProt: 000  WData: UUUU0605  WStrb: 0011  Operation# 7 at 960 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 8 at 960 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: UU0807UU  WStrb: 0110  Operation# 44 at 970 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 8 at 970 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005071  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 9 at 970 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 970 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 0A09UUUU  WStrb: 1100  Operation# 45 at 970 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005082  AWProt: 000  Operation# 10 at 970 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005071  AWProt: 000  WData: UU0807UU  WStrb: 0110  Operation# 8 at 970 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 9 at 970 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 0A09UUUU  WStrb: 1100  Operation# 45 at 980 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 9 at 980 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005082  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 10 at 980 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 980 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: UU0D0C0B  WStrb: 0111  Operation# 46 at 980 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00005090  AWProt: 000  Operation# 11 at 980 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005082  AWProt: 000  WData: 0A09UUUU  WStrb: 1100  Operation# 9 at 980 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 10 at 980 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: UU0D0C0B  WStrb: 0111  Operation# 46 at 990 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 10 at 990 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 00005090  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 11 at 990 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 990 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 100F0EUU  WStrb: 1110  Operation# 47 at 990 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 000050A1  AWProt: 000  Operation# 12 at 990 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 00005090  AWProt: 000  WData: UU0D0C0B  WStrb: 0111  Operation# 10 at 990 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 11 at 990 ns
+%% Log    DEBUG     in memory_1,   Write Data.  WData: 100F0EUU  WStrb: 1110  Operation# 47 at 1000 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 11 at 1000 ns
+%% Log    DEBUG     in memory_1,   Write Address.  AWAddr: 000050A1  AWProt: 000  AWLen: 00000000  AWSize: 010  AWBurst: 01  AWID: 00000000  AWUser: 00000000  Operation# 12 at 1000 ns
+%% Log    DEBUG     in manager_1,   Waiting for Write Response. at 1000 ns
+%% Log    INFO      in memory_1,   Memory Write.  AWAddr: 000050A1  AWProt: 000  WData: 100F0EUU  WStrb: 1110  Operation# 11 at 1000 ns
+%% Log    DEBUG     in memory_1,   Write Response.  BResp: 0  BID: 00  BUser: 00  Operation# 12 at 1000 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 12 at 1010 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005050  ARProt: 000  Operation# 4 at 1010 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005050  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 4 at 1020 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005050  ARProt: 000  RData: 04030201  Operation# 38 at 1020 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 04030201  RResp: 0  RID: 00  RUser: 00  Operation# 39 at 1020 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 39 at 1030 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 04030201   Item Number: 39 at 1030 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005051  ARProt: 000  Operation# 5 at 1030 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005051  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 5 at 1040 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005051  ARProt: 000  RData: 04030201  Operation# 39 at 1040 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 04030201  RResp: 0  RID: 00  RUser: 00  Operation# 40 at 1040 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 40 at 1050 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 04030201   Item Number: 40 at 1050 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005052  ARProt: 000  Operation# 6 at 1050 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005052  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 6 at 1060 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005052  ARProt: 000  RData: 04030201  Operation# 40 at 1060 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 04030201  RResp: 0  RID: 00  RUser: 00  Operation# 41 at 1060 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 41 at 1070 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 04030201   Item Number: 41 at 1070 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005053  ARProt: 000  Operation# 7 at 1070 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005053  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 7 at 1080 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005053  ARProt: 000  RData: 04030201  Operation# 41 at 1080 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 04030201  RResp: 0  RID: 00  RUser: 00  Operation# 42 at 1080 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 42 at 1090 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 04030201   Item Number: 42 at 1090 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005060  ARProt: 000  Operation# 8 at 1090 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005060  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 8 at 1100 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005060  ARProt: 000  RData: UUUU0605  Operation# 42 at 1100 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: UUUU0605  RResp: 0  RID: 00  RUser: 00  Operation# 43 at 1100 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 43 at 1110 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: UUUU0605   Item Number: 43 at 1110 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005071  ARProt: 000  Operation# 9 at 1110 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005071  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 9 at 1120 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005071  ARProt: 000  RData: UU0807UU  Operation# 43 at 1120 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: UU0807UU  RResp: 0  RID: 00  RUser: 00  Operation# 44 at 1120 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 44 at 1130 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: UU0807UU   Item Number: 44 at 1130 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005082  ARProt: 000  Operation# 10 at 1130 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005082  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 10 at 1140 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005082  ARProt: 000  RData: 0A09UUUU  Operation# 44 at 1140 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 0A09UUUU  RResp: 0  RID: 00  RUser: 00  Operation# 45 at 1140 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 45 at 1150 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 0A09UUUU   Item Number: 45 at 1150 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00005090  ARProt: 000  Operation# 11 at 1150 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 00005090  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 11 at 1160 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 00005090  ARProt: 000  RData: UU0D0C0B  Operation# 45 at 1160 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: UU0D0C0B  RResp: 0  RID: 00  RUser: 00  Operation# 46 at 1160 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 46 at 1170 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: UU0D0C0B   Item Number: 46 at 1170 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 000050A1  ARProt: 000  Operation# 12 at 1170 ns
+%% Log    DEBUG     in memory_1,   Read Address.  ARAddr: 000050A1  ARProt: 000  ARLen: 00000000  ARSize: 010  ARBurst: 01  ARID: 00000000  ARUser: 00000000  Operation# 12 at 1180 ns
+%% Log    INFO      in memory_1,   Memory Read.  ARAddr: 000050A1  ARProt: 000  RData: 100F0EUU  Operation# 46 at 1180 ns
+%% Log    DEBUG     in memory_1,   Read Data.  RData: 100F0EUU  RResp: 0  RID: 00  RUser: 00  Operation# 47 at 1180 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 47 at 1190 ns
+%% Log    PASSED    in manager_1: ReadBurstFifo,      Received: 100F0EUU   Item Number: 47 at 1190 ns
+%% Log    PASSED    in memory_1: Data Check,   Read Address: 00000008  Data: 00000003  Expected: 00000003 at 1190 ns
+%% Log    PASSED    in memory_1: Data Check,   Read Address: 0000000C  Data: 00000004  Expected: 00000004 at 1190 ns
+%% Log    PASSED    in memory_1: Data Check,   Read Address: 00000010  Data: 00000005  Expected: 00000005 at 1190 ns
+%% Log    PASSED    in memory_1: Data Check,   Read Address: 00000014  Data: 00000006  Expected: 00000006 at 1190 ns
+%% Log    PASSED    in memory_1: Data Check,   Read Address: 00000018  Data: 00000007  Expected: 00000007 at 1190 ns
+%% Log    PASSED    in memory_1: Data Check,   Read Address: 0000001C  Data: 00000008  Expected: 00000008 at 1190 ns

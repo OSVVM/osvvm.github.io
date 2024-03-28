@@ -1,0 +1,64 @@
+%% Log    INFO      in UartTx_1,   SEND Queueing Transaction: Data = 01, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_1,   SEND Starting: Data = 01, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_2,   SEND Queueing Transaction: Data = 02, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_2,   SEND Starting: Data = 02, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_3,   SEND Queueing Transaction: Data = 03, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_3,   SEND Starting: Data = 03, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_4,   SEND Queueing Transaction: Data = 04, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_4,   SEND Starting: Data = 04, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_5,   SEND Queueing Transaction: Data = 05, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_5,   SEND Starting: Data = 05, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_6,   SEND Queueing Transaction: Data = 06, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_6,   SEND Starting: Data = 06, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_7,   SEND Queueing Transaction: Data = 07, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_7,   SEND Starting: Data = 07, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_8,   SEND Queueing Transaction: Data = 08, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_8,   SEND Starting: Data = 08, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_9,   SEND Queueing Transaction: Data = 09, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_9,   SEND Starting: Data = 09, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_10,   SEND Queueing Transaction: Data = 0A, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_10,   SEND Starting: Data = 0A, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_11,   SEND Queueing Transaction: Data = 0B, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_11,   SEND Starting: Data = 0B, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_12,   SEND Queueing Transaction: Data = 0C, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_12,   SEND Starting: Data = 0C, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_13,   SEND Queueing Transaction: Data = 0D, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_13,   SEND Starting: Data = 0D, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_14,   SEND Queueing Transaction: Data = 0E, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_14,   SEND Starting: Data = 0E, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_15,   SEND Queueing Transaction: Data = 0F, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_15,   SEND Starting: Data = 0F, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    INFO      in UartTx_16,   SEND Queueing Transaction: Data = 10, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartTx_16,   SEND Starting: Data = 10, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1 at 4000 ns
+%% Log    DEBUG     in UartRx_1,   Received: Data = 01, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_2,   Received: Data = 02, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_3,   Received: Data = 03, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_4,   Received: Data = 04, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_5,   Received: Data = 05, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_6,   Received: Data = 06, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_7,   Received: Data = 07, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_8,   Received: Data = 08, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_9,   Received: Data = 09, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_10,   Received: Data = 0A, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_11,   Received: Data = 0B, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_12,   Received: Data = 0C, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_13,   Received: Data = 0D, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_14,   Received: Data = 0E, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_15,   Received: Data = 0F, Parity = 0, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    DEBUG     in UartRx_16,   Received: Data = 10, Parity = 1, Stop = 1, Parity Error = 0, Stop Error = 0, Break Error = 0,  Operation # 0 at 87750 ns
+%% Log    PASSED    in UartRx_1,   Received: Data = 01, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_2,   Received: Data = 02, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_3,   Received: Data = 03, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_4,   Received: Data = 04, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_5,   Received: Data = 05, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_6,   Received: Data = 06, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_7,   Received: Data = 07, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_8,   Received: Data = 08, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_9,   Received: Data = 09, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_10,   Received: Data = 0A, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_11,   Received: Data = 0B, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_12,   Received: Data = 0C, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_13,   Received: Data = 0D, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_14,   Received: Data = 0E, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_15,   Received: Data = 0F, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns
+%% Log    PASSED    in UartRx_16,   Received: Data = 10, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1 at 87750 ns

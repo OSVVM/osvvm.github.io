@@ -1,0 +1,82 @@
+%% Log    ALWAYS    in Default,   Write Address and Data sent at same time at 110 ns
+%% Log    ALWAYS    in Default,   Queue 3 Write Transactions for A1/D1, A2/D2, A3/D3 at 110 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D1  WStrb: 1111  Operation# 1 at 110 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A10  AWProt: 000  Operation# 1 at 110 ns
+%% Log    ALWAYS    in Default,   Wait Cne Cycle at 110 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D2  WStrb: 1111  Operation# 2 at 120 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A20  AWProt: 000  Operation# 2 at 120 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A10  AWProt: 000  WData: 030201D1  WStrb: 1111  Operation# 0 at 120 ns
+%% Log    ALWAYS    in Default,   Queue 3 Read Address Cycles for A1, A2, A3 at 120 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A10  ARProt: 000  Operation# 1 at 120 ns
+%% Log    ALWAYS    in Default,   Block and Check D1, D2, D3 at 120 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 130 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D3  WStrb: 1111  Operation# 3 at 130 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A30  AWProt: 000  Operation# 3 at 130 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A20  ARProt: 000  Operation# 2 at 130 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A20  AWProt: 000  WData: 030201D2  WStrb: 1111  Operation# 1 at 130 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A10  ARProt: 000  RData: 030201D1  Operation# 0 at 130 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 140 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 140 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A30  ARProt: 000  Operation# 3 at 140 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A30  AWProt: 000  WData: 030201D3  WStrb: 1111  Operation# 2 at 140 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A20  ARProt: 000  RData: 030201D2  Operation# 1 at 140 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D1  Read Address: 00000A10  Prot: 0 at 140 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 150 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 3 at 150 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D2  Read Address: 00000A20  Prot: 0 at 150 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A30  ARProt: 000  RData: 030201D3  Operation# 2 at 150 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 3 at 160 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D3  Read Address: 00000A30  Prot: 0 at 160 ns
+%% Log    ALWAYS    in Default,   Write Address sent 1 cycle before Write Data at 160 ns
+%% Log    ALWAYS    in Default,   Queue 3 Write Address Cycles for A5, A6, and A7 at 160 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A50  AWProt: 000  Operation# 4 at 160 ns
+%% Log    ALWAYS    in Default,   Wait Cne Cycle at 160 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A60  AWProt: 000  Operation# 5 at 170 ns
+%% Log    ALWAYS    in Default,   Queue 3 Write Data Cycles for D5, D6, and D7 at 170 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D5  WStrb: 1111  Operation# 4 at 170 ns
+%% Log    ALWAYS    in Default,   Wait Cne Cycle at 170 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A70  AWProt: 000  Operation# 6 at 180 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D6  WStrb: 1111  Operation# 5 at 180 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A50  AWProt: 000  WData: 030201D5  WStrb: 1111  Operation# 3 at 180 ns
+%% Log    ALWAYS    in Default,   Read A5 and Check D5 at 180 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A50  ARProt: 000  Operation# 4 at 180 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 4 at 190 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D7  WStrb: 1111  Operation# 6 at 190 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A60  AWProt: 000  WData: 030201D6  WStrb: 1111  Operation# 4 at 190 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A50  ARProt: 000  RData: 030201D5  Operation# 3 at 190 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 4 at 200 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 5 at 200 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A70  AWProt: 000  WData: 030201D7  WStrb: 1111  Operation# 5 at 200 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D5  Read Address: 00000A50  Prot: 0 at 200 ns
+%% Log    ALWAYS    in Default,   Queue Read Address a6 at 200 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A60  ARProt: 000  Operation# 5 at 200 ns
+%% Log    ALWAYS    in Default,   Wait Cne Cycle at 200 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 6 at 210 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A60  ARProt: 000  RData: 030201D6  Operation# 4 at 210 ns
+%% Log    ALWAYS    in Default,   Write Data sent 1 cycle before Write Address at 210 ns
+%% Log    ALWAYS    in Default,   Write Data D8 at 210 ns
+%% Log    INFO      in manager_1,   Write Data.  WData: 030201D8  WStrb: 1111  Operation# 7 at 210 ns
+%% Log    ALWAYS    in Default,   Block and Check D6 at 210 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 5 at 220 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D6  Read Address: 00000A60  Prot: 0 at 220 ns
+%% Log    ALWAYS    in Default,   Queue Write Address at 220 ns
+%% Log    INFO      in manager_1,   Write Address.  AWAddr: 00000A80  AWProt: 000  Operation# 7 at 220 ns
+%% Log    ALWAYS    in Default,   Block and Check A7/D7 at 220 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A70  ARProt: 000  Operation# 6 at 220 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A70  ARProt: 000  RData: 030201D7  Operation# 5 at 230 ns
+%% Log    INFO      in subordinate_1,   Memory Write.  AWAddr: 00000A80  AWProt: 000  WData: 030201D8  WStrb: 1111  Operation# 6 at 230 ns
+%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 7 at 240 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 6 at 240 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D7  Read Address: 00000A70  Prot: 0 at 240 ns
+%% Log    ALWAYS    in Default,   Block and Check A8/D8 at 240 ns
+%% Log    INFO      in manager_1,   Read Address.  ARAddr: 00000A80  ARProt: 000  Operation# 7 at 240 ns
+%% Log    INFO      in subordinate_1,   Memory Read.  ARAddr: 00000A80  ARProt: 000  RData: 030201D8  Operation# 6 at 250 ns
+%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 7 at 260 ns
+%% Log    PASSED    in manager_1: Data Check,   Read Data: 030201D8  Read Address: 00000A80  Prot: 0 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A10  Data: 030201D1  Expected: 030201D1 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A20  Data: 030201D2  Expected: 030201D2 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A30  Data: 030201D3  Expected: 030201D3 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A50  Data: 030201D5  Expected: 030201D5 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A60  Data: 030201D6  Expected: 030201D6 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A70  Data: 030201D7  Expected: 030201D7 at 260 ns
+%% Log    PASSED    in subordinate_1: Data Check,   Read Address: 00000A80  Data: 030201D8  Expected: 030201D8 at 260 ns
