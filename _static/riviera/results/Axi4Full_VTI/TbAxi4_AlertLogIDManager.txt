@@ -1,11 +1,11 @@
-%% Log    PASSED    in Manager,   GetErrorCount Received : 0 at 110 ns
-%% Log    PASSED    in Manager,   GetAlertCount Received : 0 at 110 ns
-%% Alert  ERROR     in manager_1,   Injected Error 1 at 110 ns
-%% Log    PASSED    in Manager,   GetErrorCount Received : 1 at 110 ns
-%% Log    PASSED    in Manager,   GetAlertCount Received : 1 at 110 ns
-%% Alert  FAILURE   in manager_1,   Injected FAILURE 1 at 110 ns
-%% Log    PASSED    in Manager,   GetErrorCount Received : 2 at 110 ns
-%% Log    PASSED    in Manager,   GetAlertCount Received : 2 at 110 ns
-%% Alert  WARNING   in manager_1,   Injected WARNING 1 at 110 ns
-%% Log    PASSED    in Manager,   GetErrorCount Received : 3 at 110 ns
-%% Log    PASSED    in Manager,   GetAlertCount Received : 3 at 110 ns
+%%    110 ns    Log    PASSED    in Manager,                               GetErrorCount Received : 0
+%%    110 ns    Log    PASSED    in Manager,                               GetAlertCount Received : 0
+%%    110 ns    Alert  ERROR     in manager_1,                             Injected Error 1
+%%    110 ns    Log    PASSED    in Manager,                               GetErrorCount Received : 1
+%%    110 ns    Log    PASSED    in Manager,                               GetAlertCount Received : 1
+%%    110 ns    Alert  FAILURE   in manager_1,                             Injected FAILURE 1
+%%    110 ns    Log    PASSED    in Manager,                               GetErrorCount Received : 2
+%%    110 ns    Log    PASSED    in Manager,                               GetAlertCount Received : 2
+%%    110 ns    Alert  WARNING   in manager_1,                             Injected WARNING 1
+%%    110 ns    Log    PASSED    in Manager,                               GetErrorCount Received : 3
+%%    110 ns    Log    PASSED    in Manager,                               GetAlertCount Received : 3

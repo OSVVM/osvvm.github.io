@@ -1,11 +1,11 @@
-%% Log    ALWAYS    in Default,   Default TRANSMIT_READY_TIME_OUT 0 at 20 ns
-%% Log    PASSED    in Default,   TRANSMIT_READY_TIME_OUT  Received : 5 at 20 ns
-%% Log    ALWAYS    in Default,   Default DEFAULT_ID 0000 at 20 ns
-%% Log    PASSED    in Default,   DEFAULT_ID  Received : A at 20 ns
-%% Log    ALWAYS    in Default,   Default RECEIVE_READY_DELAY_CYCLES 0 at 50 ns
-%% Log    PASSED    in Default,   RECEIVE_READY_DELAY_CYCLES  Received : 5 at 50 ns
-%% Log    ALWAYS    in Default,   Default DEFAULT_ID 0000 at 50 ns
-%% Log    PASSED    in Default,   DEFAULT_ID  Received : A at 50 ns
-%% Log    ALWAYS    in Default,   Default RECEIVE_READY_BEFORE_VALID true at 50 ns
-%% Log    PASSED    in Default,   RECEIVE_READY_BEFORE_VALID  Received : false at 50 ns
-%% Log    PASSED    in Default,   RECEIVE_READY_BEFORE_VALID  Received : true at 50 ns
+%%     20 ns    Log    ALWAYS    in Default,                      Default TRANSMIT_READY_TIME_OUT 0
+%%     20 ns    Log    PASSED    in Default,                      TRANSMIT_READY_TIME_OUT  Received : 5
+%%     20 ns    Log    ALWAYS    in Default,                      Default DEFAULT_ID 0000
+%%     20 ns    Log    PASSED    in Default,                      DEFAULT_ID  Received : A
+%%     50 ns    Log    ALWAYS    in Default,                      Default RECEIVE_READY_DELAY_CYCLES 0
+%%     50 ns    Log    PASSED    in Default,                      RECEIVE_READY_DELAY_CYCLES  Received : 5
+%%     50 ns    Log    ALWAYS    in Default,                      Default DEFAULT_ID 0000
+%%     50 ns    Log    PASSED    in Default,                      DEFAULT_ID  Received : A
+%%     50 ns    Log    ALWAYS    in Default,                      Default RECEIVE_READY_BEFORE_VALID true
+%%     50 ns    Log    PASSED    in Default,                      RECEIVE_READY_BEFORE_VALID  Received : false
+%%     50 ns    Log    PASSED    in Default,                      RECEIVE_READY_BEFORE_VALID  Received : true

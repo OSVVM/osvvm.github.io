@@ -1,184 +1,184 @@
-%% Log    ALWAYS    in Default,   Write and Read with ByteAddr = 0, 4 Bytes at 110 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 55555555  WStrb: 1111  Operation# 1 at 150 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 1 at 150 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 1 at 160 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 55555555  WStrb: 1111  Operation# 1 at 160 ns
-%% Log    PASSED    in Default,   Count 5 at 160 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 1 at 160 ns
-%% Log    PASSED    in Default,   TryGetWriteData 1 at 160 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : AAAAAAA0 at 160 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 55555555 at 160 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 170 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1 at 200 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1 at 210 ns
-%% Log    PASSED    in Default,   Count 5 at 210 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 210 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 22222222  RResp: 0  Operation# 1 at 210 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 220 ns
-%% Log    INFO      in manager_1,   Read Data: 22222222  Read Address: 11111110  Prot: 0 at 220 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : 22222222 at 220 ns
-%% Log    ALWAYS    in Default,   Write and Read with 1 Byte, and ByteAddr = 0, 1, 2, 3 at 220 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UUUUUU11  WStrb: 0001  Operation# 2 at 260 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 2 at 260 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 2 at 270 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UUUUUU11  WStrb: 0001  Operation# 2 at 270 ns
-%% Log    PASSED    in Default,   Count 5 at 270 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 2 at 270 ns
-%% Log    PASSED    in Default,   TryGetWriteData 11 at 270 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : AAAAAAA0 at 270 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 11 at 270 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 280 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 3 at 310 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: AAAAAAA1  AWProt: 000  Operation# 3 at 310 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: AAAAAAA1  AWProt: 000  Operation# 3 at 320 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 3 at 320 ns
-%% Log    PASSED    in Default,   Count 5 at 320 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 3 at 320 ns
-%% Log    PASSED    in Default,   TryGetWriteAddress 22 at 320 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : AAAAAAA1 at 320 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 22 at 320 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 3 at 330 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 4 at 360 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: AAAAAAA2  AWProt: 000  Operation# 4 at 360 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: AAAAAAA2  AWProt: 000  Operation# 4 at 370 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 4 at 370 ns
-%% Log    PASSED    in Default,   Count 5 at 370 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 4 at 370 ns
-%% Log    PASSED    in Default,   TryGetWriteAddress 33 at 370 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : AAAAAAA2 at 370 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 33 at 370 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 4 at 380 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 5 at 410 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: AAAAAAA3  AWProt: 000  Operation# 5 at 410 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: AAAAAAA3  AWProt: 000  Operation# 5 at 420 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 5 at 420 ns
-%% Log    PASSED    in Default,   Count 5 at 420 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 5 at 420 ns
-%% Log    PASSED    in Default,   TryGetWriteData 44 at 420 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : AAAAAAA3 at 420 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 44 at 420 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 5 at 430 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2 at 460 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2 at 470 ns
-%% Log    PASSED    in Default,   Count 5 at 470 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 470 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUUUUAA  RResp: 0  Operation# 2 at 470 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 480 ns
-%% Log    INFO      in manager_1,   Read Data: 000000AA  Read Address: 11111110  Prot: 0 at 480 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : AA at 480 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 3 at 520 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 3 at 530 ns
-%% Log    PASSED    in Default,   Count 5 at 530 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111111 at 530 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUUBBUU  RResp: 0  Operation# 3 at 530 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 3 at 540 ns
-%% Log    INFO      in manager_1,   Read Data: 000000BB  Read Address: 11111111  Prot: 0 at 540 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : BB at 540 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 4 at 580 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 4 at 590 ns
-%% Log    PASSED    in Default,   Count 5 at 590 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111112 at 590 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUCCUUUU  RResp: 0  Operation# 4 at 590 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 4 at 600 ns
-%% Log    INFO      in manager_1,   Read Data: 000000CC  Read Address: 11111112  Prot: 0 at 600 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : CC at 600 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111113  ARProt: 000  Operation# 5 at 640 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111113  ARProt: 000  Operation# 5 at 650 ns
-%% Log    PASSED    in Default,   Count 5 at 650 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111113 at 650 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: DDUUUUUU  RResp: 0  Operation# 5 at 650 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 5 at 660 ns
-%% Log    INFO      in manager_1,   Read Data: 000000DD  Read Address: 11111113  Prot: 0 at 660 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : DD at 660 ns
-%% Log    ALWAYS    in Default,   Write and Read with 2 Bytes, and ByteAddr = 0, 1, 2 at 660 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6 at 700 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: BBBBBBB0  AWProt: 000  Operation# 6 at 700 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: BBBBBBB0  AWProt: 000  Operation# 6 at 710 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6 at 710 ns
-%% Log    PASSED    in Default,   Count 5 at 710 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 6 at 710 ns
-%% Log    PASSED    in Default,   TryGetWriteData 2211 at 710 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : BBBBBBB0 at 710 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 2211 at 710 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 6 at 720 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7 at 750 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7 at 750 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7 at 760 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7 at 760 ns
-%% Log    PASSED    in Default,   Count 5 at 760 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 7 at 760 ns
-%% Log    PASSED    in Default,   TryGetWriteData 3322 at 760 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : BBBBBBB1 at 760 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 3322 at 760 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 7 at 770 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8 at 800 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8 at 800 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8 at 810 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8 at 810 ns
-%% Log    PASSED    in Default,   Count 5 at 810 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 8 at 810 ns
-%% Log    PASSED    in Default,   TryGetWriteData 4433 at 810 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : BBBBBBB2 at 810 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 4433 at 810 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 8 at 820 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6 at 850 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6 at 860 ns
-%% Log    PASSED    in Default,   Count 5 at 860 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 860 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUUBBAA  RResp: 0  Operation# 6 at 860 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 6 at 870 ns
-%% Log    INFO      in manager_1,   Read Data: 0000BBAA  Read Address: 11111110  Prot: 0 at 870 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : BBAA at 870 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7 at 910 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7 at 920 ns
-%% Log    PASSED    in Default,   Count 5 at 920 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111111 at 920 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUCCBBUU  RResp: 0  Operation# 7 at 920 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 7 at 930 ns
-%% Log    INFO      in manager_1,   Read Data: 0000CCBB  Read Address: 11111111  Prot: 0 at 930 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : CCBB at 930 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8 at 970 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8 at 980 ns
-%% Log    PASSED    in Default,   Count 5 at 980 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111112 at 980 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: DDCCUUUU  RResp: 0  Operation# 8 at 980 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 8 at 990 ns
-%% Log    INFO      in manager_1,   Read Data: 0000DDCC  Read Address: 11111112  Prot: 0 at 990 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : DDCC at 990 ns
-%% Log    ALWAYS    in Default,   Write and Read with 3 Bytes and ByteAddr = 0. 1 at 990 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UU332211  WStrb: 0111  Operation# 9 at 1030 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9 at 1030 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9 at 1040 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UU332211  WStrb: 0111  Operation# 9 at 1040 ns
-%% Log    PASSED    in Default,   Count 5 at 1040 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 9 at 1040 ns
-%% Log    PASSED    in Default,   TryGetWriteData 33_2211 at 1040 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : CCCCCCC0 at 1040 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 332211 at 1040 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 9 at 1050 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10 at 1080 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10 at 1080 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10 at 1090 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10 at 1090 ns
-%% Log    PASSED    in Default,   Count 5 at 1090 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 10 at 1090 ns
-%% Log    PASSED    in Default,   TryGetWriteData 4433_22 at 1090 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : CCCCCCC1 at 1090 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 443322 at 1090 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 10 at 1100 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9 at 1130 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9 at 1140 ns
-%% Log    PASSED    in Default,   Count 5 at 1140 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 1140 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUCCBBAA  RResp: 0  Operation# 9 at 1140 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 9 at 1150 ns
-%% Log    INFO      in manager_1,   Read Data: 00CCBBAA  Read Address: 11111110  Prot: 0 at 1150 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : CCBBAA at 1150 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10 at 1190 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10 at 1200 ns
-%% Log    PASSED    in Default,   Count 5 at 1200 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111111 at 1200 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: DDCCBBUU  RResp: 0  Operation# 10 at 1200 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 10 at 1210 ns
-%% Log    INFO      in manager_1,   Read Data: 00DDCCBB  Read Address: 11111111  Prot: 0 at 1210 ns
-%% Log    PASSED    in Default,   Manager Read Data:  Received : DDCCBB at 1210 ns
+%%    110 ns    Log    ALWAYS    in Default,                               Write and Read with ByteAddr = 0, 4 Bytes
+%%    150 ns    Log    INFO      in manager_1,                             Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    150 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 1
+%%    160 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 1
+%%    160 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    160 ns    Log    PASSED    in Default,                               Count 5
+%%    160 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 1
+%%    160 ns    Log    PASSED    in Default,                               TryGetWriteData 1
+%%    160 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : AAAAAAA0
+%%    160 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 55555555
+%%    170 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    200 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1
+%%    210 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1
+%%    210 ns    Log    PASSED    in Default,                               Count 5
+%%    210 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    210 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 22222222  RResp: 0  Operation# 1
+%%    220 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    220 ns    Log    INFO      in manager_1,                             Read Data: 22222222  Read Address: 11111110  Prot: 0
+%%    220 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : 22222222
+%%    220 ns    Log    ALWAYS    in Default,                               Write and Read with 1 Byte, and ByteAddr = 0, 1, 2, 3
+%%    260 ns    Log    INFO      in manager_1,                             Write Data.  WData: UUUUUU11  WStrb: 0001  Operation# 2
+%%    260 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 2
+%%    270 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 2
+%%    270 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UUUUUU11  WStrb: 0001  Operation# 2
+%%    270 ns    Log    PASSED    in Default,                               Count 5
+%%    270 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 2
+%%    270 ns    Log    PASSED    in Default,                               TryGetWriteData 11
+%%    270 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : AAAAAAA0
+%%    270 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 11
+%%    280 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    310 ns    Log    INFO      in manager_1,                             Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 3
+%%    310 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA1  AWProt: 000  Operation# 3
+%%    320 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA1  AWProt: 000  Operation# 3
+%%    320 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 3
+%%    320 ns    Log    PASSED    in Default,                               Count 5
+%%    320 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 3
+%%    320 ns    Log    PASSED    in Default,                               TryGetWriteAddress 22
+%%    320 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : AAAAAAA1
+%%    320 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 22
+%%    330 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
+%%    360 ns    Log    INFO      in manager_1,                             Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 4
+%%    360 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA2  AWProt: 000  Operation# 4
+%%    370 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA2  AWProt: 000  Operation# 4
+%%    370 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 4
+%%    370 ns    Log    PASSED    in Default,                               Count 5
+%%    370 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 4
+%%    370 ns    Log    PASSED    in Default,                               TryGetWriteAddress 33
+%%    370 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : AAAAAAA2
+%%    370 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 33
+%%    380 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 4
+%%    410 ns    Log    INFO      in manager_1,                             Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 5
+%%    410 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA3  AWProt: 000  Operation# 5
+%%    420 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA3  AWProt: 000  Operation# 5
+%%    420 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 5
+%%    420 ns    Log    PASSED    in Default,                               Count 5
+%%    420 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 5
+%%    420 ns    Log    PASSED    in Default,                               TryGetWriteData 44
+%%    420 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : AAAAAAA3
+%%    420 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 44
+%%    430 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 5
+%%    460 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2
+%%    470 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2
+%%    470 ns    Log    PASSED    in Default,                               Count 5
+%%    470 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    470 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUUUUAA  RResp: 0  Operation# 2
+%%    480 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    480 ns    Log    INFO      in manager_1,                             Read Data: 000000AA  Read Address: 11111110  Prot: 0
+%%    480 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : AA
+%%    520 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 3
+%%    530 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 3
+%%    530 ns    Log    PASSED    in Default,                               Count 5
+%%    530 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111111
+%%    530 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUUBBUU  RResp: 0  Operation# 3
+%%    540 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    540 ns    Log    INFO      in manager_1,                             Read Data: 000000BB  Read Address: 11111111  Prot: 0
+%%    540 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : BB
+%%    580 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 4
+%%    590 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 4
+%%    590 ns    Log    PASSED    in Default,                               Count 5
+%%    590 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111112
+%%    590 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUCCUUUU  RResp: 0  Operation# 4
+%%    600 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    600 ns    Log    INFO      in manager_1,                             Read Data: 000000CC  Read Address: 11111112  Prot: 0
+%%    600 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : CC
+%%    640 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111113  ARProt: 000  Operation# 5
+%%    650 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111113  ARProt: 000  Operation# 5
+%%    650 ns    Log    PASSED    in Default,                               Count 5
+%%    650 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111113
+%%    650 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: DDUUUUUU  RResp: 0  Operation# 5
+%%    660 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    660 ns    Log    INFO      in manager_1,                             Read Data: 000000DD  Read Address: 11111113  Prot: 0
+%%    660 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : DD
+%%    660 ns    Log    ALWAYS    in Default,                               Write and Read with 2 Bytes, and ByteAddr = 0, 1, 2
+%%    700 ns    Log    INFO      in manager_1,                             Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6
+%%    700 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BBBBBBB0  AWProt: 000  Operation# 6
+%%    710 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BBBBBBB0  AWProt: 000  Operation# 6
+%%    710 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6
+%%    710 ns    Log    PASSED    in Default,                               Count 5
+%%    710 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 6
+%%    710 ns    Log    PASSED    in Default,                               TryGetWriteData 2211
+%%    710 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : BBBBBBB0
+%%    710 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 2211
+%%    720 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 6
+%%    750 ns    Log    INFO      in manager_1,                             Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7
+%%    750 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7
+%%    760 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7
+%%    760 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7
+%%    760 ns    Log    PASSED    in Default,                               Count 5
+%%    760 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 7
+%%    760 ns    Log    PASSED    in Default,                               TryGetWriteData 3322
+%%    760 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : BBBBBBB1
+%%    760 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 3322
+%%    770 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 7
+%%    800 ns    Log    INFO      in manager_1,                             Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8
+%%    800 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8
+%%    810 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8
+%%    810 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8
+%%    810 ns    Log    PASSED    in Default,                               Count 5
+%%    810 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 8
+%%    810 ns    Log    PASSED    in Default,                               TryGetWriteData 4433
+%%    810 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : BBBBBBB2
+%%    810 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 4433
+%%    820 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 8
+%%    850 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6
+%%    860 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6
+%%    860 ns    Log    PASSED    in Default,                               Count 5
+%%    860 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    860 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUUBBAA  RResp: 0  Operation# 6
+%%    870 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    870 ns    Log    INFO      in manager_1,                             Read Data: 0000BBAA  Read Address: 11111110  Prot: 0
+%%    870 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : BBAA
+%%    910 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7
+%%    920 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7
+%%    920 ns    Log    PASSED    in Default,                               Count 5
+%%    920 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111111
+%%    920 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUCCBBUU  RResp: 0  Operation# 7
+%%    930 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    930 ns    Log    INFO      in manager_1,                             Read Data: 0000CCBB  Read Address: 11111111  Prot: 0
+%%    930 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : CCBB
+%%    970 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8
+%%    980 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8
+%%    980 ns    Log    PASSED    in Default,                               Count 5
+%%    980 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111112
+%%    980 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: DDCCUUUU  RResp: 0  Operation# 8
+%%    990 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    990 ns    Log    INFO      in manager_1,                             Read Data: 0000DDCC  Read Address: 11111112  Prot: 0
+%%    990 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : DDCC
+%%    990 ns    Log    ALWAYS    in Default,                               Write and Read with 3 Bytes and ByteAddr = 0. 1
+%%   1030 ns    Log    INFO      in manager_1,                             Write Data.  WData: UU332211  WStrb: 0111  Operation# 9
+%%   1030 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9
+%%   1040 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9
+%%   1040 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UU332211  WStrb: 0111  Operation# 9
+%%   1040 ns    Log    PASSED    in Default,                               Count 5
+%%   1040 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 9
+%%   1040 ns    Log    PASSED    in Default,                               TryGetWriteData 33_2211
+%%   1040 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : CCCCCCC0
+%%   1040 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 332211
+%%   1050 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 9
+%%   1080 ns    Log    INFO      in manager_1,                             Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10
+%%   1080 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10
+%%   1090 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10
+%%   1090 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10
+%%   1090 ns    Log    PASSED    in Default,                               Count 5
+%%   1090 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 10
+%%   1090 ns    Log    PASSED    in Default,                               TryGetWriteData 4433_22
+%%   1090 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : CCCCCCC1
+%%   1090 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 443322
+%%   1100 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 10
+%%   1130 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9
+%%   1140 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9
+%%   1140 ns    Log    PASSED    in Default,                               Count 5
+%%   1140 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%   1140 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUCCBBAA  RResp: 0  Operation# 9
+%%   1150 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%   1150 ns    Log    INFO      in manager_1,                             Read Data: 00CCBBAA  Read Address: 11111110  Prot: 0
+%%   1150 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : CCBBAA
+%%   1190 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10
+%%   1200 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10
+%%   1200 ns    Log    PASSED    in Default,                               Count 5
+%%   1200 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111111
+%%   1200 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: DDCCBBUU  RResp: 0  Operation# 10
+%%   1210 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%   1210 ns    Log    INFO      in manager_1,                             Read Data: 00DDCCBB  Read Address: 11111111  Prot: 0
+%%   1210 ns    Log    PASSED    in Default,                               Manager Read Data:  Received : DDCCBB

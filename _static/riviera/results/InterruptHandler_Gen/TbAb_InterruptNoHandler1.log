@@ -1,0 +1,240 @@
+
+
+%%    110 ns    Log    ALWAYS    in Default,                               Main Starting Writes.  Loop #0
+%%    110 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000000  WStrb: 1111  Operation# 1
+%%    110 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 1
+%%    120 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000001  WStrb: 1111  Operation# 2
+%%    120 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000004  AWProt: 000  Operation# 2
+%%    130 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    130 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000002  WStrb: 1111  Operation# 3
+%%    130 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000008  AWProt: 000  Operation# 3
+%%    140 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    140 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000003  WStrb: 1111  Operation# 4
+%%    140 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 1000000C  AWProt: 000  Operation# 4
+%%    150 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
+%%    150 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000000  ARProt: 000  Operation# 1
+%%    160 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 4
+%%    170 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    170 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000000  Read Address: 10000000  Prot: 0
+%%    170 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000004  ARProt: 000  Operation# 2
+%%    190 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    190 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000001  Read Address: 10000004  Prot: 0
+%%    190 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000008  ARProt: 000  Operation# 3
+%%    210 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    210 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000002  Read Address: 10000008  Prot: 0
+%%    210 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 1000000C  ARProt: 000  Operation# 4
+%%    230 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    230 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000003  Read Address: 1000000C  Prot: 0
+%%    230 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000000  WStrb: 1111  Operation# 5
+%%    230 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002000  AWProt: 000  Operation# 5
+%%    240 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000001  WStrb: 1111  Operation# 6
+%%    240 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002004  AWProt: 000  Operation# 6
+%%    250 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 5
+%%    250 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000002  WStrb: 1111  Operation# 7
+%%    250 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002008  AWProt: 000  Operation# 7
+%%    260 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 6
+%%    260 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000003  WStrb: 1111  Operation# 8
+%%    260 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A000200C  AWProt: 000  Operation# 8
+%%    270 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 7
+%%    275 ns    Log    ALWAYS    in Default,                               IntReq(0) 1    IntReq 00000000000000000000000000000001
+%%    280 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 8
+%%    290 ns    Log    ALWAYS    in Default,                               WaitForClock #1 finished
+%%    300 ns    Log    ALWAYS    in Default,                               WaitForClock #2 finished
+%%    310 ns    Log    ALWAYS    in Default,                               WaitForClock #3 finished
+%%    320 ns    Log    ALWAYS    in Default,                               IntReq(0) 0    IntReq 00000000000000000000000000000000
+%%    320 ns    Log    ALWAYS    in Default,                               WaitForClock #4 finished
+
+
+%%    320 ns    Log    ALWAYS    in Default,                               Main Starting Reads.  Loop #0
+%%    320 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002000  ARProt: 000  Operation# 5
+%%    340 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    340 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000000  Read Address: A0002000  Prot: 0
+%%    340 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002004  ARProt: 000  Operation# 6
+%%    360 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    360 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000001  Read Address: A0002004  Prot: 0
+%%    360 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002008  ARProt: 000  Operation# 7
+%%    380 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    380 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000002  Read Address: A0002008  Prot: 0
+%%    380 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A000200C  ARProt: 000  Operation# 8
+%%    400 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    400 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000003  Read Address: A000200C  Prot: 0
+
+
+%%    400 ns    Log    ALWAYS    in Default,                               Main Starting Writes.  Loop #1
+%%    400 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000010  WStrb: 1111  Operation# 9
+%%    400 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 9
+%%    410 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000011  WStrb: 1111  Operation# 10
+%%    410 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000004  AWProt: 000  Operation# 10
+%%    420 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 9
+%%    420 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000012  WStrb: 1111  Operation# 11
+%%    420 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000008  AWProt: 000  Operation# 11
+%%    430 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 10
+%%    430 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000013  WStrb: 1111  Operation# 12
+%%    430 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 1000000C  AWProt: 000  Operation# 12
+%%    440 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 11
+%%    440 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000000  ARProt: 000  Operation# 9
+%%    450 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 12
+%%    460 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%    460 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000010  Read Address: 10000000  Prot: 0
+%%    460 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000004  ARProt: 000  Operation# 10
+%%    480 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%    480 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000011  Read Address: 10000004  Prot: 0
+%%    480 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000008  ARProt: 000  Operation# 11
+%%    500 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 11
+%%    500 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000012  Read Address: 10000008  Prot: 0
+%%    500 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 1000000C  ARProt: 000  Operation# 12
+%%    520 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 12
+%%    520 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000013  Read Address: 1000000C  Prot: 0
+%%    520 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000010  WStrb: 1111  Operation# 13
+%%    520 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002000  AWProt: 000  Operation# 13
+%%    530 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000011  WStrb: 1111  Operation# 14
+%%    530 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002004  AWProt: 000  Operation# 14
+%%    540 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 13
+%%    540 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000012  WStrb: 1111  Operation# 15
+%%    540 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002008  AWProt: 000  Operation# 15
+%%    550 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 14
+%%    550 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000013  WStrb: 1111  Operation# 16
+%%    550 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A000200C  AWProt: 000  Operation# 16
+%%    560 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 15
+%%    570 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 16
+%%    575 ns    Log    ALWAYS    in Default,                               IntReq(0) 1    IntReq 00000000000000000000000000000001
+%%    580 ns    Log    ALWAYS    in Default,                               WaitForClock #1 finished
+%%    590 ns    Log    ALWAYS    in Default,                               WaitForClock #2 finished
+%%    600 ns    Log    ALWAYS    in Default,                               WaitForClock #3 finished
+%%    610 ns    Log    ALWAYS    in Default,                               WaitForClock #4 finished
+
+
+%%    610 ns    Log    ALWAYS    in Default,                               Main Starting Reads.  Loop #1
+%%    610 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002000  ARProt: 000  Operation# 13
+%%    620 ns    Log    ALWAYS    in Default,                               IntReq(0) 0    IntReq 00000000000000000000000000000000
+%%    630 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 13
+%%    630 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000010  Read Address: A0002000  Prot: 0
+%%    630 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002004  ARProt: 000  Operation# 14
+%%    650 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 14
+%%    650 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000011  Read Address: A0002004  Prot: 0
+%%    650 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002008  ARProt: 000  Operation# 15
+%%    670 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 15
+%%    670 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000012  Read Address: A0002008  Prot: 0
+%%    670 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A000200C  ARProt: 000  Operation# 16
+%%    690 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 16
+%%    690 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000013  Read Address: A000200C  Prot: 0
+
+
+%%    690 ns    Log    ALWAYS    in Default,                               Main Starting Writes.  Loop #2
+%%    690 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000020  WStrb: 1111  Operation# 17
+%%    690 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 17
+%%    700 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000021  WStrb: 1111  Operation# 18
+%%    700 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000004  AWProt: 000  Operation# 18
+%%    710 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 17
+%%    710 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000022  WStrb: 1111  Operation# 19
+%%    710 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000008  AWProt: 000  Operation# 19
+%%    720 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 18
+%%    720 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000023  WStrb: 1111  Operation# 20
+%%    720 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 1000000C  AWProt: 000  Operation# 20
+%%    730 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 19
+%%    730 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000000  ARProt: 000  Operation# 17
+%%    740 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 20
+%%    750 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 17
+%%    750 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000020  Read Address: 10000000  Prot: 0
+%%    750 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000004  ARProt: 000  Operation# 18
+%%    770 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 18
+%%    770 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000021  Read Address: 10000004  Prot: 0
+%%    770 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000008  ARProt: 000  Operation# 19
+%%    790 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 19
+%%    790 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000022  Read Address: 10000008  Prot: 0
+%%    790 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 1000000C  ARProt: 000  Operation# 20
+%%    810 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 20
+%%    810 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000023  Read Address: 1000000C  Prot: 0
+%%    810 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000020  WStrb: 1111  Operation# 21
+%%    810 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002000  AWProt: 000  Operation# 21
+%%    820 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000021  WStrb: 1111  Operation# 22
+%%    820 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002004  AWProt: 000  Operation# 22
+%%    830 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 21
+%%    830 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000022  WStrb: 1111  Operation# 23
+%%    830 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002008  AWProt: 000  Operation# 23
+%%    840 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 22
+%%    840 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000023  WStrb: 1111  Operation# 24
+%%    840 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A000200C  AWProt: 000  Operation# 24
+%%    850 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 23
+%%    860 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 24
+%%    870 ns    Log    ALWAYS    in Default,                               WaitForClock #1 finished
+%%    875 ns    Log    ALWAYS    in Default,                               IntReq(0) 1    IntReq 00000000000000000000000000000001
+%%    880 ns    Log    ALWAYS    in Default,                               WaitForClock #2 finished
+%%    890 ns    Log    ALWAYS    in Default,                               WaitForClock #3 finished
+%%    900 ns    Log    ALWAYS    in Default,                               WaitForClock #4 finished
+
+
+%%    900 ns    Log    ALWAYS    in Default,                               Main Starting Reads.  Loop #2
+%%    900 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002000  ARProt: 000  Operation# 21
+%%    920 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 21
+%%    920 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000020  Read Address: A0002000  Prot: 0
+%%    920 ns    Log    ALWAYS    in Default,                               IntReq(0) 0    IntReq 00000000000000000000000000000000
+%%    920 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002004  ARProt: 000  Operation# 22
+%%    940 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 22
+%%    940 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000021  Read Address: A0002004  Prot: 0
+%%    940 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002008  ARProt: 000  Operation# 23
+%%    960 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 23
+%%    960 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000022  Read Address: A0002008  Prot: 0
+%%    960 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A000200C  ARProt: 000  Operation# 24
+%%    980 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 24
+%%    980 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000023  Read Address: A000200C  Prot: 0
+
+
+%%    980 ns    Log    ALWAYS    in Default,                               Main Starting Writes.  Loop #3
+%%    980 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000030  WStrb: 1111  Operation# 25
+%%    980 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 25
+%%    990 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000031  WStrb: 1111  Operation# 26
+%%    990 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000004  AWProt: 000  Operation# 26
+%%   1000 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 25
+%%   1000 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000032  WStrb: 1111  Operation# 27
+%%   1000 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000008  AWProt: 000  Operation# 27
+%%   1010 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 26
+%%   1010 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000033  WStrb: 1111  Operation# 28
+%%   1010 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 1000000C  AWProt: 000  Operation# 28
+%%   1020 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 27
+%%   1020 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000000  ARProt: 000  Operation# 25
+%%   1030 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 28
+%%   1040 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 25
+%%   1040 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000030  Read Address: 10000000  Prot: 0
+%%   1040 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000004  ARProt: 000  Operation# 26
+%%   1060 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 26
+%%   1060 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000031  Read Address: 10000004  Prot: 0
+%%   1060 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10000008  ARProt: 000  Operation# 27
+%%   1080 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 27
+%%   1080 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000032  Read Address: 10000008  Prot: 0
+%%   1080 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 1000000C  ARProt: 000  Operation# 28
+%%   1100 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 28
+%%   1100 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000033  Read Address: 1000000C  Prot: 0
+%%   1100 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000030  WStrb: 1111  Operation# 29
+%%   1100 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002000  AWProt: 000  Operation# 29
+%%   1110 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000031  WStrb: 1111  Operation# 30
+%%   1110 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002004  AWProt: 000  Operation# 30
+%%   1120 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 29
+%%   1120 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000032  WStrb: 1111  Operation# 31
+%%   1120 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A0002008  AWProt: 000  Operation# 31
+%%   1130 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 30
+%%   1130 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000033  WStrb: 1111  Operation# 32
+%%   1130 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: A000200C  AWProt: 000  Operation# 32
+%%   1140 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 31
+%%   1150 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 32
+%%   1160 ns    Log    ALWAYS    in Default,                               WaitForClock #1 finished
+%%   1170 ns    Log    ALWAYS    in Default,                               WaitForClock #2 finished
+%%   1175 ns    Log    ALWAYS    in Default,                               IntReq(0) 1    IntReq 00000000000000000000000000000001
+%%   1180 ns    Log    ALWAYS    in Default,                               WaitForClock #3 finished
+%%   1190 ns    Log    ALWAYS    in Default,                               WaitForClock #4 finished
+
+
+%%   1190 ns    Log    ALWAYS    in Default,                               Main Starting Reads.  Loop #3
+%%   1190 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002000  ARProt: 000  Operation# 29
+%%   1210 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 29
+%%   1210 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000030  Read Address: A0002000  Prot: 0
+%%   1210 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002004  ARProt: 000  Operation# 30
+%%   1220 ns    Log    ALWAYS    in Default,                               IntReq(0) 0    IntReq 00000000000000000000000000000000
+%%   1230 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 30
+%%   1230 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000031  Read Address: A0002004  Prot: 0
+%%   1230 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A0002008  ARProt: 000  Operation# 31
+%%   1250 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 31
+%%   1250 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000032  Read Address: A0002008  Prot: 0
+%%   1250 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: A000200C  ARProt: 000  Operation# 32
+%%   1270 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 32
+%%   1270 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000033  Read Address: A000200C  Prot: 0

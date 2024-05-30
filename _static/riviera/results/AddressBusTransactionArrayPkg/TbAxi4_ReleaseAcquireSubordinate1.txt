@@ -1,35 +1,35 @@
-%% Log    PASSED    in Default,   Expected Completion Time Received : 120 ns at 120 ns
-%% Log    PASSED    in Testbench,   WRITE_ADDRESS_READY_DELAY_CYCLES Received : 2 at 120 ns
-%% Log    PASSED    in Testbench,   WRITE_ADDRESS_READY_BEFORE_VALID Received : true at 120 ns
-%% Log    PASSED    in Default,   Expected Completion Time Received : 130 ns at 130 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 55555555  WStrb: 1111  Operation# 1 at 130 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 1 at 130 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 1 at 140 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 55555555  WStrb: 1111  Operation# 1 at 140 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 1 at 140 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 10000000 at 140 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : 55555555 at 140 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 20000000  ARProt: 000  Operation# 1 at 140 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 150 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 20000000  ARProt: 000  Operation# 1 at 150 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 22222222  RResp: 0  Operation# 1 at 150 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 20000000 at 150 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 160 ns
-%% Log    PASSED    in manager_1: Data Check,   Read Data: 22222222  Read Address: 20000000  Prot: 0 at 160 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: AAAAAAAA  WStrb: 1111  Operation# 2 at 160 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: 10001000  AWProt: 000  Operation# 2 at 160 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: 10001000  AWProt: 000  Operation# 2 at 170 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: AAAAAAAA  WStrb: 1111  Operation# 2 at 170 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 20001000  ARProt: 000  Operation# 2 at 170 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 20001000  ARProt: 000  Operation# 2 at 180 ns
-%% Log    PASSED    in Default,   Expected Completion Time Received : 180 ns at 180 ns
-%% Log    PASSED    in Testbench,   WRITE_ADDRESS_READY_DELAY_CYCLES Received : 1 at 180 ns
-%% Log    PASSED    in Testbench,   WRITE_ADDRESS_READY_BEFORE_VALID Received : false at 180 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 2 at 180 ns
-%% Log    PASSED    in Default,   Subordinate Write Addr:  Received : 10001000 at 180 ns
-%% Log    PASSED    in Default,   Subordinate Write Data:  Received : AAAAAAAA at 180 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 44444444  RResp: 0  Operation# 2 at 180 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 20001000 at 180 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 190 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 190 ns
-%% Log    PASSED    in manager_1: Data Check,   Read Data: 44444444  Read Address: 20001000  Prot: 0 at 190 ns
+%%    120 ns    Log    PASSED    in Default,                               Expected Completion Time Received : 120 ns
+%%    120 ns    Log    PASSED    in Testbench,                             WRITE_ADDRESS_READY_DELAY_CYCLES Received : 2
+%%    120 ns    Log    PASSED    in Testbench,                             WRITE_ADDRESS_READY_BEFORE_VALID Received : true
+%%    130 ns    Log    PASSED    in Default,                               Expected Completion Time Received : 130 ns
+%%    130 ns    Log    INFO      in manager_1,                             Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    130 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 1
+%%    140 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 10000000  AWProt: 000  Operation# 1
+%%    140 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    140 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 1
+%%    140 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : 10000000
+%%    140 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 55555555
+%%    140 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 20000000  ARProt: 000  Operation# 1
+%%    150 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    150 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 20000000  ARProt: 000  Operation# 1
+%%    150 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 22222222  RResp: 0  Operation# 1
+%%    150 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 20000000
+%%    160 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    160 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 22222222  Read Address: 20000000  Prot: 0
+%%    160 ns    Log    INFO      in manager_1,                             Write Data.  WData: AAAAAAAA  WStrb: 1111  Operation# 2
+%%    160 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10001000  AWProt: 000  Operation# 2
+%%    170 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 10001000  AWProt: 000  Operation# 2
+%%    170 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: AAAAAAAA  WStrb: 1111  Operation# 2
+%%    170 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 20001000  ARProt: 000  Operation# 2
+%%    180 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 20001000  ARProt: 000  Operation# 2
+%%    180 ns    Log    PASSED    in Default,                               Expected Completion Time Received : 180 ns
+%%    180 ns    Log    PASSED    in Testbench,                             WRITE_ADDRESS_READY_DELAY_CYCLES Received : 1
+%%    180 ns    Log    PASSED    in Testbench,                             WRITE_ADDRESS_READY_BEFORE_VALID Received : false
+%%    180 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 2
+%%    180 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : 10001000
+%%    180 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : AAAAAAAA
+%%    180 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 44444444  RResp: 0  Operation# 2
+%%    180 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 20001000
+%%    190 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    190 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    190 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 44444444  Read Address: 20001000  Prot: 0

@@ -1,101 +1,101 @@
-%% Log    ALWAYS    in Default,   ReadPoll  at 110 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1 at 250 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1 at 260 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 11111111  RResp: 0  Operation# 1 at 260 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 260 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 270 ns
-%% Log    INFO      in manager_1,   Read Data: 11111111  Read Address: 11111110  Prot: 0 at 270 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2 at 370 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2 at 380 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 11111112  RResp: 0  Operation# 2 at 380 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 380 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 390 ns
-%% Log    INFO      in manager_1,   Read Data: 11111112  Read Address: 11111110  Prot: 0 at 390 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 3 at 490 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 3 at 500 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 11111113  RResp: 0  Operation# 3 at 500 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 500 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 3 at 510 ns
-%% Log    INFO      in manager_1,   Read Data: 11111113  Read Address: 11111110  Prot: 0 at 510 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 4 at 610 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 4 at 620 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 11111114  RResp: 0  Operation# 4 at 620 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 11111110 at 620 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 4 at 630 ns
-%% Log    INFO      in manager_1,   Read Data: 11111114  Read Address: 11111110  Prot: 0 at 630 ns
-%% Log    INFO      in manager_1,   CpuPoll: address11111110  Data: 11111114 at 630 ns
-%% Log    PASSED    in Default,   Manager ReadPoll Data:  Received : 11111114 at 630 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 5 at 730 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 5 at 740 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU1DUU  RResp: 0  Operation# 5 at 740 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 5 at 750 ns
-%% Log    INFO      in manager_1,   Read Data: 0000001D  Read Address: 22222221  Prot: 0 at 750 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 6 at 850 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 6 at 860 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU1EUU  RResp: 0  Operation# 6 at 860 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 6 at 870 ns
-%% Log    INFO      in manager_1,   Read Data: 0000001E  Read Address: 22222221  Prot: 0 at 870 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 7 at 970 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 7 at 980 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU1FUU  RResp: 0  Operation# 7 at 980 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 7 at 990 ns
-%% Log    INFO      in manager_1,   Read Data: 0000001F  Read Address: 22222221  Prot: 0 at 990 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 8 at 1090 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 8 at 1100 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU20UU  RResp: 0  Operation# 8 at 1100 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 22222221 at 1100 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 8 at 1110 ns
-%% Log    INFO      in manager_1,   Read Data: 00000020  Read Address: 22222221  Prot: 0 at 1110 ns
-%% Log    INFO      in manager_1,   CpuPoll: address22222221  Data: 20 at 1110 ns
-%% Log    PASSED    in Default,   Manager ReadPoll Data:  Received : 20 at 1110 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 9 at 1210 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 9 at 1220 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU112B  RResp: 0  Operation# 9 at 1220 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 9 at 1230 ns
-%% Log    INFO      in manager_1,   Read Data: UUUU112B  Read Address: 33333330  Prot: 0 at 1230 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 10 at 1330 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 10 at 1340 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU112C  RResp: 0  Operation# 10 at 1340 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 10 at 1350 ns
-%% Log    INFO      in manager_1,   Read Data: UUUU112C  Read Address: 33333330  Prot: 0 at 1350 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 11 at 1450 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 11 at 1460 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU112D  RResp: 0  Operation# 11 at 1460 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 11 at 1470 ns
-%% Log    INFO      in manager_1,   Read Data: UUUU112D  Read Address: 33333330  Prot: 0 at 1470 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 12 at 1570 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 12 at 1580 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU112E  RResp: 0  Operation# 12 at 1580 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 12 at 1590 ns
-%% Log    INFO      in manager_1,   Read Data: UUUU112E  Read Address: 33333330  Prot: 0 at 1590 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 13 at 1690 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 13 at 1700 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU112F  RResp: 0  Operation# 13 at 1700 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 13 at 1710 ns
-%% Log    INFO      in manager_1,   Read Data: UUUU112F  Read Address: 33333330  Prot: 0 at 1710 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 14 at 1810 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 14 at 1820 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UUUU1130  RResp: 0  Operation# 14 at 1820 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 33333330 at 1820 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 14 at 1830 ns
-%% Log    INFO      in manager_1,   Read Data: UUUU1130  Read Address: 33333330  Prot: 0 at 1830 ns
-%% Log    INFO      in manager_1,   CpuPoll: address33333330  Data: XXXX1130 at 1830 ns
-%% Log    PASSED    in Default,   Manager ReadPoll Data:  Received : 1130 at 1830 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 15 at 1930 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 15 at 1940 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UU444411  RResp: 0  Operation# 15 at 1940 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 15 at 1950 ns
-%% Log    INFO      in manager_1,   Read Data: UU444411  Read Address: 44444444  Prot: 0 at 1950 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 16 at 2050 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 16 at 2060 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UU444410  RResp: 0  Operation# 16 at 2060 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 16 at 2070 ns
-%% Log    INFO      in manager_1,   Read Data: UU444410  Read Address: 44444444  Prot: 0 at 2070 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 17 at 2170 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 17 at 2180 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: UU44440F  RResp: 0  Operation# 17 at 2180 ns
-%% Log    PASSED    in Default,   Subordinate Read Addr:  Received : 44444444 at 2180 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 17 at 2190 ns
-%% Log    INFO      in manager_1,   Read Data: UU44440F  Read Address: 44444444  Prot: 0 at 2190 ns
-%% Log    INFO      in manager_1,   CpuPoll: address44444444  Data: XX44440F at 2190 ns
-%% Log    PASSED    in Default,   Manager ReadPoll Data:  Received : 44440F at 2190 ns
+%%    110 ns    Log    ALWAYS    in Default,                               ReadPoll 
+%%    250 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1
+%%    260 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1
+%%    260 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 11111111  RResp: 0  Operation# 1
+%%    260 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    270 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    270 ns    Log    INFO      in manager_1,                             Read Data: 11111111  Read Address: 11111110  Prot: 0
+%%    370 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2
+%%    380 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2
+%%    380 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 11111112  RResp: 0  Operation# 2
+%%    380 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    390 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    390 ns    Log    INFO      in manager_1,                             Read Data: 11111112  Read Address: 11111110  Prot: 0
+%%    490 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 3
+%%    500 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 3
+%%    500 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 11111113  RResp: 0  Operation# 3
+%%    500 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    510 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    510 ns    Log    INFO      in manager_1,                             Read Data: 11111113  Read Address: 11111110  Prot: 0
+%%    610 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 4
+%%    620 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 4
+%%    620 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 11111114  RResp: 0  Operation# 4
+%%    620 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 11111110
+%%    630 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    630 ns    Log    INFO      in manager_1,                             Read Data: 11111114  Read Address: 11111110  Prot: 0
+%%    630 ns    Log    INFO      in manager_1,                             CpuPoll: address11111110  Data: 11111114
+%%    630 ns    Log    PASSED    in Default,                               Manager ReadPoll Data:  Received : 11111114
+%%    730 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 5
+%%    740 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 5
+%%    740 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU1DUU  RResp: 0  Operation# 5
+%%    750 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    750 ns    Log    INFO      in manager_1,                             Read Data: 0000001D  Read Address: 22222221  Prot: 0
+%%    850 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 6
+%%    860 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 6
+%%    860 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU1EUU  RResp: 0  Operation# 6
+%%    870 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    870 ns    Log    INFO      in manager_1,                             Read Data: 0000001E  Read Address: 22222221  Prot: 0
+%%    970 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 7
+%%    980 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 7
+%%    980 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU1FUU  RResp: 0  Operation# 7
+%%    990 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    990 ns    Log    INFO      in manager_1,                             Read Data: 0000001F  Read Address: 22222221  Prot: 0
+%%   1090 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 8
+%%   1100 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 22222221  ARProt: 000  Operation# 8
+%%   1100 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU20UU  RResp: 0  Operation# 8
+%%   1100 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 22222221
+%%   1110 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%   1110 ns    Log    INFO      in manager_1,                             Read Data: 00000020  Read Address: 22222221  Prot: 0
+%%   1110 ns    Log    INFO      in manager_1,                             CpuPoll: address22222221  Data: 20
+%%   1110 ns    Log    PASSED    in Default,                               Manager ReadPoll Data:  Received : 20
+%%   1210 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 9
+%%   1220 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 9
+%%   1220 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU112B  RResp: 0  Operation# 9
+%%   1230 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%   1230 ns    Log    INFO      in manager_1,                             Read Data: UUUU112B  Read Address: 33333330  Prot: 0
+%%   1330 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 10
+%%   1340 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 10
+%%   1340 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU112C  RResp: 0  Operation# 10
+%%   1350 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%   1350 ns    Log    INFO      in manager_1,                             Read Data: UUUU112C  Read Address: 33333330  Prot: 0
+%%   1450 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 11
+%%   1460 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 11
+%%   1460 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU112D  RResp: 0  Operation# 11
+%%   1470 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 11
+%%   1470 ns    Log    INFO      in manager_1,                             Read Data: UUUU112D  Read Address: 33333330  Prot: 0
+%%   1570 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 12
+%%   1580 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 12
+%%   1580 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU112E  RResp: 0  Operation# 12
+%%   1590 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 12
+%%   1590 ns    Log    INFO      in manager_1,                             Read Data: UUUU112E  Read Address: 33333330  Prot: 0
+%%   1690 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 13
+%%   1700 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 13
+%%   1700 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU112F  RResp: 0  Operation# 13
+%%   1710 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 13
+%%   1710 ns    Log    INFO      in manager_1,                             Read Data: UUUU112F  Read Address: 33333330  Prot: 0
+%%   1810 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 14
+%%   1820 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 33333330  ARProt: 000  Operation# 14
+%%   1820 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UUUU1130  RResp: 0  Operation# 14
+%%   1820 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 33333330
+%%   1830 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 14
+%%   1830 ns    Log    INFO      in manager_1,                             Read Data: UUUU1130  Read Address: 33333330  Prot: 0
+%%   1830 ns    Log    INFO      in manager_1,                             CpuPoll: address33333330  Data: XXXX1130
+%%   1830 ns    Log    PASSED    in Default,                               Manager ReadPoll Data:  Received : 1130
+%%   1930 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 15
+%%   1940 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 15
+%%   1940 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UU444411  RResp: 0  Operation# 15
+%%   1950 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 15
+%%   1950 ns    Log    INFO      in manager_1,                             Read Data: UU444411  Read Address: 44444444  Prot: 0
+%%   2050 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 16
+%%   2060 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 16
+%%   2060 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UU444410  RResp: 0  Operation# 16
+%%   2070 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 16
+%%   2070 ns    Log    INFO      in manager_1,                             Read Data: UU444410  Read Address: 44444444  Prot: 0
+%%   2170 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 17
+%%   2180 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 44444444  ARProt: 000  Operation# 17
+%%   2180 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: UU44440F  RResp: 0  Operation# 17
+%%   2180 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 44444444
+%%   2190 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 17
+%%   2190 ns    Log    INFO      in manager_1,                             Read Data: UU44440F  Read Address: 44444444  Prot: 0
+%%   2190 ns    Log    INFO      in manager_1,                             CpuPoll: address44444444  Data: XX44440F
+%%   2190 ns    Log    PASSED    in Default,                               Manager ReadPoll Data:  Received : 44440F

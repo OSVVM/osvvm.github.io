@@ -10,7 +10,7 @@ Models:
     Settings: 
       CovWeight: 1
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2132829893, 237973941]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -42,9 +42,9 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 2, Max: 2}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -56,9 +56,9 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 4, Max: 4}
-        Count: 3
+        Count: 2
         AtLeast: 1
-        PercentCov: 300.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -77,30 +77,30 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 7, Max: 7}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 32, Max: 32}
-        Count: 5
+        Count: 4
         AtLeast: 1
-        PercentCov: 500.0000
+        PercentCov: 400.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 33, Max: 33}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 34, Max: 34}
-        Count: 2
+        Count: 1
         AtLeast: 1
-        PercentCov: 200.0000
+        PercentCov: 100.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -168,30 +168,30 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 68, Max: 68}
-        Count: 1
-        AtLeast: 1
-        PercentCov: 100.0000
-      - Name: ""
-        Type: "COUNT"
-        Range: 
-          - {Min: 69, Max: 69}
-        Count: 6
-        AtLeast: 1
-        PercentCov: 600.0000
-      - Name: ""
-        Type: "COUNT"
-        Range: 
-          - {Min: 70, Max: 70}
         Count: 2
         AtLeast: 1
         PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
-          - {Min: 71, Max: 71}
+          - {Min: 69, Max: 69}
+        Count: 4
+        AtLeast: 1
+        PercentCov: 400.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 70, Max: 70}
         Count: 3
         AtLeast: 1
         PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 71, Max: 71}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -203,23 +203,23 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 97, Max: 97}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 98, Max: 98}
-        Count: 3
+        Count: 2
         AtLeast: 1
-        PercentCov: 300.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 99, Max: 99}
-        Count: 2
+        Count: 3
         AtLeast: 1
-        PercentCov: 200.0000
+        PercentCov: 300.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -256,7 +256,7 @@ Models:
     Settings: 
       CovWeight: 1
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2132829893, 237973941]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -288,9 +288,9 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 2, Max: 2}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -302,9 +302,9 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 4, Max: 4}
-        Count: 3
+        Count: 2
         AtLeast: 1
-        PercentCov: 300.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -323,30 +323,30 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 7, Max: 7}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 32, Max: 32}
-        Count: 5
+        Count: 4
         AtLeast: 1
-        PercentCov: 500.0000
+        PercentCov: 400.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 33, Max: 33}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 34, Max: 34}
-        Count: 2
+        Count: 1
         AtLeast: 1
-        PercentCov: 200.0000
+        PercentCov: 100.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -414,30 +414,30 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 68, Max: 68}
-        Count: 1
-        AtLeast: 1
-        PercentCov: 100.0000
-      - Name: ""
-        Type: "COUNT"
-        Range: 
-          - {Min: 69, Max: 69}
-        Count: 6
-        AtLeast: 1
-        PercentCov: 600.0000
-      - Name: ""
-        Type: "COUNT"
-        Range: 
-          - {Min: 70, Max: 70}
         Count: 2
         AtLeast: 1
         PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
-          - {Min: 71, Max: 71}
+          - {Min: 69, Max: 69}
+        Count: 4
+        AtLeast: 1
+        PercentCov: 400.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 70, Max: 70}
         Count: 3
         AtLeast: 1
         PercentCov: 300.0000
+      - Name: ""
+        Type: "COUNT"
+        Range: 
+          - {Min: 71, Max: 71}
+        Count: 2
+        AtLeast: 1
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -449,23 +449,23 @@ Models:
         Type: "COUNT"
         Range: 
           - {Min: 97, Max: 97}
-        Count: 1
+        Count: 2
         AtLeast: 1
-        PercentCov: 100.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 98, Max: 98}
-        Count: 3
+        Count: 2
         AtLeast: 1
-        PercentCov: 300.0000
+        PercentCov: 200.0000
       - Name: ""
         Type: "COUNT"
         Range: 
           - {Min: 99, Max: 99}
-        Count: 2
+        Count: 3
         AtLeast: 1
-        PercentCov: 200.0000
+        PercentCov: 300.0000
       - Name: ""
         Type: "COUNT"
         Range: 
@@ -502,7 +502,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2016085819, 391374762]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -538,7 +538,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [584492730, 724303693]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -574,7 +574,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [604855810, 1127426884]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -617,7 +617,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1363448122, 912705812]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -653,7 +653,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2125824101, 873322509]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -708,7 +708,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2125824101, 677336943]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"

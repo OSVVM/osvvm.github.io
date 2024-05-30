@@ -1,131 +1,131 @@
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : AAAAAAA0 at 120 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 55555555 at 120 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 1 at 130 ns
+%%    120 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : AAAAAAA0
+%%    120 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 55555555
+%%    130 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
 
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111110 at 160 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 1 at 170 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : 22222222 at 170 ns
-
-
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : AAAAAAA0 at 200 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 00000011 at 200 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 2 at 210 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : AAAAAAA1 at 210 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 00002200 at 210 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 3 at 220 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : AAAAAAA2 at 220 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 00330000 at 220 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 4 at 230 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : AAAAAAA3 at 230 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 44000000 at 230 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 5 at 240 ns
+%%    160 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111110
+%%    170 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    170 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : 22222222
 
 
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111110 at 280 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 2 at 290 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111111 at 290 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : AA at 290 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 3 at 300 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111112 at 300 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : BB at 300 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 4 at 310 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111113 at 310 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : CC at 310 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 5 at 320 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : DD at 320 ns
+%%    200 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : AAAAAAA0
+%%    200 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 00000011
+%%    210 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    210 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : AAAAAAA1
+%%    210 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 00002200
+%%    220 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
+%%    220 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : AAAAAAA2
+%%    220 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 00330000
+%%    230 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 4
+%%    230 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : AAAAAAA3
+%%    230 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 44000000
+%%    240 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 5
 
 
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: BBBBBBB0  AWProt: 000  Operation# 6 at 350 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7 at 350 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7 at 360 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8 at 360 ns
+%%    280 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111110
+%%    290 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    290 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111111
+%%    290 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : AA
+%%    300 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    300 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111112
+%%    300 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : BB
+%%    310 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    310 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111113
+%%    310 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : CC
+%%    320 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    320 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : DD
 
 
-%% Log    INFO      in TestCtrl: AxiManager,   Testing 16 Bit Write Data Asynchronous Transaction at 360 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6 at 360 ns
+%%    350 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BBBBBBB0  AWProt: 000  Operation# 6
+%%    350 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7
+%%    360 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BBBBBBB1  AWProt: 000  Operation# 7
+%%    360 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8
 
 
-%% Log    INFO      in TestCtrl: AxiManager,   Testing 16 Bit Read Address Asynchronous Transaction at 360 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6 at 360 ns
-%% Log    INFO      in TestCtrl: AxiManager,   Testing 16 Bit Read Data Transaction at 360 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6 at 370 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8 at 370 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6 at 370 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7 at 370 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7 at 370 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 6 at 370 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : BBBBBBB0 at 370 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 00002211 at 370 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 6 at 380 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7 at 380 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7 at 380 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8 at 380 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8 at 380 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 7 at 380 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : BBBBBBB1 at 380 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 00332200 at 380 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 7 at 390 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8 at 390 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8 at 390 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 8 at 390 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : BBBBBBB2 at 390 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 44330000 at 390 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 0000BBAA  RResp: 0  Operation# 6 at 390 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111110 at 390 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111111 at 390 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111112 at 390 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 6 at 400 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 8 at 400 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 00CCBBUU  RResp: 0  Operation# 7 at 400 ns
-%% Log    INFO      in manager_1,   Read Data: 0000BBAA  Read Address: 11111110  Prot: 0 at 400 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : BBAA at 400 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 7 at 410 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: DDCCUUUU  RResp: 0  Operation# 8 at 410 ns
-%% Log    INFO      in manager_1,   Read Data: 0000CCBB  Read Address: 11111111  Prot: 0 at 410 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : CCBB at 410 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 8 at 420 ns
-%% Log    INFO      in manager_1,   Read Data: 0000DDCC  Read Address: 11111112  Prot: 0 at 420 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : DDCC at 420 ns
+%%    360 ns    Log    INFO      in TestCtrl: AxiManager,                  Testing 16 Bit Write Data Asynchronous Transaction
+%%    360 ns    Log    INFO      in manager_1,                             Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6
 
 
-%% Log    INFO      in TestCtrl: AxiManager,   Testing 24 Bit Write Data Asynchronous Transaction at 440 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: UU332211  WStrb: 0111  Operation# 9 at 440 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: UU332211  WStrb: 0111  Operation# 9 at 450 ns
-%% Log    INFO      in manager_1,   Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10 at 450 ns
+%%    360 ns    Log    INFO      in TestCtrl: AxiManager,                  Testing 16 Bit Read Address Asynchronous Transaction
+%%    360 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6
+%%    360 ns    Log    INFO      in TestCtrl: AxiManager,                  Testing 16 Bit Read Data Transaction
+%%    370 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 6
+%%    370 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BBBBBBB2  AWProt: 000  Operation# 8
+%%    370 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 6
+%%    370 ns    Log    INFO      in manager_1,                             Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7
+%%    370 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7
+%%    370 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 6
+%%    370 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : BBBBBBB0
+%%    370 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 00002211
+%%    380 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 6
+%%    380 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UU3322UU  WStrb: 0110  Operation# 7
+%%    380 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 7
+%%    380 ns    Log    INFO      in manager_1,                             Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8
+%%    380 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8
+%%    380 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 7
+%%    380 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : BBBBBBB1
+%%    380 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 00332200
+%%    390 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 7
+%%    390 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 8
+%%    390 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 8
+%%    390 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 8
+%%    390 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : BBBBBBB2
+%%    390 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 44330000
+%%    390 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 0000BBAA  RResp: 0  Operation# 6
+%%    390 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111110
+%%    390 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111111
+%%    390 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111112
+%%    400 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    400 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 8
+%%    400 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00CCBBUU  RResp: 0  Operation# 7
+%%    400 ns    Log    INFO      in manager_1,                             Read Data: 0000BBAA  Read Address: 11111110  Prot: 0
+%%    400 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : BBAA
+%%    410 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    410 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: DDCCUUUU  RResp: 0  Operation# 8
+%%    410 ns    Log    INFO      in manager_1,                             Read Data: 0000CCBB  Read Address: 11111111  Prot: 0
+%%    410 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : CCBB
+%%    420 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    420 ns    Log    INFO      in manager_1,                             Read Data: 0000DDCC  Read Address: 11111112  Prot: 0
+%%    420 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : DDCC
 
 
-%% Log    INFO      in TestCtrl: AxiManager,   Testing 24 Bit Write Address Asynchronous Transaction at 450 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9 at 450 ns
+%%    440 ns    Log    INFO      in TestCtrl: AxiManager,                  Testing 24 Bit Write Data Asynchronous Transaction
+%%    440 ns    Log    INFO      in manager_1,                             Write Data.  WData: UU332211  WStrb: 0111  Operation# 9
+%%    450 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UU332211  WStrb: 0111  Operation# 9
+%%    450 ns    Log    INFO      in manager_1,                             Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10
 
 
-%% Log    INFO      in TestCtrl: AxiManager,   Testing 24 Bit Read Address Asynchronous Transaction at 450 ns
-%% Log    ALWAYS    in TestCtrl: AxiManager,   ReadAddressAsync, Addr: 1111_1110 at 450 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9 at 450 ns
-%% Log    ALWAYS    in TestCtrl: AxiManager,   ReadAddressAsync, Addr: 1111_1111 at 450 ns
-%% Log    ALWAYS    in TestCtrl: AxiManager,   ReadData, Data: CC_BBAA at 450 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9 at 460 ns
-%% Log    INFO      in subordinate_1,   Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10 at 460 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9 at 460 ns
-%% Log    INFO      in manager_1,   Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10 at 460 ns
-%% Log    INFO      in manager_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10 at 460 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 9 at 460 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : CCCCCCC0 at 460 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 00332211 at 460 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 9 at 470 ns
-%% Log    INFO      in subordinate_1,   Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10 at 470 ns
-%% Log    INFO      in subordinate_1,   Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10 at 470 ns
-%% Log    INFO      in subordinate_1,   Write Response.  BResp: 0  Operation# 10 at 470 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Addr:  Received : CCCCCCC1 at 470 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Write Data:  Received : 44332200 at 470 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: 00CCBBAA  RResp: 0  Operation# 9 at 470 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111110 at 470 ns
-%% Log    PASSED    in TestCtrl: AxiSubordinate,   Subordinate Read Addr:  Received : 11111111 at 470 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 9 at 480 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,      Received: 0   Item Number: 10 at 480 ns
-%% Log    INFO      in subordinate_1,   Read Data.  RData: DDCCBBUU  RResp: 0  Operation# 10 at 480 ns
-%% Log    INFO      in manager_1,   Read Data: 00CCBBAA  Read Address: 11111110  Prot: 0 at 480 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : CCBBAA at 480 ns
-%% Log    ALWAYS    in TestCtrl: AxiManager,   ReadData, Data: DDCC_BB at 480 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,      Received: 0   Item Number: 10 at 490 ns
-%% Log    INFO      in manager_1,   Read Data: 00DDCCBB  Read Address: 11111111  Prot: 0 at 490 ns
-%% Log    PASSED    in TestCtrl: AxiManager,   Manager Read Data:  Received : DDCCBB at 490 ns
+%%    450 ns    Log    INFO      in TestCtrl: AxiManager,                  Testing 24 Bit Write Address Asynchronous Transaction
+%%    450 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9
+
+
+%%    450 ns    Log    INFO      in TestCtrl: AxiManager,                  Testing 24 Bit Read Address Asynchronous Transaction
+%%    450 ns    Log    ALWAYS    in TestCtrl: AxiManager,                  ReadAddressAsync, Addr: 1111_1110
+%%    450 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9
+%%    450 ns    Log    ALWAYS    in TestCtrl: AxiManager,                  ReadAddressAsync, Addr: 1111_1111
+%%    450 ns    Log    ALWAYS    in TestCtrl: AxiManager,                  ReadData, Data: CC_BBAA
+%%    460 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: CCCCCCC0  AWProt: 000  Operation# 9
+%%    460 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 443322UU  WStrb: 1110  Operation# 10
+%%    460 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 9
+%%    460 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10
+%%    460 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10
+%%    460 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 9
+%%    460 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : CCCCCCC0
+%%    460 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 00332211
+%%    470 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 9
+%%    470 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: CCCCCCC1  AWProt: 000  Operation# 10
+%%    470 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 10
+%%    470 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 10
+%%    470 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Addr:  Received : CCCCCCC1
+%%    470 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Write Data:  Received : 44332200
+%%    470 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00CCBBAA  RResp: 0  Operation# 9
+%%    470 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111110
+%%    470 ns    Log    PASSED    in TestCtrl: AxiSubordinate,              Subordinate Read Addr:  Received : 11111111
+%%    480 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%    480 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 10
+%%    480 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: DDCCBBUU  RResp: 0  Operation# 10
+%%    480 ns    Log    INFO      in manager_1,                             Read Data: 00CCBBAA  Read Address: 11111110  Prot: 0
+%%    480 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : CCBBAA
+%%    480 ns    Log    ALWAYS    in TestCtrl: AxiManager,                  ReadData, Data: DDCC_BB
+%%    490 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%    490 ns    Log    INFO      in manager_1,                             Read Data: 00DDCCBB  Read Address: 11111111  Prot: 0
+%%    490 ns    Log    PASSED    in TestCtrl: AxiManager,                  Manager Read Data:  Received : DDCCBB

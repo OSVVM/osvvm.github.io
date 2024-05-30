@@ -1,134 +1,134 @@
-%% Log    ALWAYS    in TB Manager Proc,                                    Write Response Ready TimeOut test.  Trigger Ready TimeOut twice. at 110 ns
-%% Log    INFO      in manager_1,                                          Write Data.  WData: 00010210  WStrb: 1111  Operation# 1 at 130 ns
-%% Log    INFO      in manager_1,                                          Write Address.  AWAddr: 00010210  AWProt: 000  Operation# 1 at 130 ns
-%% Log    DEBUG     in manager_1,                                          Waiting for Write Response. at 130 ns
-%% Log    INFO      in subordinate_1,                                      Write Address.  AWAddr: 00010210  AWProt: 000  Operation# 1 at 140 ns
-%% Log    INFO      in subordinate_1,                                      Write Data.  WData: 00010210  WStrb: 1111  Operation# 1 at 140 ns
-%% Log    INFO      in subordinate_1,                                      Write Response.  BResp: 0  Operation# 1 at 140 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Addr:  Received : 00010210 at 140 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Data:  Received : 00010210 at 140 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,                   Received: 0   Item Number: 1 at 230 ns
+%%    110 ns    Log    ALWAYS    in TB Manager Proc,                       Write Response Ready TimeOut test.  Trigger Ready TimeOut twice.
+%%    130 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00010210  WStrb: 1111  Operation# 1
+%%    130 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00010210  AWProt: 000  Operation# 1
+%%    130 ns    Log    DEBUG     in manager_1,                             Waiting for Write Response.
+%%    140 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00010210  AWProt: 000  Operation# 1
+%%    140 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00010210  WStrb: 1111  Operation# 1
+%%    140 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 1
+%%    140 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : 00010210
+%%    140 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00010210
+%%    230 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
 
 
-%% Log    INFO      in manager_1,                                          Write Data.  WData: BAD00210  WStrb: 1111  Operation# 2 at 240 ns
-%% Log    INFO      in manager_1,                                          Write Address.  AWAddr: BAD00210  AWProt: 000  Operation# 2 at 240 ns
-%% Log    DEBUG     in manager_1,                                          Waiting for Write Response. at 240 ns
-%% Log    INFO      in subordinate_1,                                      Write Address.  AWAddr: BAD00210  AWProt: 000  Operation# 2 at 250 ns
-%% Log    INFO      in subordinate_1,                                      Write Data.  WData: BAD00210  WStrb: 1111  Operation# 2 at 250 ns
-%% Log    INFO      in subordinate_1,                                      Write Response.  BResp: 0  Operation# 2 at 250 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Addr:  Received : BAD00210 at 250 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Data:  Received : BAD00210 at 250 ns
-%% Alert  FAILURE   in subordinate_1: No response,                         Write Response # 2.  Ready: 0  Expected: 1 at 300 ns
-%% Alert  FAILURE   in manager_1: No response,                             Write Response # 2 Valid (0) deasserted before Ready asserted (0)  at 310 ns
-%% Alert  ERROR     in manager_1: WriteResponse Scoreboard,                   Received: 3   Expected: 0   Item Number: 2 at 320 ns
+%%    240 ns    Log    INFO      in manager_1,                             Write Data.  WData: BAD00210  WStrb: 1111  Operation# 2
+%%    240 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BAD00210  AWProt: 000  Operation# 2
+%%    240 ns    Log    DEBUG     in manager_1,                             Waiting for Write Response.
+%%    250 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BAD00210  AWProt: 000  Operation# 2
+%%    250 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: BAD00210  WStrb: 1111  Operation# 2
+%%    250 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 2
+%%    250 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : BAD00210
+%%    250 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : BAD00210
+%%    300 ns    Alert  FAILURE   in subordinate_1: No response,            Write Response # 2.  Ready: 0  Expected: 1
+%%    310 ns    Alert  FAILURE   in manager_1: No response,                Write Response # 2 Valid (0) deasserted before Ready asserted (0) 
+%%    320 ns    Alert  ERROR     in manager_1: WriteResponse Scoreboard,   Received: 3   Expected: 0   Item Number: 2
 
 
-%% Log    INFO      in manager_1,                                          Write Data.  WData: 00020220  WStrb: 1111  Operation# 3 at 350 ns
-%% Log    INFO      in manager_1,                                          Write Address.  AWAddr: 00020220  AWProt: 000  Operation# 3 at 350 ns
-%% Log    DEBUG     in manager_1,                                          Waiting for Write Response. at 350 ns
-%% Log    INFO      in subordinate_1,                                      Write Address.  AWAddr: 00020220  AWProt: 000  Operation# 3 at 360 ns
-%% Log    INFO      in subordinate_1,                                      Write Data.  WData: 00020220  WStrb: 1111  Operation# 3 at 360 ns
-%% Log    INFO      in subordinate_1,                                      Write Response.  BResp: 0  Operation# 3 at 360 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Addr:  Received : 00020220 at 360 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Data:  Received : 00020220 at 360 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,                   Received: 0   Item Number: 3 at 450 ns
+%%    350 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00020220  WStrb: 1111  Operation# 3
+%%    350 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00020220  AWProt: 000  Operation# 3
+%%    350 ns    Log    DEBUG     in manager_1,                             Waiting for Write Response.
+%%    360 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00020220  AWProt: 000  Operation# 3
+%%    360 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00020220  WStrb: 1111  Operation# 3
+%%    360 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 3
+%%    360 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : 00020220
+%%    360 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00020220
+%%    450 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
 
 
-%% Log    INFO      in manager_1,                                          Write Data.  WData: BAD00220  WStrb: 1111  Operation# 4 at 460 ns
-%% Log    INFO      in manager_1,                                          Write Address.  AWAddr: BAD00220  AWProt: 000  Operation# 4 at 460 ns
-%% Log    DEBUG     in manager_1,                                          Waiting for Write Response. at 460 ns
-%% Log    INFO      in subordinate_1,                                      Write Address.  AWAddr: BAD00220  AWProt: 000  Operation# 4 at 470 ns
-%% Log    INFO      in subordinate_1,                                      Write Data.  WData: BAD00220  WStrb: 1111  Operation# 4 at 470 ns
-%% Log    INFO      in subordinate_1,                                      Write Response.  BResp: 0  Operation# 4 at 470 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Addr:  Received : BAD00220 at 470 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Data:  Received : BAD00220 at 470 ns
-%% Alert  FAILURE   in subordinate_1: No response,                         Write Response # 4.  Ready: 0  Expected: 1 at 520 ns
-%% Alert  FAILURE   in manager_1: No response,                             Write Response # 4 Valid (0) deasserted before Ready asserted (0)  at 530 ns
-%% Alert  ERROR     in manager_1: WriteResponse Scoreboard,                   Received: 3   Expected: 0   Item Number: 4 at 540 ns
+%%    460 ns    Log    INFO      in manager_1,                             Write Data.  WData: BAD00220  WStrb: 1111  Operation# 4
+%%    460 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: BAD00220  AWProt: 000  Operation# 4
+%%    460 ns    Log    DEBUG     in manager_1,                             Waiting for Write Response.
+%%    470 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: BAD00220  AWProt: 000  Operation# 4
+%%    470 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: BAD00220  WStrb: 1111  Operation# 4
+%%    470 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 4
+%%    470 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : BAD00220
+%%    470 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : BAD00220
+%%    520 ns    Alert  FAILURE   in subordinate_1: No response,            Write Response # 4.  Ready: 0  Expected: 1
+%%    530 ns    Alert  FAILURE   in manager_1: No response,                Write Response # 4 Valid (0) deasserted before Ready asserted (0) 
+%%    540 ns    Alert  ERROR     in manager_1: WriteResponse Scoreboard,   Received: 3   Expected: 0   Item Number: 4
 
 
-%% Log    INFO      in manager_1,                                          Write Data.  WData: 00030230  WStrb: 1111  Operation# 5 at 570 ns
-%% Log    INFO      in manager_1,                                          Write Address.  AWAddr: 00030230  AWProt: 000  Operation# 5 at 570 ns
-%% Log    DEBUG     in manager_1,                                          Waiting for Write Response. at 570 ns
-%% Log    INFO      in subordinate_1,                                      Write Address.  AWAddr: 00030230  AWProt: 000  Operation# 5 at 580 ns
-%% Log    INFO      in subordinate_1,                                      Write Data.  WData: 00030230  WStrb: 1111  Operation# 5 at 580 ns
-%% Log    INFO      in subordinate_1,                                      Write Response.  BResp: 0  Operation# 5 at 580 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Addr:  Received : 00030230 at 580 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Write Data:  Received : 00030230 at 580 ns
-%% Log    PASSED    in manager_1: WriteResponse Scoreboard,                   Received: 0   Item Number: 5 at 600 ns
+%%    570 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00030230  WStrb: 1111  Operation# 5
+%%    570 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00030230  AWProt: 000  Operation# 5
+%%    570 ns    Log    DEBUG     in manager_1,                             Waiting for Write Response.
+%%    580 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00030230  AWProt: 000  Operation# 5
+%%    580 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00030230  WStrb: 1111  Operation# 5
+%%    580 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 5
+%%    580 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : 00030230
+%%    580 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00030230
+%%    600 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 5
 
 
-%% DONE   FAILED   TbAxi4_TimeOutSubordinate  Total Error(s) = 6  Failures: 4  Errors: 2  Warnings: 0  Passed: 13  Affirmations Checked: 15  at 680 ns
-%%    subordinate_1                        Failures: 2  Errors: 0  Warnings: 0  Passed: 0
-%%      No response                        Failures: 2  Errors: 0  Warnings: 0  Passed: 0
-%%    manager_1                            Failures: 2  Errors: 2  Warnings: 0  Passed: 0
-%%      No response                        Failures: 2  Errors: 0  Warnings: 0  Passed: 0
-%%      WriteResponse Scoreboard           Failures: 0  Errors: 2  Warnings: 0  Passed: 3
+%%    680 ns    DONE   FAILED   TbAxi4_TimeOutSubordinate  Total Error(s) = 6  Failures: 4  Errors: 2  Warnings: 0  Passed: 13  Affirmations Checked: 15
+%%    subordinate_1               Failures: 2  Errors: 0  Warnings: 0  Passed: 0
+%%      No response               Failures: 2  Errors: 0  Warnings: 0  Passed: 0
+%%    manager_1                   Failures: 2  Errors: 2  Warnings: 0  Passed: 0
+%%      No response               Failures: 2  Errors: 0  Warnings: 0  Passed: 0
+%%      WriteResponse Scoreboard  Failures: 0  Errors: 2  Warnings: 0  Passed: 3
 
-%% Log    ALWAYS    in TB Manager Proc,                                    Removed Expected Errors from This Stage. at 680 ns
-%% DONE   PASSED   TbAxi4_TimeOutSubordinate  Passed: 13  Affirmations Checked: 15  at 680 ns
-
-
-%% Log    ALWAYS    in TB Manager Proc,                                    Read Data Ready TimeOut test.  Trigger Ready TimeOut twice. at 680 ns
-%% Log    INFO      in manager_1,                                          Read Address.  ARAddr: 00010010  ARProt: 000  Operation# 1 at 700 ns
-%% Log    INFO      in subordinate_1,                                      Read Address.  ARAddr: 00010010  ARProt: 000  Operation# 1 at 710 ns
-%% Log    INFO      in subordinate_1,                                      Read Data.  RData: 00010010  RResp: 0  Operation# 1 at 710 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Read Addr:  Received : 00010010 at 710 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,                    Received: 0   Item Number: 1 at 800 ns
-%% Log    INFO      in manager_1,                                          Read Data: 00010010  Read Address: 00010010  Prot: 0 at 800 ns
-%% Log    PASSED    in TB Manager Proc,                                    AXI Manager Read Data:  Received : 00010010 at 800 ns
+%%    680 ns    Log    ALWAYS    in TB Manager Proc,                       Removed Expected Errors from This Stage.
+%%    680 ns    DONE   PASSED   TbAxi4_TimeOutSubordinate  Passed: 13  Affirmations Checked: 15
 
 
-%% Log    INFO      in manager_1,                                          Read Address.  ARAddr: BAD00010  ARProt: 000  Operation# 2 at 900 ns
-%% Log    INFO      in subordinate_1,                                      Read Address.  ARAddr: BAD00010  ARProt: 000  Operation# 2 at 910 ns
-%% Log    INFO      in subordinate_1,                                      Read Data.  RData: BAD00010  RResp: 0  Operation# 2 at 910 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Read Addr:  Received : BAD00010 at 910 ns
-%% Alert  FAILURE   in subordinate_1: No response,                         Read Data # 2.  Ready: 0  Expected: 1 at 960 ns
-%% Alert  FAILURE   in manager_1: No response,                             Read Data # 2 Valid (0) deasserted before Ready asserted (0)  at 970 ns
-%% Alert  ERROR     in manager_1: ReadResponse Scoreboard,                    Received: 3   Expected: 0   Item Number: 2 at 980 ns
-%% Log    INFO      in manager_1,                                          Read Data: 452FFFEF  Read Address: BAD00010  Prot: 0 at 980 ns
-%% Log    PASSED    in TB Manager Proc,                                    AXI Manager Read Data:  Received : 452FFFEF at 980 ns
+%%    680 ns    Log    ALWAYS    in TB Manager Proc,                       Read Data Ready TimeOut test.  Trigger Ready TimeOut twice.
+%%    700 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00010010  ARProt: 000  Operation# 1
+%%    710 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00010010  ARProt: 000  Operation# 1
+%%    710 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00010010  RResp: 0  Operation# 1
+%%    710 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 00010010
+%%    800 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    800 ns    Log    INFO      in manager_1,                             Read Data: 00010010  Read Address: 00010010  Prot: 0
+%%    800 ns    Log    PASSED    in TB Manager Proc,                       AXI Manager Read Data:  Received : 00010010
 
 
-%% Log    INFO      in manager_1,                                          Read Address.  ARAddr: 00020020  ARProt: 000  Operation# 3 at 1080 ns
-%% Log    INFO      in subordinate_1,                                      Read Address.  ARAddr: 00020020  ARProt: 000  Operation# 3 at 1090 ns
-%% Log    INFO      in subordinate_1,                                      Read Data.  RData: 00020020  RResp: 0  Operation# 3 at 1090 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Read Addr:  Received : 00020020 at 1090 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,                    Received: 0   Item Number: 3 at 1180 ns
-%% Log    INFO      in manager_1,                                          Read Data: 00020020  Read Address: 00020020  Prot: 0 at 1180 ns
-%% Log    PASSED    in TB Manager Proc,                                    AXI Manager Read Data:  Received : 00020020 at 1180 ns
+%%    900 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: BAD00010  ARProt: 000  Operation# 2
+%%    910 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: BAD00010  ARProt: 000  Operation# 2
+%%    910 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: BAD00010  RResp: 0  Operation# 2
+%%    910 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : BAD00010
+%%    960 ns    Alert  FAILURE   in subordinate_1: No response,            Read Data # 2.  Ready: 0  Expected: 1
+%%    970 ns    Alert  FAILURE   in manager_1: No response,                Read Data # 2 Valid (0) deasserted before Ready asserted (0) 
+%%    980 ns    Alert  ERROR     in manager_1: ReadResponse Scoreboard,    Received: 3   Expected: 0   Item Number: 2
+%%    980 ns    Log    INFO      in manager_1,                             Read Data: 452FFFEF  Read Address: BAD00010  Prot: 0
+%%    980 ns    Log    PASSED    in TB Manager Proc,                       AXI Manager Read Data:  Received : 452FFFEF
 
 
-%% Log    INFO      in manager_1,                                          Read Address.  ARAddr: BAD00020  ARProt: 000  Operation# 4 at 1280 ns
-%% Log    INFO      in subordinate_1,                                      Read Address.  ARAddr: BAD00020  ARProt: 000  Operation# 4 at 1290 ns
-%% Log    INFO      in subordinate_1,                                      Read Data.  RData: BAD00020  RResp: 0  Operation# 4 at 1290 ns
-%% Log    PASSED    in TB Subordinate Proc,                                Subordinate Read Addr:  Received : BAD00020 at 1290 ns
-%% Alert  FAILURE   in subordinate_1: No response,                         Read Data # 4.  Ready: 0  Expected: 1 at 1340 ns
-%% Alert  FAILURE   in manager_1: No response,                             Read Data # 4 Valid (0) deasserted before Ready asserted (0)  at 1350 ns
-%% Alert  ERROR     in manager_1: ReadResponse Scoreboard,                    Received: 3   Expected: 0   Item Number: 4 at 1360 ns
-%% Log    INFO      in manager_1,                                          Read Data: 452FFFDF  Read Address: BAD00020  Prot: 0 at 1360 ns
-%% Log    PASSED    in TB Manager Proc,                                    AXI Manager Read Data:  Received : 452FFFDF at 1360 ns
+%%   1080 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00020020  ARProt: 000  Operation# 3
+%%   1090 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00020020  ARProt: 000  Operation# 3
+%%   1090 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00020020  RResp: 0  Operation# 3
+%%   1090 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 00020020
+%%   1180 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%   1180 ns    Log    INFO      in manager_1,                             Read Data: 00020020  Read Address: 00020020  Prot: 0
+%%   1180 ns    Log    PASSED    in TB Manager Proc,                       AXI Manager Read Data:  Received : 00020020
 
 
-%% Log    INFO      in manager_1,                                          Read Address.  ARAddr: 00030030  ARProt: 000  Operation# 5 at 1460 ns
-%% Log    INFO      in subordinate_1,                                      Read Address.  ARAddr: 00030030  ARProt: 000  Operation# 5 at 1470 ns
-%% Log    INFO      in subordinate_1,                                      Read Data.  RData: 00030030  RResp: 0  Operation# 5 at 1470 ns
-%% Log    PASSED    in Default,                                            Subordinate Read Addr:  Received : 00030030 at 1470 ns
-%% Log    PASSED    in manager_1: ReadResponse Scoreboard,                    Received: 0   Item Number: 5 at 1480 ns
-%% Log    INFO      in manager_1,                                          Read Data: 00030030  Read Address: 00030030  Prot: 0 at 1480 ns
-%% Log    PASSED    in TB Manager Proc,                                    AXI Manager Read Data:  Received : 00030030 at 1480 ns
+%%   1280 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: BAD00020  ARProt: 000  Operation# 4
+%%   1290 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: BAD00020  ARProt: 000  Operation# 4
+%%   1290 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: BAD00020  RResp: 0  Operation# 4
+%%   1290 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : BAD00020
+%%   1340 ns    Alert  FAILURE   in subordinate_1: No response,            Read Data # 4.  Ready: 0  Expected: 1
+%%   1350 ns    Alert  FAILURE   in manager_1: No response,                Read Data # 4 Valid (0) deasserted before Ready asserted (0) 
+%%   1360 ns    Alert  ERROR     in manager_1: ReadResponse Scoreboard,    Received: 3   Expected: 0   Item Number: 4
+%%   1360 ns    Log    INFO      in manager_1,                             Read Data: 452FFFDF  Read Address: BAD00020  Prot: 0
+%%   1360 ns    Log    PASSED    in TB Manager Proc,                       AXI Manager Read Data:  Received : 452FFFDF
 
 
-%% DONE   FAILED   TbAxi4_TimeOutSubordinate  Total Error(s) = 12  Failures: 8  Errors: 4  Warnings: 0  Passed: 26  Affirmations Checked: 30  at 1580 ns
-%%    subordinate_1                        Failures: 4  Errors: 0  Warnings: 0  Passed: 0
-%%      No response                        Failures: 4  Errors: 0  Warnings: 0  Passed: 0
-%%    manager_1                            Failures: 4  Errors: 4  Warnings: 0  Passed: 0
-%%      No response                        Failures: 4  Errors: 0  Warnings: 0  Passed: 0
-%%      WriteResponse Scoreboard           Failures: 0  Errors: 2  Warnings: 0  Passed: 3
-%%      ReadResponse Scoreboard            Failures: 0  Errors: 2  Warnings: 0  Passed: 3
-
-%% Log    ALWAYS    in TB Manager Proc,                                    Removed Expected Errors from This Stage. at 1580 ns
-%% DONE   PASSED   TbAxi4_TimeOutSubordinate  Passed: 26  Affirmations Checked: 30  at 1580 ns
+%%   1460 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00030030  ARProt: 000  Operation# 5
+%%   1470 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00030030  ARProt: 000  Operation# 5
+%%   1470 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00030030  RResp: 0  Operation# 5
+%%   1470 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 00030030
+%%   1480 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%   1480 ns    Log    INFO      in manager_1,                             Read Data: 00030030  Read Address: 00030030  Prot: 0
+%%   1480 ns    Log    PASSED    in TB Manager Proc,                       AXI Manager Read Data:  Received : 00030030
 
 
-%% Log    ALWAYS    in TB Manager Proc,                                    Removed Expected Errors for Whole Test. at 1580 ns
+%%   1580 ns    DONE   FAILED   TbAxi4_TimeOutSubordinate  Total Error(s) = 12  Failures: 8  Errors: 4  Warnings: 0  Passed: 26  Affirmations Checked: 30
+%%    subordinate_1               Failures: 4  Errors: 0  Warnings: 0  Passed: 0
+%%      No response               Failures: 4  Errors: 0  Warnings: 0  Passed: 0
+%%    manager_1                   Failures: 4  Errors: 4  Warnings: 0  Passed: 0
+%%      No response               Failures: 4  Errors: 0  Warnings: 0  Passed: 0
+%%      WriteResponse Scoreboard  Failures: 0  Errors: 2  Warnings: 0  Passed: 3
+%%      ReadResponse Scoreboard   Failures: 0  Errors: 2  Warnings: 0  Passed: 3
+
+%%   1580 ns    Log    ALWAYS    in TB Manager Proc,                       Removed Expected Errors from This Stage.
+%%   1580 ns    DONE   PASSED   TbAxi4_TimeOutSubordinate  Passed: 26  Affirmations Checked: 30
+
+
+%%   1580 ns    Log    ALWAYS    in TB Manager Proc,                       Removed Expected Errors for Whole Test.

@@ -1,84 +1,84 @@
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 07050301  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 1 at 110 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 0F0D0B09  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 2 at 120 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 17151311  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 3 at 130 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: XX1D1B19  TStrb: 0111  TKeep: 0111  TID: 00  TDest: 0  TUser: 0  TLast: 1  Operation# 4 at 140 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 01   Item Number: 1 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 03   Item Number: 2 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 05   Item Number: 3 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 07   Item Number: 4 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 09   Item Number: 5 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0B   Item Number: 6 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0D   Item Number: 7 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0F   Item Number: 8 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 11   Item Number: 9 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 13   Item Number: 10 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 15   Item Number: 11 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 17   Item Number: 12 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 19   Item Number: 13 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 1B   Item Number: 14 at 150 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 1D   Item Number: 15 at 150 ns
-%% Log    INFO      in receiver_1,   Burst Check.  Operation# 1  Last Data: --1D1B19  TID: 00  TDest: 0  TUser: 0  TLast: 1 at 150 ns
-%% Log    PASSED    in receiver_1,   Burst Check WordCount Received : 15 at 150 ns
-%% Log    PASSED    in receiver_1,   ID Received : 00 at 150 ns
-%% Log    PASSED    in receiver_1,   DEST Received : 0 at 150 ns
-%% Log    PASSED    in receiver_1,   USER Received : 0 at 150 ns
-%% Log    PASSED    in receiver_1,   Last Received : 1 at 150 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 2523211F  TStrb: 1111  TKeep: 1111  TID: 01  TDest: 2  TUser: 3  TLast: 0  Operation# 5 at 150 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 2D2B2927  TStrb: 1111  TKeep: 1111  TID: 01  TDest: 2  TUser: 3  TLast: 0  Operation# 6 at 160 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 3533312F  TStrb: 1111  TKeep: 1111  TID: 01  TDest: 2  TUser: 3  TLast: 1  Operation# 7 at 170 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 1F   Item Number: 16 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 21   Item Number: 17 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 23   Item Number: 18 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 25   Item Number: 19 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 27   Item Number: 20 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 29   Item Number: 21 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 2B   Item Number: 22 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 2D   Item Number: 23 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 2F   Item Number: 24 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 31   Item Number: 25 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 33   Item Number: 26 at 180 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 35   Item Number: 27 at 180 ns
-%% Log    INFO      in receiver_1,   Burst Check.  Operation# 2  Last Data: 3533312F  TID: 01  TDest: 2  TUser: 3  TLast: 1 at 180 ns
-%% Log    PASSED    in receiver_1,   Burst Check WordCount Received : 12 at 180 ns
-%% Log    PASSED    in receiver_1,   ID Received : 01 at 180 ns
-%% Log    PASSED    in receiver_1,   DEST Received : 2 at 180 ns
-%% Log    PASSED    in receiver_1,   USER Received : 3 at 180 ns
-%% Log    PASSED    in receiver_1,   Last Received : 1 at 180 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 08060402  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 8 at 180 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 100E0C0A  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 9 at 190 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: XXXX1412  TStrb: 0011  TKeep: 0011  TID: 00  TDest: 0  TUser: 0  TLast: 1  Operation# 10 at 200 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 02   Item Number: 28 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 04   Item Number: 29 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 06   Item Number: 30 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 08   Item Number: 31 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0A   Item Number: 32 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0C   Item Number: 33 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0E   Item Number: 34 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 10   Item Number: 35 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 12   Item Number: 36 at 210 ns
-%% Log    PASSED    in receiver_1: RxBurstFifo,      Received: 14   Item Number: 37 at 210 ns
-%% Log    INFO      in receiver_1,   Burst Check.  Operation# 3  Last Data: ----1412  TID: 00  TDest: 0  TUser: 0  TLast: 1 at 210 ns
-%% Log    PASSED    in receiver_1,   Burst Check WordCount Received : 10 at 210 ns
-%% Log    PASSED    in receiver_1,   ID Received : 00 at 210 ns
-%% Log    PASSED    in receiver_1,   DEST Received : 0 at 210 ns
-%% Log    PASSED    in receiver_1,   USER Received : 0 at 210 ns
-%% Log    PASSED    in receiver_1,   Last Received : 1 at 210 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 736C10F5  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 11 at 250 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 31F9667B  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 12 at 260 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: 48BB9CEE  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 13 at 270 ns
-%% Log    INFO      in transmitter_1,   Axi Stream Send.  TData: XXXXEC49  TStrb: 0011  TKeep: 0011  TID: 00  TDest: 0  TUser: 0  TLast: 1  Operation# 14 at 280 ns
-%% Log    INFO      in receiver_1,   Burst Receive.  Operation# 4  Last Data: ----EC49  TID: 00  TDest: 0  TUser: 0  TLast: 1 at 290 ns
-%% Log    PASSED    in SB,      Received: F5   Item Number: 1 at 290 ns
-%% Log    PASSED    in SB,      Received: 10   Item Number: 2 at 290 ns
-%% Log    PASSED    in SB,      Received: 6C   Item Number: 3 at 290 ns
-%% Log    PASSED    in SB,      Received: 73   Item Number: 4 at 290 ns
-%% Log    PASSED    in SB,      Received: 7B   Item Number: 5 at 290 ns
-%% Log    PASSED    in SB,      Received: 66   Item Number: 6 at 290 ns
-%% Log    PASSED    in SB,      Received: F9   Item Number: 7 at 290 ns
-%% Log    PASSED    in SB,      Received: 31   Item Number: 8 at 290 ns
-%% Log    PASSED    in SB,      Received: EE   Item Number: 9 at 290 ns
-%% Log    PASSED    in SB,      Received: 9C   Item Number: 10 at 290 ns
-%% Log    PASSED    in SB,      Received: BB   Item Number: 11 at 290 ns
-%% Log    PASSED    in SB,      Received: 48   Item Number: 12 at 290 ns
-%% Log    PASSED    in SB,      Received: 49   Item Number: 13 at 290 ns
-%% Log    PASSED    in SB,      Received: EC   Item Number: 14 at 290 ns
+%%    110 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 07050301  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 1
+%%    120 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 0F0D0B09  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 2
+%%    130 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 17151311  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 3
+%%    140 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: XX1D1B19  TStrb: 0111  TKeep: 0111  TID: 00  TDest: 0  TUser: 0  TLast: 1  Operation# 4
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 01   Item Number: 1
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 03   Item Number: 2
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 05   Item Number: 3
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 07   Item Number: 4
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 09   Item Number: 5
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0B   Item Number: 6
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0D   Item Number: 7
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0F   Item Number: 8
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 11   Item Number: 9
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 13   Item Number: 10
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 15   Item Number: 11
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 17   Item Number: 12
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 19   Item Number: 13
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 1B   Item Number: 14
+%%    150 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 1D   Item Number: 15
+%%    150 ns    Log    INFO      in receiver_1,                   Burst Check.  Operation# 1  Last Data: --1D1B19  TID: 00  TDest: 0  TUser: 0  TLast: 1
+%%    150 ns    Log    PASSED    in receiver_1,                   Burst Check WordCount Received : 15
+%%    150 ns    Log    PASSED    in receiver_1,                   ID Received : 00
+%%    150 ns    Log    PASSED    in receiver_1,                   DEST Received : 0
+%%    150 ns    Log    PASSED    in receiver_1,                   USER Received : 0
+%%    150 ns    Log    PASSED    in receiver_1,                   Last Received : 1
+%%    150 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 2523211F  TStrb: 1111  TKeep: 1111  TID: 01  TDest: 2  TUser: 3  TLast: 0  Operation# 5
+%%    160 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 2D2B2927  TStrb: 1111  TKeep: 1111  TID: 01  TDest: 2  TUser: 3  TLast: 0  Operation# 6
+%%    170 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 3533312F  TStrb: 1111  TKeep: 1111  TID: 01  TDest: 2  TUser: 3  TLast: 1  Operation# 7
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 1F   Item Number: 16
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 21   Item Number: 17
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 23   Item Number: 18
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 25   Item Number: 19
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 27   Item Number: 20
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 29   Item Number: 21
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 2B   Item Number: 22
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 2D   Item Number: 23
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 2F   Item Number: 24
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 31   Item Number: 25
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 33   Item Number: 26
+%%    180 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 35   Item Number: 27
+%%    180 ns    Log    INFO      in receiver_1,                   Burst Check.  Operation# 2  Last Data: 3533312F  TID: 01  TDest: 2  TUser: 3  TLast: 1
+%%    180 ns    Log    PASSED    in receiver_1,                   Burst Check WordCount Received : 12
+%%    180 ns    Log    PASSED    in receiver_1,                   ID Received : 01
+%%    180 ns    Log    PASSED    in receiver_1,                   DEST Received : 2
+%%    180 ns    Log    PASSED    in receiver_1,                   USER Received : 3
+%%    180 ns    Log    PASSED    in receiver_1,                   Last Received : 1
+%%    180 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 08060402  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 8
+%%    190 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 100E0C0A  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 9
+%%    200 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: XXXX1412  TStrb: 0011  TKeep: 0011  TID: 00  TDest: 0  TUser: 0  TLast: 1  Operation# 10
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 02   Item Number: 28
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 04   Item Number: 29
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 06   Item Number: 30
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 08   Item Number: 31
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0A   Item Number: 32
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0C   Item Number: 33
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 0E   Item Number: 34
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 10   Item Number: 35
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 12   Item Number: 36
+%%    210 ns    Log    PASSED    in receiver_1: RxBurstFifo,      Received: 14   Item Number: 37
+%%    210 ns    Log    INFO      in receiver_1,                   Burst Check.  Operation# 3  Last Data: ----1412  TID: 00  TDest: 0  TUser: 0  TLast: 1
+%%    210 ns    Log    PASSED    in receiver_1,                   Burst Check WordCount Received : 10
+%%    210 ns    Log    PASSED    in receiver_1,                   ID Received : 00
+%%    210 ns    Log    PASSED    in receiver_1,                   DEST Received : 0
+%%    210 ns    Log    PASSED    in receiver_1,                   USER Received : 0
+%%    210 ns    Log    PASSED    in receiver_1,                   Last Received : 1
+%%    250 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 4F0531CC  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 11
+%%    260 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 9140B70A  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 12
+%%    270 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: 491263F2  TStrb: 1111  TKeep: 1111  TID: 00  TDest: 0  TUser: 0  TLast: 0  Operation# 13
+%%    280 ns    Log    INFO      in transmitter_1,                Axi Stream Send.  TData: XXXX9F82  TStrb: 0011  TKeep: 0011  TID: 00  TDest: 0  TUser: 0  TLast: 1  Operation# 14
+%%    290 ns    Log    INFO      in receiver_1,                   Burst Receive.  Operation# 4  Last Data: ----9F82  TID: 00  TDest: 0  TUser: 0  TLast: 1
+%%    290 ns    Log    PASSED    in SB,                           Received: CC   Item Number: 1
+%%    290 ns    Log    PASSED    in SB,                           Received: 31   Item Number: 2
+%%    290 ns    Log    PASSED    in SB,                           Received: 05   Item Number: 3
+%%    290 ns    Log    PASSED    in SB,                           Received: 4F   Item Number: 4
+%%    290 ns    Log    PASSED    in SB,                           Received: 0A   Item Number: 5
+%%    290 ns    Log    PASSED    in SB,                           Received: B7   Item Number: 6
+%%    290 ns    Log    PASSED    in SB,                           Received: 40   Item Number: 7
+%%    290 ns    Log    PASSED    in SB,                           Received: 91   Item Number: 8
+%%    290 ns    Log    PASSED    in SB,                           Received: F2   Item Number: 9
+%%    290 ns    Log    PASSED    in SB,                           Received: 63   Item Number: 10
+%%    290 ns    Log    PASSED    in SB,                           Received: 12   Item Number: 11
+%%    290 ns    Log    PASSED    in SB,                           Received: 49   Item Number: 12
+%%    290 ns    Log    PASSED    in SB,                           Received: 82   Item Number: 13
+%%    290 ns    Log    PASSED    in SB,                           Received: 9F   Item Number: 14

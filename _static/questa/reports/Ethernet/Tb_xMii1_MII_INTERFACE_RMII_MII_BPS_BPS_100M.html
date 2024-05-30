@@ -1,412 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-table, th, td {
-  border: 1px solid #CCCCCC;
-  border-collapse: collapse;
-  padding: 5px 15px; 
-}
-tr:hover {background-color: yellow;}
-body {
-  font-family: Tahoma, Verdana, sans-serif;
-  font-size: 14px;
-  margin: 5px 20px;
-}
-
-.progress {
-	height: 15px;
-	margin-bottom: 15px;
-	overflow: hidden;
-	background-color: #f5f5f5;
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1)
-}
-
-.progress-bar {
-	float: left;
-	width: 0%;
-	height: 100%;
-	font-size: 12px;
-	line-height: 15px;
-	color: #fff;
-	text-align: center;
-	background-color: #337ab7;
-	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-	-webkit-transition: width .6s ease;
-	-o-transition: width .6s ease;
-	transition: width .6s ease
-}
-</style>
-<!-- Text Above from OsvvmLibraries/Scripts/header_cov.html -->
-<title>Tb_xMii1 Test Case Detailed Report</title>
+  <link rel="stylesheet" href="../../reports/CssOsvvmStyle.css">
+  <title>Tb_xMii1 Test Case Report</title>
 </head>
 <body>
-<br>
-<h2>Tb_xMii1 Test Case Detailed Report</h2>
-<DIV STYLE="font-size:5px"><BR></DIV>
-<br>
-<table>
-  <tr style="height:40px"><th>Available Reports</th></tr>
-  <tr><td><a href="#AlertSummary">Alert Report</a></td></tr>
-  <tr><td><a href="#Scoreboard_int">ScoreboardPkg_int Report(s)</a></td></tr>
-  <tr><td><a href="#Scoreboard_slv">ScoreboardPkg_slv Report(s)</a></td></tr>
-  <tr><td><a href="../../logs/sim_OsvvmDemo_log.html#Ethernet_Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M">Link to Simulation Results</a></td></tr>
-  <tr><td><a href="../../results/Ethernet/Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M.txt">Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M.txt</a></td></tr>
-  <tr><td>Generic: MII_INTERFACE = RMII</td></tr>
-  <tr><td>Generic: MII_BPS = BPS_100M</td></tr>
-  <tr><td><a href="../../sim_OsvvmDemo.html">sim_OsvvmDemo Build Summary</a></td></tr>
-</table>
-<br><br>
-<hr>
-<DIV STYLE="font-size:5px"><BR></DIV>
-<h3 id="AlertSummary">Tb_xMii1 Alert Report</h3>
-<details open><summary style="font-size: 16px;"><strong>Tb_xMii1 Alert Settings</strong></summary>
-<DIV STYLE="font-size:10px"><BR></DIV>
-<div  style="margin: 5px 40px;">
-<table>
-  <tr>
-      <th colspan="2">Setting</th>
-      <th>Value</th>
-      <th>Description</th>
-  </tr>
-  <tr>
-      <td colspan="2">FailOnWarning</td>
-      <td>true</td>
-      <td>If true, warnings are a test error</td>
-  </tr>
-  <tr>
-      <td colspan="2">FailOnDisabledErrors</td>
-      <td>true</td>
-      <td>If true, Disabled Alert Counts are a test error</td>
-  </tr>
-  <tr>
-      <td colspan="2">FailOnRequirementErrors</td>
-      <td>true</td>
-      <td>If true, Requirements Errors are a test error</td>
-  </tr>
-  <tr>
-      <td rowspan="3">External</td>
-      <td>Failures</td>
-      <td>0</td>
-      <td rowspan="3">Added to Alert Counts in determine total errors</td>
-  </tr>
-  <tr>
-      <td>Errors</td>
-      <td>0</td>
-  </tr>
-  <tr>
-      <td>Warnings</td>
-      <td>0</td>
-  </tr>
-  <tr>
-      <td rowspan="3">Expected</td>
-      <td>Failures</td>
-      <td>0</td>
-      <td rowspan="3">Subtracted from Alert Counts in determine total errors</td>
-  </tr>
-  <tr>
-      <td>Errors</td>
-      <td>0</td>
-  </tr>
-  <tr>
-      <td>Warnings</td>
-      <td>0</td>
-  </tr>
-</table>
-</div>
-</details>
-<DIV STYLE="font-size:25px"><BR></DIV>
-<details open><summary style="font-size: 16px;"><strong>Tb_xMii1 Alert Results</strong></summary>
-<DIV STYLE="font-size:10px"><BR></DIV>
-<table>
-  <tr>
-      <th rowspan="2">Name</th>
-      <th rowspan="2">Status</th>
-      <th colspan="3">Checks</th>
-      <th colspan="2">Requirements</th>
-      <th colspan="3">Alert Counts</th>
-      <th colspan="3">Disabled Alert Counts</th>
-  </tr>
-  <tr>
-      <th>Total</th>
-      <th>Passed</th>
-      <th>Failed</th>
-      <th>Goal</th>
-      <th>Passed</th>
-      <th>Failures</th>
-      <th>Errors</th>
-      <th>Warnings</th>
-      <th>Failures</th>
-      <th>Errors</th>
-      <th>Warnings</th>
-  </tr>
-  <tr>
-      <td>Tb_xMii1</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>2065</td>
-      <td style=color:#00C000>2065</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; Default</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>17</td>
-      <td style=color:#00C000>17</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; OSVVM</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; xmiimac_1.Tx</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; xmiimac_1.Rx</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; xmiiphy_1.Tx</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-  <tr>
-      <td>&emsp; xmiiphy_1.Rx</td>
-      <td style=color:#00C000>PASSED</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#00C000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-      <td style=color:#000000>0</td>
-  </tr>
-</table>
-<br>
-</details>
-<br><br>
-<hr>
-<DIV STYLE="font-size:5px"><BR></DIV>
-<h2 id="Scoreboard_int">Tb_xMii1 Scoreboard Report for Scoreboard_int</h2>
-<br>
-  <div  style="margin: 10px 20px;">
-    <table>
-    <tr>
-      <th>Name</th>
-      <th>ParentName</th>
-      <th>ItemCount</th>
-      <th>ErrorCount</th>
-      <th>ItemsChecked</th>
-      <th>ItemsPopped</th>
-      <th>ItemsDropped</th>
-      <th>FifoCount</th>
-    </tr>
-    <tr>
-      <td>MetaFifo</td>
-      <td>xmiimac_1.Tx</td>
-      <td>32</td>
-      <td>0</td>
-      <td>0</td>
-      <td>32</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>MetaFifo</td>
-      <td>xmiimac_1.Rx</td>
-      <td>36</td>
-      <td>0</td>
-      <td>0</td>
-      <td>9</td>
-      <td>0</td>
-      <td>27</td>
-    </tr>
-    <tr>
-      <td>MetaFifo</td>
-      <td>xmiiphy_1.Tx</td>
-      <td>32</td>
-      <td>0</td>
-      <td>0</td>
-      <td>8</td>
-      <td>0</td>
-      <td>24</td>
-    </tr>
-    <tr>
-      <td>MetaFifo</td>
-      <td>xmiiphy_1.Rx</td>
-      <td>36</td>
-      <td>0</td>
-      <td>0</td>
-      <td>36</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    </table>
-<br>
-<hr>
-<DIV STYLE="font-size:5px"><BR></DIV>
-<h2 id="Scoreboard_slv">Tb_xMii1 Scoreboard Report for Scoreboard_slv</h2>
-<br>
-  <div  style="margin: 10px 20px;">
-    <table>
-    <tr>
-      <th>Name</th>
-      <th>ParentName</th>
-      <th>ItemCount</th>
-      <th>ErrorCount</th>
-      <th>ItemsChecked</th>
-      <th>ItemsPopped</th>
-      <th>ItemsDropped</th>
-      <th>FifoCount</th>
-    </tr>
-    <tr>
-      <td>DataFifo</td>
-      <td>xmiimac_1.Tx</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>DataFifo</td>
-      <td>xmiimac_1.Rx</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1024</td>
-      <td>0</td>
-      <td>3072</td>
-    </tr>
-    <tr>
-      <td>DataFifo</td>
-      <td>xmiiphy_1.Tx</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1024</td>
-      <td>0</td>
-      <td>3072</td>
-    </tr>
-    <tr>
-      <td>DataFifo</td>
-      <td>xmiiphy_1.Rx</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>BurstFifo</td>
-      <td>xmiimac_1.Tx</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>BurstFifo</td>
-      <td>xmiimac_1.Rx</td>
-      <td>1024</td>
-      <td>0</td>
-      <td>1024</td>
-      <td>1024</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>BurstFifo</td>
-      <td>xmiiphy_1.Tx</td>
-      <td>1024</td>
-      <td>0</td>
-      <td>1024</td>
-      <td>1024</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>BurstFifo</td>
-      <td>xmiiphy_1.Rx</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4096</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    </table>
-<br>
+<header>
+  <h1>Tb_xMii1 Test Case Report</h1>
+</header>
+<main>
+  <div class="summary-parent">
+    <div  class="summary-table">
+      <table  class="summary-table">
+        <thead>
+          <tr class="column-header"><th>Available Reports</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Generic: MII_INTERFACE = RMII</td></tr>
+          <tr><td>Generic: MII_BPS = BPS_100M</td></tr>
+          <tr><td><a href="#AlertSummary">Alert Report</a></td></tr>
+          <tr><td><a href="#Scoreboard_int">ScoreboardPkg_int Report(s)</a></td></tr>
+          <tr><td><a href="#Scoreboard_slv">ScoreboardPkg_slv Report(s)</a></td></tr>
+          <tr><td><a href="../../logs/OsvvmLibraries_RunErrorTestsWithCoverage_log.html#Ethernet_Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M">Link to Simulation Results</a></td></tr>
+          <tr><td><a href="../../results/Ethernet/Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M.txt">Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M.txt</a></td></tr>
+          <tr><td><a href="../../OsvvmLibraries_RunErrorTestsWithCoverage.html">OsvvmLibraries_RunErrorTestsWithCoverage Build Summary</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="summary-logo">
+    	 <img id="logo" src="../../reports/OsvvmLogo.png" alt="OSVVM logo">
+    </div>
+  </div>
+  <hr />
+  <div class="AlertSummary">
+    <h2 id="AlertSummary">Tb_xMii1 Alert Report</h2>
+    <div class="AlertSettings">
+      <details open><summary class="subtitle">Tb_xMii1 Alert Settings</summary>
+        <table class="AlertSettings">
+          <thead>
+            <tr>
+                <th colspan="2">Setting</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td colspan="2">FailOnWarning</td>
+                <td>true</td>
+                <td>If true, warnings are a test error</td>
+            </tr>
+            <tr>
+                <td colspan="2">FailOnDisabledErrors</td>
+                <td>true</td>
+                <td>If true, Disabled Alert Counts are a test error</td>
+            </tr>
+            <tr>
+                <td colspan="2">FailOnRequirementErrors</td>
+                <td>true</td>
+                <td>If true, Requirements Errors are a test error</td>
+            </tr>
+            <tr>
+                <td rowspan="3">External</td>
+                <td>Failures</td>
+                <td>0</td>
+                <td rowspan="3">Added to Alert Counts in determine total errors</td>
+            </tr>
+            <tr>
+                <td>Errors</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Warnings</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Expected</td>
+                <td>Failures</td>
+                <td>0</td>
+                <td rowspan="3">Subtracted from Alert Counts in determine total errors</td>
+            </tr>
+            <tr>
+                <td>Errors</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Warnings</td>
+                <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+    <div class="AlertResults">
+      <details open><summary class="subtitle">Tb_xMii1 Alert Results</summary>
+        <table class="AlertResults">
+          <thead>
+            <tr>
+              <th rowspan="2">Name</th>
+              <th rowspan="2">Status</th>
+              <th colspan="3">Checks</th>
+              <th colspan="2">Requirements</th>
+              <th colspan="3">Alert Counts</th>
+              <th colspan="3">Disabled Alert Counts</th>
+            </tr>
+            <tr>
+              <th>Total</th>
+              <th>Passed</th>
+              <th>Failed</th>
+              <th>Goal</th>
+              <th>Passed</th>
+              <th>Failures</th>
+              <th>Errors</th>
+              <th>Warnings</th>
+              <th>Failures</th>
+              <th>Errors</th>
+              <th>Warnings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tb_xMii1</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">2065</td>
+              <td class="passed">2065</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+            <tr>
+              <td>  Default</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">17</td>
+              <td class="passed">17</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+            <tr>
+              <td>  OSVVM</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+            <tr>
+              <td>  xmiimac_1.Tx</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+            <tr>
+              <td>  xmiimac_1.Rx</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+            <tr>
+              <td>  xmiiphy_1.Tx</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+            <tr>
+              <td>  xmiiphy_1.Rx</td>
+              <td class="passed">PASSED</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td class="passed">0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+              <td >0</td>
+            </tr>
+          <tbody>
+        </table>
+      </details>
+    </div>
+  </div>
+  <hr />
+  <div class="ScoreboardSummary">
+    <h2 id="Scoreboard_int">Tb_xMii1 Scoreboard Report for Scoreboard_int</h2>
+    <div class="Scoreboard_int">
+      <table class="ScoreboardSummary">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>ParentName</th>
+              <th>ItemCount</th>
+              <th>ErrorCount</th>
+              <th>ItemsChecked</th>
+              <th>ItemsPopped</th>
+              <th>ItemsDropped</th>
+              <th>FifoCount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>MetaFifo</td>
+              <td>xmiimac_1.Tx</td>
+              <td>32</td>
+              <td>0</td>
+              <td>0</td>
+              <td>32</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>MetaFifo</td>
+              <td>xmiimac_1.Rx</td>
+              <td>36</td>
+              <td>0</td>
+              <td>0</td>
+              <td>9</td>
+              <td>0</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>MetaFifo</td>
+              <td>xmiiphy_1.Tx</td>
+              <td>32</td>
+              <td>0</td>
+              <td>0</td>
+              <td>8</td>
+              <td>0</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>MetaFifo</td>
+              <td>xmiiphy_1.Rx</td>
+              <td>36</td>
+              <td>0</td>
+              <td>0</td>
+              <td>36</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
+  <hr />
+  <div class="ScoreboardSummary">
+    <h2 id="Scoreboard_slv">Tb_xMii1 Scoreboard Report for Scoreboard_slv</h2>
+    <div class="Scoreboard_slv">
+      <table class="ScoreboardSummary">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>ParentName</th>
+              <th>ItemCount</th>
+              <th>ErrorCount</th>
+              <th>ItemsChecked</th>
+              <th>ItemsPopped</th>
+              <th>ItemsDropped</th>
+              <th>FifoCount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>DataFifo</td>
+              <td>xmiimac_1.Tx</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>DataFifo</td>
+              <td>xmiimac_1.Rx</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1024</td>
+              <td>0</td>
+              <td>3072</td>
+            </tr>
+            <tr>
+              <td>DataFifo</td>
+              <td>xmiiphy_1.Tx</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1024</td>
+              <td>0</td>
+              <td>3072</td>
+            </tr>
+            <tr>
+              <td>DataFifo</td>
+              <td>xmiiphy_1.Rx</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>BurstFifo</td>
+              <td>xmiimac_1.Tx</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>BurstFifo</td>
+              <td>xmiimac_1.Rx</td>
+              <td>1024</td>
+              <td>0</td>
+              <td>1024</td>
+              <td>1024</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>BurstFifo</td>
+              <td>xmiiphy_1.Tx</td>
+              <td>1024</td>
+              <td>0</td>
+              <td>1024</td>
+              <td>1024</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>BurstFifo</td>
+              <td>xmiiphy_1.Rx</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+              <td>4096</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<footer>
+  <hr />
+  <p class="generated-by-osvvm">Generated by OSVVM-Scripts 2024.05 on 2024-05-30 - 09:46:35 (PDT).</p>
+</footer>
 </body>
 </html>

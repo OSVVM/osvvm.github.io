@@ -10,7 +10,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1780638781, 1284630316]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -39,7 +39,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2072006919, 359507871]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -70,7 +70,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1210226302, 1715992792]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -101,7 +101,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [276880993, 492374260]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -130,7 +130,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1798108825, 1316270049]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -161,7 +161,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1132275268, 1747695844]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -192,7 +192,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1157222341, 2137987343]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -221,7 +221,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1774513708, 1565671199]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -250,7 +250,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1521444320, 1618564945]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -279,7 +279,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [341347771, 916637069]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -308,7 +308,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1157257181, 106345226]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -339,7 +339,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [176887009, 1625770513]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -370,7 +370,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1227410821, 1030023635]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -399,7 +399,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1603737730, 733523584]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -428,7 +428,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [422304604, 1892012361]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -457,7 +457,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1836676641, 155084564]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -486,7 +486,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [560986111, 1563051674]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -515,7 +515,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [475473023, 1003399730]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -544,7 +544,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1584758596, 1773949246]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -573,7 +573,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1600453034, 640176671]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -602,7 +602,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1945910929, 1820465524]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -631,7 +631,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1935614252, 1231610140]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -660,7 +660,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [628491352, 1519532790]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -691,7 +691,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1682240380, 1538165535]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -722,7 +722,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [346588186, 313042599]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -751,7 +751,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [1577433706, 1685623158]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -780,7 +780,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [73242116, 309762654]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -809,7 +809,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [939859916, 1662929084]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -838,7 +838,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [801216193, 1836540528]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
@@ -869,7 +869,7 @@ Models:
     Settings: 
       CovWeight: 0
       Goal: 100.0
-      WeightMode: "AT_LEAST"
+      WeightMode: "REMAIN"
       Seeds: [2010049731, 1837762017]
       CountMode: "COUNT_FIRST"
       IllegalMode: "ILLEGAL_ON"
