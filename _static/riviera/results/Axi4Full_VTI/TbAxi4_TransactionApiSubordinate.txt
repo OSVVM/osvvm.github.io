@@ -1,0 +1,89 @@
+%%     90 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 1
+%%     90 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionWriteCount Received : 0
+%%     90 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionReadCount Received : 0
+%%    170 ns    Log    ALWAYS    in TB Manager Proc,                       Read, Addr: 00000000,  Data: 00000000
+%%    170 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000000  WStrb: 1111  Operation# 1
+%%    170 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00000000  AWProt: 000  Operation# 1
+%%    180 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00000000  AWProt: 000  Operation# 1
+%%    180 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00000000  WStrb: 1111  Operation# 1
+%%    180 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction before StartTime: 130000 ps
+%%    180 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000001  WStrb: 1111  Operation# 2
+%%    180 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00000004  AWProt: 000  Operation# 2
+%%    180 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 6
+%%    180 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionWriteCount Received : 1
+%%    180 ns    Log    ALWAYS    in TB Manager Proc,                       Read, Addr: 00000000,  Data: 00000000
+%%    180 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 1
+%%    180 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : 00000000
+%%    180 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 00000000
+%%    190 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    190 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00000004  AWProt: 000  Operation# 2
+%%    190 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00000001  WStrb: 1111  Operation# 2
+%%    220 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction after TryReadCheckData takes 0 time Received : 220 ns
+%%    220 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 11
+%%    220 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionWriteCount Received : 2
+%%    220 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 2
+%%    220 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : 00000004
+%%    220 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 00000001
+%%    230 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    260 ns    Log    ALWAYS    in TB Manager Proc,                       Read, Addr: 00000080,  Data: 00000080
+%%    260 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000080  WStrb: 1111  Operation# 3
+%%    260 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00000080  AWProt: 000  Operation# 3
+%%    270 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00000080  AWProt: 000  Operation# 3
+%%    270 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00000080  WStrb: 1111  Operation# 3
+%%    270 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction before StartTime: 220000 ps
+%%    270 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000081  WStrb: 1111  Operation# 4
+%%    270 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00000084  AWProt: 000  Operation# 4
+%%    270 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 15
+%%    270 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionWriteCount Received : 3
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       Read, Addr: 00000080,  Data: 00000080
+%%    270 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 3
+%%    270 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : 00000080
+%%    270 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 00000080
+%%    280 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
+%%    280 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: 00000084  AWProt: 000  Operation# 4
+%%    280 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 00000081  WStrb: 1111  Operation# 4
+%%    310 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction after TryReadCheckData takes 0 time Received : 310 ns
+%%    310 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 20
+%%    310 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionWriteCount Received : 4
+%%    310 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 4
+%%    310 ns    Log    PASSED    in Default,                               Subordinate Write Addr:  Received : 00000084
+%%    310 ns    Log    PASSED    in Default,                               Subordinate Write Data:  Received : 00000081
+%%    320 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 4
+%%    350 ns    Log    ALWAYS    in TB Manager Proc,                       Read, Addr: 00000000,  Data: 00000000
+%%    350 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00000000  ARProt: 000  Operation# 1
+%%    360 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00000000  ARProt: 000  Operation# 1
+%%    360 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction before StartTime: 310000 ps
+%%    360 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 24
+%%    360 ns    Log    PASSED    in TB Subordinate Proc,                   GetReadTransactionCount Received : 1
+%%    360 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00000000  RResp: 0  Operation# 1
+%%    360 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 00000000
+%%    370 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    370 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000000  Read Address: 00000000  Prot: 0
+%%    370 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00000004  ARProt: 000  Operation# 2
+%%    380 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00000004  ARProt: 000  Operation# 2
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction after TryReadCheckData takes 0 time Received : 400 ns
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 29
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   GetReadTransactionCount Received : 2
+%%    400 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00000001  RResp: 0  Operation# 2
+%%    400 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 00000004
+%%    410 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    410 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000001  Read Address: 00000004  Prot: 0
+%%    450 ns    Log    ALWAYS    in TB Manager Proc,                       Read, Addr: 00000080,  Data: 00000080
+%%    450 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00000080  ARProt: 000  Operation# 3
+%%    460 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00000080  ARProt: 000  Operation# 3
+%%    460 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction before StartTime: 410000 ps
+%%    460 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 33
+%%    460 ns    Log    PASSED    in TB Subordinate Proc,                   GetReadTransactionCount Received : 3
+%%    460 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00000080  RResp: 0  Operation# 3
+%%    460 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 00000080
+%%    470 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    470 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000080  Read Address: 00000080  Prot: 0
+%%    470 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00000084  ARProt: 000  Operation# 4
+%%    480 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 00000084  ARProt: 000  Operation# 4
+%%    500 ns    Log    PASSED    in TB Subordinate Proc,                   WaitForTransaction after TryReadCheckData takes 0 time Received : 500 ns
+%%    500 ns    Log    PASSED    in TB Subordinate Proc,                   GetTransactionCount Received : 38
+%%    500 ns    Log    PASSED    in TB Subordinate Proc,                   GetReadTransactionCount Received : 4
+%%    500 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00000081  RResp: 0  Operation# 4
+%%    500 ns    Log    PASSED    in Default,                               Subordinate Read Addr:  Received : 00000084
+%%    510 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    510 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 00000081  Read Address: 00000084  Prot: 0

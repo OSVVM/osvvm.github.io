@@ -1,0 +1,26 @@
+%% 103750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 50, Parity Error: 0, Stop Error: 0, Break Error: 0.  Expected: Data = 40, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 1
+%% 191750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 51, Parity Error: 1, Stop Error: 0, Break Error: 0.  Expected: Data = 41, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 2
+%% 279750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 52, Parity Error: 0, Stop Error: 1, Break Error: 0.  Expected: Data = 42, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 3
+%% 375750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 53, Parity Error: 1, Stop Error: 1, Break Error: 0.  Expected: Data = 43, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 4
+%% 471750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1.  Expected: Data = 40, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 5
+%% 471750 ns    Log    PASSED    in Default,         Expecting 5 Errors
+%% 471750 ns    Log    PASSED    in TB UartRxProc,   Transaction Count Received : 5
+%% 471750 ns    Log    PASSED    in TB UartRxProc,   Expecting 5 Errors, Received : 5
+%% 532000 ns    Log    PASSED    in UartTxProc,      Transaction Count Received : 5
+%% 532000 ns    Log    PASSED    in UartTxProc,      Error Count Received : 0
+%% 615750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 60, Parity Error: 0, Stop Error: 0, Break Error: 0.  Expected: Data = 40, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 6
+%% 703750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 61, Parity Error: 1, Stop Error: 0, Break Error: 0.  Expected: Data = 41, Parity Error: 1, Stop Error: 0, Break Error: 0.  Operation # 7
+%% 791750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 62, Parity Error: 0, Stop Error: 1, Break Error: 0.  Expected: Data = 42, Parity Error: 0, Stop Error: 1, Break Error: 0.  Operation # 8
+%% 887750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 63, Parity Error: 1, Stop Error: 1, Break Error: 0.  Expected: Data = 43, Parity Error: 1, Stop Error: 1, Break Error: 0.  Operation # 9
+%% 983750 ns    Log    PASSED    in uartrx_1,        Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1.  Operation # 10
+%% 983750 ns    Log    PASSED    in TB UartRxProc,   Transaction Count Received : 10
+%% 983750 ns    Log    PASSED    in TB UartRxProc,   Expecting 9 Errors, Received : 9
+%% 1135750 ns    Log    PASSED    in uartrx_1,        Received: Data = 70, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 11
+%% 1223750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 71, Parity Error: 1, Stop Error: 0, Break Error: 0.  Expected: Data = 71, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 12
+%% 1311750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 72, Parity Error: 0, Stop Error: 1, Break Error: 0.  Expected: Data = 72, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 13
+%% 1407750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 73, Parity Error: 1, Stop Error: 1, Break Error: 0.  Expected: Data = 73, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 14
+%% 1503750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1.  Expected: Data = 74, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 15
+%% 1503750 ns    Log    PASSED    in TB UartRxProc,   Expecting 13 Errors, Received : 13
+%% 1663750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 80, Parity Error: 1, Stop Error: 1, Break Error: 0.  Expected: Data = 80, Parity Error: 1, Stop Error: 0, Break Error: 0.  Operation # 16
+%% 1759750 ns    Alert  ERROR     in uartrx_1,        Received: Data = 81, Parity Error: 1, Stop Error: 1, Break Error: 0.  Expected: Data = 81, Parity Error: 0, Stop Error: 1, Break Error: 0.  Operation # 17
+%% 1759750 ns    Log    PASSED    in TB UartRxProc,   Expecting 15 Errors, Received : 15

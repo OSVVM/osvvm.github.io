@@ -1,0 +1,54 @@
+%%  20000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 50, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 1
+%% 103750 ns    Log    PASSED    in Default,    Received: Data = 50, Parity Error: 0, Stop Error: 0, Break Error: 0
+%% 108000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 51, Parity Error: 1, Stop Error: 0, Break Error: 0  Operation # 2
+%% 191750 ns    Log    PASSED    in Default,    Received: Data = 51, Parity Error: 1, Stop Error: 0, Break Error: 0
+%% 196000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 52, Parity Error: 0, Stop Error: 1, Break Error: 0  Operation # 3
+%% 279750 ns    Log    PASSED    in Default,    Received: Data = 52, Parity Error: 0, Stop Error: 1, Break Error: 0
+%% 292000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 53, Parity Error: 1, Stop Error: 1, Break Error: 0  Operation # 4
+%% 375750 ns    Log    PASSED    in Default,    Received: Data = 53, Parity Error: 1, Stop Error: 1, Break Error: 0
+%% 388000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 11, Parity Error: 0, Stop Error: 0, Break Error: 1  Operation # 5
+%% 471750 ns    Log    PASSED    in Default,    Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1
+%% 532000 ns    Log    PASSED    in uarttx_1,   Transaction Count Received : 5
+%% 532000 ns    Log    PASSED    in uarttx_1,   Error Count Received : 0
+%% 532000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 60, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 6
+%% 615750 ns    Log    PASSED    in Default,    Received: Data = 60, Parity Error: 0, Stop Error: 0, Break Error: 0
+%% 620000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 61, Parity Error: 1, Stop Error: 0, Break Error: 0  Operation # 7
+%% 703750 ns    Log    PASSED    in Default,    Received: Data = 61, Parity Error: 1, Stop Error: 0, Break Error: 0
+%% 708000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 62, Parity Error: 0, Stop Error: 1, Break Error: 0  Operation # 8
+%% 791750 ns    Log    PASSED    in Default,    Received: Data = 62, Parity Error: 0, Stop Error: 1, Break Error: 0
+%% 804000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 63, Parity Error: 1, Stop Error: 1, Break Error: 0  Operation # 9
+%% 887750 ns    Log    PASSED    in Default,    Received: Data = 63, Parity Error: 1, Stop Error: 1, Break Error: 0
+%% 900000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 12, Parity Error: 0, Stop Error: 0, Break Error: 1  Operation # 10
+%% 983750 ns    Log    PASSED    in Default,    Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1
+%% 983750 ns    Log    PASSED    in uartrx_1,   Transaction Count Received : 10
+%% 983750 ns    Log    PASSED    in uartrx_1,   Error Count Received : 0
+%% 1052000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 70, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 11
+%% 1135750 ns    Log    PASSED    in uartrx_1,   Received: Data = 70, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 11
+%% 1135750 ns    Log    PASSED    in Default,    Received: Data = 70, Parity Error: 0, Stop Error: 0, Break Error: 0
+%% 1140000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 71, Parity Error: 1, Stop Error: 0, Break Error: 0  Operation # 12
+%% 1223750 ns    Alert  ERROR     in uartrx_1,   Received: Data = 71, Parity Error: 1, Stop Error: 0, Break Error: 0.  Expected: Data = 71, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 12
+%% 1223750 ns    Log    PASSED    in Default,    Received: Data = 71, Parity Error: 1, Stop Error: 0, Break Error: 0
+%% 1228000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 72, Parity Error: 0, Stop Error: 1, Break Error: 0  Operation # 13
+%% 1311750 ns    Alert  ERROR     in uartrx_1,   Received: Data = 72, Parity Error: 0, Stop Error: 1, Break Error: 0.  Expected: Data = 72, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 13
+%% 1311750 ns    Log    PASSED    in Default,    Received: Data = 72, Parity Error: 0, Stop Error: 1, Break Error: 0
+%% 1324000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 73, Parity Error: 1, Stop Error: 1, Break Error: 0  Operation # 14
+%% 1407750 ns    Alert  ERROR     in uartrx_1,   Received: Data = 73, Parity Error: 1, Stop Error: 1, Break Error: 0.  Expected: Data = 73, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 14
+%% 1407750 ns    Log    PASSED    in Default,    Received: Data = 73, Parity Error: 1, Stop Error: 1, Break Error: 0
+%% 1420000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 13, Parity Error: 0, Stop Error: 0, Break Error: 1  Operation # 15
+%% 1503750 ns    Alert  ERROR     in uartrx_1,   Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1.  Expected: Data = 74, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 15
+%% 1503750 ns    Log    PASSED    in Default,    Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1
+%% 1503750 ns    Log    PASSED    in Default,    Expecting 4 Errors
+%% 1503750 ns    Log    PASSED    in uartrx_1,   Transaction Count Received : 15
+%% 1503750 ns    Log    PASSED    in uartrx_1,   Expecting 4 Errors, Received : 4
+%% 1580000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 80, Parity Error: 0, Stop Error: 0, Break Error: 0  Operation # 16
+%% 1663750 ns    Log    PASSED    in uartrx_1,   Received: Data = 80, Parity Error: 0, Stop Error: 0, Break Error: 0.  Operation # 16
+%% 1668000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 81, Parity Error: 1, Stop Error: 0, Break Error: 0  Operation # 17
+%% 1751750 ns    Log    PASSED    in uartrx_1,   Received: Data = 81, Parity Error: 1, Stop Error: 0, Break Error: 0.  Operation # 17
+%% 1756000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 82, Parity Error: 0, Stop Error: 1, Break Error: 0  Operation # 18
+%% 1839750 ns    Log    PASSED    in uartrx_1,   Received: Data = 82, Parity Error: 0, Stop Error: 1, Break Error: 0.  Operation # 18
+%% 1852000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 83, Parity Error: 1, Stop Error: 1, Break Error: 0  Operation # 19
+%% 1935750 ns    Log    PASSED    in uartrx_1,   Received: Data = 83, Parity Error: 1, Stop Error: 1, Break Error: 0.  Operation # 19
+%% 1948000 ns    Log    INFO      in uarttx_1,   SEND Queueing Transaction: Data = 14, Parity Error: 0, Stop Error: 0, Break Error: 1  Operation # 20
+%% 2031750 ns    Log    PASSED    in uartrx_1,   Received: Data = 00, Parity Error: 0, Stop Error: 1, Break Error: 1.  Operation # 20
+%% 2180000 ns    Log    PASSED    in uarttx_1,   Transaction Count Received : 20
+%% 2180000 ns    Log    PASSED    in uarttx_1,   Error Count Received : 0

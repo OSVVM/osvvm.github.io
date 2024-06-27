@@ -1,0 +1,88 @@
+%%    100 ns    Log    INFO      in manager_1,                             Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    100 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10001000  AWProt: 000  Operation# 1
+%%    110 ns    Log    INFO      in memory_1,                              Memory Write.  AWAddr: 10001000  AWProt: 000  WData: 55555555  WStrb: 1111  Operation# 0
+%%    110 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10001000  ARProt: 000  Operation# 1
+%%    120 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    120 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 10001000  ARProt: 000  RData: 55555555  Operation# 0
+%%    130 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    130 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 55555555  Read Address: 10001000  Prot: 0
+%%    130 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000003  WStrb: 1111  Operation# 2
+%%    130 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00000008  AWProt: 000  Operation# 2
+%%    140 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000004  WStrb: 1111  Operation# 3
+%%    140 ns    Log    INFO      in memory_1,                              Memory Write.  AWAddr: 00000008  AWProt: 000  WData: 00000003  WStrb: 1111  Operation# 1
+%%    150 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000005  WStrb: 1111  Operation# 4
+%%    160 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000006  WStrb: 1111  Operation# 5
+%%    170 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000007  WStrb: 1111  Operation# 6
+%%    180 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000008  WStrb: 1111  Operation# 7
+%%    190 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00000008  ARProt: 000  Operation# 2
+%%    200 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    200 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 00000008  ARProt: 000  RData: 00000003  Operation# 1
+%%    210 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    220 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    230 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    240 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    250 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    260 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    260 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000003   Item Number: 1
+%%    260 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000004   Item Number: 2
+%%    260 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000005   Item Number: 3
+%%    260 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000006   Item Number: 4
+%%    260 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000007   Item Number: 5
+%%    260 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000008   Item Number: 6
+%%    270 ns    Log    INFO      in manager_2,                             Read Address.  ARAddr: 10001000  ARProt: 000  Operation# 1
+%%    280 ns    Log    INFO      in memory_2,                              Memory Read.  ARAddr: 10001000  ARProt: 000  RData: 55555555  Operation# 0
+%%    290 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    290 ns    Log    PASSED    in manager_2: Data Check,                 Read Data: 55555555  Read Address: 10001000  Prot: 0
+%%    290 ns    Log    INFO      in manager_2,                             Read Address.  ARAddr: 00000008  ARProt: 000  Operation# 2
+%%    300 ns    Log    INFO      in memory_2,                              Memory Read.  ARAddr: 00000008  ARProt: 000  RData: 00000003  Operation# 1
+%%    310 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    320 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    330 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    340 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    350 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    360 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    360 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 00000003   Item Number: 1
+%%    360 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 00000004   Item Number: 2
+%%    360 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 00000005   Item Number: 3
+%%    360 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 00000006   Item Number: 4
+%%    360 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 00000007   Item Number: 5
+%%    360 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 00000008   Item Number: 6
+%%    360 ns    Log    INFO      in manager_2,                             Write Data.  WData: AAAAAAAA  WStrb: 1111  Operation# 1
+%%    360 ns    Log    INFO      in manager_2,                             Write Address.  AWAddr: 10002000  AWProt: 000  Operation# 1
+%%    370 ns    Log    INFO      in memory_2,                              Memory Write.  AWAddr: 10002000  AWProt: 000  WData: AAAAAAAA  WStrb: 1111  Operation# 0
+%%    370 ns    Log    INFO      in manager_2,                             Read Address.  ARAddr: 10002000  ARProt: 000  Operation# 3
+%%    380 ns    Log    PASSED    in manager_2: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    380 ns    Log    INFO      in memory_2,                              Memory Read.  ARAddr: 10002000  ARProt: 000  RData: AAAAAAAA  Operation# 7
+%%    390 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    390 ns    Log    PASSED    in manager_2: Data Check,                 Read Data: AAAAAAAA  Read Address: 10002000  Prot: 0
+%%    390 ns    Log    INFO      in manager_2,                             Write Data.  WData: 0000000A  WStrb: 1111  Operation# 2
+%%    390 ns    Log    INFO      in manager_2,                             Write Address.  AWAddr: 00001008  AWProt: 000  Operation# 2
+%%    400 ns    Log    INFO      in manager_2,                             Write Data.  WData: 0000000B  WStrb: 1111  Operation# 3
+%%    400 ns    Log    INFO      in memory_2,                              Memory Write.  AWAddr: 00001008  AWProt: 000  WData: 0000000A  WStrb: 1111  Operation# 1
+%%    410 ns    Log    INFO      in manager_2,                             Write Data.  WData: 0000000C  WStrb: 1111  Operation# 4
+%%    420 ns    Log    INFO      in manager_2,                             Write Data.  WData: 0000000D  WStrb: 1111  Operation# 5
+%%    430 ns    Log    INFO      in manager_2,                             Read Address.  ARAddr: 00001008  ARProt: 000  Operation# 4
+%%    440 ns    Log    PASSED    in manager_2: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    440 ns    Log    INFO      in memory_2,                              Memory Read.  ARAddr: 00001008  ARProt: 000  RData: 0000000A  Operation# 8
+%%    450 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%    460 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%    470 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 11
+%%    480 ns    Log    PASSED    in manager_2: ReadResponse Scoreboard,    Received: 0   Item Number: 12
+%%    480 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 0000000A   Item Number: 7
+%%    480 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 0000000B   Item Number: 8
+%%    480 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 0000000C   Item Number: 9
+%%    480 ns    Log    PASSED    in manager_2: ReadBurstFifo,              Received: 0000000D   Item Number: 10
+%%    480 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10002000  ARProt: 000  Operation# 3
+%%    490 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 10002000  ARProt: 000  RData: AAAAAAAA  Operation# 7
+%%    500 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    500 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: AAAAAAAA  Read Address: 10002000  Prot: 0
+%%    500 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00001008  ARProt: 000  Operation# 4
+%%    510 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 00001008  ARProt: 000  RData: 0000000A  Operation# 8
+%%    520 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%    530 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%    540 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 11
+%%    550 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 12
+%%    550 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000A   Item Number: 7
+%%    550 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000B   Item Number: 8
+%%    550 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000C   Item Number: 9
+%%    550 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000D   Item Number: 10

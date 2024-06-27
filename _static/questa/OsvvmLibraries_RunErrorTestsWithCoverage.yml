@@ -1,0 +1,210 @@
+Version: 2024.05
+Date: 2024-05-30T09:42:29-07:00
+TestSuites: 
+  - Name: Axi4Lite
+    TestCases:
+      - TestCaseName: "TbAxi4_RandomReadWrite"
+        Name: "TbAxi4_RandomReadWrite"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 3000, AffirmCount: 3000, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "23360000 ps"
+        TestCaseFileName: "TbAxi4_RandomReadWrite"
+        TestCaseGenerics: ""
+        ElapsedTime: 5.515
+    ElapsedTime: 7.504
+  - Name: Axi4Full
+    TestCases:
+      - TestCaseName: "TbAxi4_DemoMemoryReadWrite1"
+        Name: "TbAxi4_DemoMemoryReadWrite1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 334, AffirmCount: 334, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 43.75
+        SimulationTime: "3530000 ps"
+        TestCaseFileName: "TbAxi4_DemoMemoryReadWrite1"
+        TestCaseGenerics: ""
+        ElapsedTime: 14.868
+      - TestCaseName: "TbAxi4_DemoErrorMemoryReadWrite1"
+        Name: "TbAxi4_DemoErrorMemoryReadWrite1"
+        Status: FAILED
+        Results: {TotalErrors: 2, AlertCount: {Failure: 0, Error: 2, Warning: 0}, PassedCount: 300, AffirmCount: 302, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "3210000 ps"
+        TestCaseFileName: "TbAxi4_DemoErrorMemoryReadWrite1"
+        TestCaseGenerics: ""
+        ElapsedTime: 12.574
+      - TestCaseName: "TbAxi4_ManagerRandomTiming1"
+        Name: "TbAxi4_ManagerRandomTiming1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 512, AffirmCount: 512, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "8650000 ps"
+        TestCaseFileName: "TbAxi4_ManagerRandomTiming1"
+        TestCaseGenerics: ""
+        ElapsedTime: 10.632
+      - TestCaseName: "TbAxi4_ManagerMemoryRandomTiming1"
+        Name: "TbAxi4_ManagerMemoryRandomTiming1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 512, AffirmCount: 512, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "12000000 ps"
+        TestCaseFileName: "TbAxi4_ManagerMemoryRandomTiming1"
+        TestCaseGenerics: ""
+        ElapsedTime: 9.574
+      - TestCaseName: "TbAxi4_MemoryBurstPattern1"
+        Name: "TbAxi4_MemoryBurstPattern1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 114, AffirmCount: 114, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "1190000 ps"
+        TestCaseFileName: "TbAxi4_MemoryBurstPattern1"
+        TestCaseGenerics: ""
+        ElapsedTime: 9.621
+      - TestCaseName: "TbAxi4_DemoErrorMemoryReadWrite1"
+        Name: "TbAxi4_DemoErrorMemoryReadWrite1"
+        Status: FAILED
+        Results: {TotalErrors: 2, AlertCount: {Failure: 0, Error: 2, Warning: 0}, PassedCount: 300, AffirmCount: 302, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "3210000 ps"
+        TestCaseFileName: "TbAxi4_DemoErrorMemoryReadWrite1"
+        TestCaseGenerics: ""
+        ElapsedTime: 9.731
+      - TestCaseName: "TbAxi4_DemoMemoryReadWrite1"
+        Name: "TbAxi4_DemoMemoryReadWrite1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 334, AffirmCount: 334, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 43.75
+        SimulationTime: "3530000 ps"
+        TestCaseFileName: "TbAxi4_DemoMemoryReadWrite1"
+        TestCaseGenerics: ""
+        ElapsedTime: 10.876
+    ElapsedTime: 87.029
+  - Name: AxiStream
+    TestCases:
+      - TestCaseName: "TbStream_SendGetDemo1"
+        Name: "TbStream_SendGetDemo1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 341, AffirmCount: 341, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 66.67
+        SimulationTime: "3410000 ps"
+        TestCaseFileName: "TbStream_SendGetDemo1"
+        TestCaseGenerics: ""
+        ElapsedTime: 10.025
+      - TestCaseName: "TbStream_SendGetPacketBurst1"
+        Name: "TbStream_SendGetPacketBurst1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 133, AffirmCount: 133, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 50.00
+        SimulationTime: "1240000 ps"
+        TestCaseFileName: "TbStream_SendGetPacketBurst1"
+        TestCaseGenerics: ""
+        ElapsedTime: 8.681
+      - TestCaseName: "TbStream_SendGetRandom1"
+        Name: "TbStream_SendGetRandom1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 1616, AffirmCount: 1616, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "49890000 ps"
+        TestCaseFileName: "TbStream_SendGetRandom1"
+        TestCaseGenerics: ""
+        ElapsedTime: 9.123
+      - TestCaseName: "TbStream_SendGetRandom2"
+        Name: "TbStream_SendGetRandom2"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 6042, AffirmCount: 6042, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage: 100.00
+        SimulationTime: "55070000 ps"
+        TestCaseFileName: "TbStream_SendGetRandom2"
+        TestCaseGenerics: ""
+        ElapsedTime: 11.786
+    ElapsedTime: 44.050
+  - Name: Uart
+    TestCases:
+      - TestCaseName: "TbUart_SendGet1"
+        Name: "TbUart_SendGet1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 4, Warning: 0}, PassedCount: 30, AffirmCount: 34, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "2214720000 ps"
+        TestCaseFileName: "TbUart_SendGet1"
+        TestCaseGenerics: ""
+        ElapsedTime: 8.486
+    ElapsedTime: 10.467
+  - Name: Ethernet
+    TestCases:
+      - TestCaseName: "Tb_xMii1"
+        Name: "Tb_xMii1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 2065, AffirmCount: 2065, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "74504000 ps"
+        TestCaseFileName: "Tb_xMii1"
+        TestCaseGenerics: ""
+        ElapsedTime: 10.468
+      - TestCaseName: "Tb_xMii1"
+        Name: "Tb_xMii1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 2065, AffirmCount: 2065, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "74504000 ps"
+        TestCaseFileName: "Tb_xMii1_MII_INTERFACE_RGMII_MII_BPS_BPS_1G"
+        TestCaseGenerics: "{MII_INTERFACE RGMII} {MII_BPS BPS_1G}"
+        ElapsedTime: 9.321
+      - TestCaseName: "Tb_xMii1"
+        Name: "Tb_xMii1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 2065, AffirmCount: 2065, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "743400000 ps"
+        TestCaseFileName: "Tb_xMii1_MII_INTERFACE_MII_MII_BPS_BPS_100M"
+        TestCaseGenerics: "{MII_INTERFACE MII} {MII_BPS BPS_100M}"
+        ElapsedTime: 11.283
+      - TestCaseName: "Tb_xMii1"
+        Name: "Tb_xMii1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 2065, AffirmCount: 2065, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "7434000000 ps"
+        TestCaseFileName: "Tb_xMii1_MII_INTERFACE_MII_MII_BPS_BPS_10M"
+        TestCaseGenerics: "{MII_INTERFACE MII} {MII_BPS BPS_10M}"
+        ElapsedTime: 13.549
+      - TestCaseName: "Tb_xMii1"
+        Name: "Tb_xMii1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 2065, AffirmCount: 2065, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "742580000 ps"
+        TestCaseFileName: "Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_100M"
+        TestCaseGenerics: "{MII_INTERFACE RMII} {MII_BPS BPS_100M}"
+        ElapsedTime: 10.777
+      - TestCaseName: "Tb_xMii1"
+        Name: "Tb_xMii1"
+        Status: PASSED
+        Results: {TotalErrors: 0, AlertCount: {Failure: 0, Error: 0, Warning: 0}, PassedCount: 2065, AffirmCount: 2065, RequirementsPassed: 0, RequirementsGoal: 0, DisabledAlertCount: {Failure: 0, Error: 0, Warning: 0}}
+        FunctionalCoverage:  ""
+        SimulationTime: "7425800000 ps"
+        TestCaseFileName: "Tb_xMii1_MII_INTERFACE_RMII_MII_BPS_BPS_10M"
+        TestCaseGenerics: "{MII_INTERFACE RMII} {MII_BPS BPS_10M}"
+        ElapsedTime: 11.857
+    ElapsedTime: 70.292
+BuildInfo:
+  StartTime:            2024-05-30T09:42:29-07:00
+  FinishTime:           2024-05-30T09:46:51-07:00
+  Elapsed:              261.959
+  Simulator:            "QuestaSim -c"
+  SimulatorVersion:     "2023.10"
+  OsvvmVersion:         "2024.05"
+  BuildErrorCode:       0
+  AnalyzeErrorCount:    0
+  SimulateErrorCount:   0
+OsvvmSettingsInfo:
+  BaseDirectory:        ""
+  ReportsSubdirectory:  "reports"
+  CssSubdirectory:      "reports"
+  SimulationLogFile: "logs/OsvvmLibraries_RunErrorTestsWithCoverage.log"
+  SimulationHtmlLogFile: "logs/OsvvmLibraries_RunErrorTestsWithCoverage_log.html"
+  CssPngSourceDirectory:   "C:/OsvvmLibraries/Scripts"
+  RequirementsSubdirectory: ""
+  CoverageSubdirectory:    "CodeCoverage/OsvvmLibraries_RunErrorTestsWithCoverage_code_cov/index.html"
+  Report2CssFiles: "reports/CssOsvvmStyle.css"
+  Report2PngFile:  "reports/OsvvmLogo.png"

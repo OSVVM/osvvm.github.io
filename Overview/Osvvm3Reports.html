@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSVVM Reports &mdash; OSVVM Documentation 2022.03 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/documentation_options.js?v=ec4c5e3f"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Structured Testbench Framework" href="Osvvm4VerificationFramework.html" />
+    <link rel="prev" title="Getting Started with OSVVM" href="Osvvm2GettingStarted.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> OSVVM Documentation
+          </a>
+              <div class="version">
+                2022.03
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">OSVVM Overview</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Osvvm1About.html">About OSVVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm2GettingStarted.html">Getting Started with OSVVM</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">OSVVM Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm4VerificationFramework.html">Structured Testbench Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm5UtilityLibrary.html">VHDL Utility Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm6ScriptLibrary.html">Scripting Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm7VerificationComponentLibrary.html">OSVVM Verification Component Library</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OSVVM Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+        
+          
+            <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>OSVVM Reports</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/OSVVM/osvvm.github.io/blob/main//Overview/Osvvm3Reports.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="osvvm-reports">
+<h1>OSVVM Reports<a class="headerlink" href="#osvvm-reports" title="Link to this heading">¶</a></h1>
+<section id="osvvm-s-reports">
+<h2>OSVVM’s Reports<a class="headerlink" href="#osvvm-s-reports" title="Link to this heading">¶</a></h2>
+<p>Good reports simplify debug and help find problems quickly.
+This is important as according to the
+<a class="reference external" href="https://blogs.sw.siemens.com/verificationhorizons/2020/12/02/part-4-the-2020-wilson-research-group-functional-verification-study/">2020 Wilson Verification Survey FPGA</a>
+verification engineers spend 46% of their time debugging.</p>
+<p>OSVVM produces the following reports:</p>
+<ul class="simple">
+<li><p>HTML Build Summary Report for human inspection that provides test completion status.</p></li>
+<li><p>JUnit XML Build Summary Report for use with continuous integration (CI/CD) tools.</p></li>
+<li><p>HTML Test Case Detailed report for each test case with Alert, Functional Coverage, and Scoreboard reports.</p></li>
+<li><p>HTML based simulator transcript/log files (simulator output)</p></li>
+<li><p>Text based test case transcript file (from TranscriptOpen)</p></li>
+</ul>
+<p>The best way to see the reports is to look at the reports in html form.
+The following table provides links to a couple of them.
+As you examine the reports also read the text below as it highlights important aspects of the reports.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 60.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Report Description</p></th>
+<th class="head"><p>Link</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Run of OsvvmLibraries/RunAllTestsWithCoverage.pro</p></td>
+<td><p><a class="reference external" href="https://osvvm.github.io/_static/riviera/OsvvmLibraries_RunAllTestsWithCoverage.html">OsvvmLibraries_RunAllTestsWithCoverage.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Run of OsvvmLibraries/RunErrorTestsWithCoverage.pro which has test case errors</p></td>
+<td><p><a class="reference external" href="https://osvvm.github.io/_static/questa/OsvvmLibraries_RunErrorTestsWithCoverage.html">OsvvmLibraries_RunErrorTestsWithCoverage.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Run of Coverage on Public and Private OSVVM Test Suites</p></td>
+<td><p><a class="reference external" href="https://synthworks.com/papers/riviera/sim_RunAllTestsWithCov.html">sim_RunAllTestsWithCoverage.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Alternately, create your own</p></td>
+<td><p><a class="reference external" href="https://osvvm.github.io/Overview/Osvvm2GettingStarted.html">run the demo</a></p></td>
+</tr>
+</tbody>
+</table>
+<section id="html-build-summary-report">
+<h3>HTML Build Summary Report<a class="headerlink" href="#html-build-summary-report" title="Link to this heading">¶</a></h3>
+<p>The Build Summary Report allows us to quickly confirm if a
+build passed or quickly identify which test cases did not PASS.</p>
+<p>The Build Summary Report has three distinct pieces:</p>
+<ul class="simple">
+<li><p>Build Status</p></li>
+<li><p>Test Suite Summary</p></li>
+<li><p>Test Case Summary</p></li>
+</ul>
+<p>For each Test Suite and Test Case, there is additional information,
+such as Functional Coverage and Disabled Alert Count.</p>
+<p>In the sim directory, the Build Summary Report is
+in the file OsvvmLibraries_RunDemoTests.html.
+See <a class="reference internal" href="#buildsummaryreportfig"><span class="std std-numref">Figure 1 Build Summary Report</span></a>.</p>
+<figure class="align-center" id="buildsummaryreportfig">
+<a class="reference internal image-reference" href="../_images/DemoBuildSummaryReport.png"><img alt="../_images/DemoBuildSummaryReport.png" src="../_images/DemoBuildSummaryReport.png" style="width: 541.0px; height: 607.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 1:  </span><span class="caption-text">Build Summary Report</span><a class="headerlink" href="#buildsummaryreportfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Note that any place in the report there is a triangle preceding text,
+pressing on the triangle will rotate it and either hide or reveal
+additional information.</p>
+<section id="build-status">
+<h4>Build Status<a class="headerlink" href="#build-status" title="Link to this heading">¶</a></h4>
+<p>The Build Status is in a table at the top of the
+Build Summary Report.
+It is shown in <a class="reference internal" href="#buildstatusfig"><span class="std std-numref">Figure 2 Build Status</span></a>.
+If code coverage is run, there will be a link to
+the results at the bottom of the Build Summary Report.</p>
+<figure class="align-center" id="buildstatusfig">
+<a class="reference internal image-reference" href="../_images/DemoBuildStatus.png"><img alt="../_images/DemoBuildStatus.png" src="../_images/DemoBuildStatus.png" style="width: 601.0px; height: 412.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 2:  </span><span class="caption-text">Build Status</span><a class="headerlink" href="#buildstatusfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="test-suite-summary">
+<h4>Test Suite Summary<a class="headerlink" href="#test-suite-summary" title="Link to this heading">¶</a></h4>
+<p>When running tests, test cases are grouped into test suites.
+A build can include multiple test suites.
+The next table we see in the Build Summary Report is the
+Test Suite Summary.
+<a class="reference internal" href="#testsuitesummaryfig"><span class="std std-numref">Figure 3 Test Suite Summary</span></a> shows
+that this build includes the test suites Axi4Full, AxiStream, and UART.</p>
+<figure class="align-center" id="testsuitesummaryfig">
+<a class="reference internal image-reference" href="../_images/DemoTestSuiteSummary.png"><img alt="../_images/DemoTestSuiteSummary.png" src="../_images/DemoTestSuiteSummary.png" style="width: 642.0px; height: 139.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 3:  </span><span class="caption-text">Test Suite Summary</span><a class="headerlink" href="#testsuitesummaryfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="test-case-summary">
+<h4>Test Case Summary<a class="headerlink" href="#test-case-summary" title="Link to this heading">¶</a></h4>
+<p>The remainder of the Build Summary Report is Test Case Summary.
+There is a separate Test Case Summary for each test suite in the build.
+See <a class="reference internal" href="#testcasesummaryfig"><span class="std std-numref">Figure 4 Test Case Summary</span></a>.</p>
+<figure class="align-center" id="testcasesummaryfig">
+<a class="reference internal image-reference" href="../_images/DemoTestCaseSummaries.png"><img alt="../_images/DemoTestCaseSummaries.png" src="../_images/DemoTestCaseSummaries.png" style="width: 805.0px; height: 295.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 4:  </span><span class="caption-text">Test Case Summary</span><a class="headerlink" href="#testcasesummaryfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="junit-xml-build-summary-report">
+<h3>JUnit XML Build Summary Report<a class="headerlink" href="#junit-xml-build-summary-report" title="Link to this heading">¶</a></h3>
+<p>The JUnit XML Build Summary Report works with
+continuous integration (CI/CD).
+The CI/CD tools use this to understand if the test
+is passing or not.
+They also have facilities for displaying the
+report - however, the OSVVM HTML format provides
+a superset of information.</p>
+<p>OSVVM runs regressions on GitHub.</p>
+</section>
+<section id="html-test-case-detailed-report">
+<h3>HTML Test Case Detailed Report<a class="headerlink" href="#html-test-case-detailed-report" title="Link to this heading">¶</a></h3>
+<p>For each test case that is run (simulated),
+a Test Case Detailed Report is produced that
+contains consists of the following information:</p>
+<ul class="simple">
+<li><p>Test Information Link Table</p></li>
+<li><p>Alert Report</p></li>
+<li><p>Functional Coverage Report(s)</p></li>
+<li><p>Scoreboard Report(s)</p></li>
+<li><p>Link to Test Case Transcript (opened with Transcript Open)</p></li>
+<li><p>Link to this test case in HTML based simulator transcript</p></li>
+</ul>
+<p>After running one of the regressions, open one of the HTML files
+in the directory ./reports/&lt;test-suite-name&gt;.
+See <a class="reference internal" href="#testcasedetailedfig"><span class="std std-numref">Figure 5 Test Case Detailed Report</span></a>.</p>
+<figure class="align-center" id="testcasedetailedfig">
+<a class="reference internal image-reference" href="../_images/DemoTestCaseDetailedReport.png"><img alt="../_images/DemoTestCaseDetailedReport.png" src="../_images/DemoTestCaseDetailedReport.png" style="width: 598.0px; height: 657.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 5:  </span><span class="caption-text">Test Case Detailed Report</span><a class="headerlink" href="#testcasedetailedfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Note that any place in the report there is a triangle preceding text,
+pressing on the triangle will rotate it and either hide or reveal
+additional information.</p>
+<section id="test-information-link-table">
+<h4>Test Information Link Table<a class="headerlink" href="#test-information-link-table" title="Link to this heading">¶</a></h4>
+<p>The Test Information Link Table is in a table at the top of the
+Test Case Detailed Report.
+<a class="reference internal" href="#testinfofig"><span class="std std-numref">Figure 6 Test Information Link Table</span></a>
+has links to the Alert Report (in this file),
+Functional Coverage Report (in this file),
+Scoreboard Reports (in this file),
+a link to simulation results (if the simulation report is in HTML),
+and a link to any transcript files opened by OSVVM.</p>
+<figure class="align-center" id="testinfofig">
+<a class="reference internal image-reference" href="../_images/DemoTestCaseLinks.png"><img alt="../_images/DemoTestCaseLinks.png" src="../_images/DemoTestCaseLinks.png" style="width: 388.0px; height: 225.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 6:  </span><span class="caption-text">Test Information Link Table</span><a class="headerlink" href="#testinfofig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="alert-report">
+<h4>Alert Report<a class="headerlink" href="#alert-report" title="Link to this heading">¶</a></h4>
+<p>The Alert Report provides detailed information for each AlertLogID
+that is used in a test case. Note that in the case of expected errors, the errors
+still show up as FAILED in the Alert Report and are rectified in the total error count.
+See <a class="reference internal" href="#alertfig"><span class="std std-numref">Figure 7 Alert Report</span></a></p>
+<figure class="align-center" id="alertfig">
+<a class="reference internal image-reference" href="../_images/DemoAlertReport.png"><img alt="../_images/DemoAlertReport.png" src="../_images/DemoAlertReport.png" style="width: 907.0px; height: 561.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 7:  </span><span class="caption-text">Alert Report</span><a class="headerlink" href="#alertfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="functional-coverage-report-s">
+<h4>Functional Coverage Report(s)<a class="headerlink" href="#functional-coverage-report-s" title="Link to this heading">¶</a></h4>
+<p>The Test Case Detailed Report contains a
+Functional Coverage Report for each
+functional coverage model used in the test case.
+See <a class="reference internal" href="#functionalcoveragefig"><span class="std std-numref">Figure 8 Functional Coverage Report</span></a>.
+Note this report is not from the demo.</p>
+<figure class="align-center" id="functionalcoveragefig">
+<a class="reference internal image-reference" href="../_images/CoverageReport.png"><img alt="../_images/CoverageReport.png" src="../_images/CoverageReport.png" style="width: 579.0px; height: 723.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 8:  </span><span class="caption-text">Functional Coverage Report</span><a class="headerlink" href="#functionalcoveragefig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="scoreboard-report-s">
+<h4>Scoreboard Report(s)<a class="headerlink" href="#scoreboard-report-s" title="Link to this heading">¶</a></h4>
+<p>The Test Case Detailed Report contains a
+Scoreboard Report, shown in
+<a class="reference internal" href="#scoreboardfig"><span class="std std-numref">Figure 9 Scoreboard Report</span></a>
+There is a row in the table for each
+scoreboard model used in the test case.</p>
+<figure class="align-center" id="scoreboardfig">
+<a class="reference internal image-reference" href="../_images/DemoScoreboardReport.png"><img alt="../_images/DemoScoreboardReport.png" src="../_images/DemoScoreboardReport.png" style="width: 723.0px; height: 408.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 9:  </span><span class="caption-text">Scoreboard Report</span><a class="headerlink" href="#scoreboardfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="test-case-transcript">
+<h3>Test Case Transcript<a class="headerlink" href="#test-case-transcript" title="Link to this heading">¶</a></h3>
+<p>OSVVM’s transcript utility facilitates collecting all
+test output to into a single file.</p>
+<p><a class="reference internal" href="#testcasetranscriptfig"><span class="std std-numref">Figure 10 shows the Test Case Transcript</span></a></p>
+<figure class="align-center" id="testcasetranscriptfig">
+<a class="reference internal image-reference" href="../_images/DemoVHDLTranscript.png"><img alt="../_images/DemoVHDLTranscript.png" src="../_images/DemoVHDLTranscript.png" style="width: 873.0px; height: 496.5px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 10:  </span><span class="caption-text">Test Case Transcript</span><a class="headerlink" href="#testcasetranscriptfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="html-simulator-transcript">
+<h3>HTML Simulator Transcript<a class="headerlink" href="#html-simulator-transcript" title="Link to this heading">¶</a></h3>
+<p>Simulator transcript files can be long.
+The basic OSVVM regression test (OsvvmLibraries/RunAllTests.pro),
+produces a log file that is 84K lines long.
+As a plain text file, this is not browsable, however,
+when converted to an html file it is.
+OSVVM gives you the option to create either html (default) or plain text.
+In the html report, any place there is a triangle preceding text,
+pressing on the triangle will rotate it and either hide or reveal
+additional information.</p>
+<p><a class="reference internal" href="#simtranscriptfig"><span class="std std-numref">Figure 11 shows the HTML Simulator Transcript</span></a></p>
+<figure class="align-center" id="simtranscriptfig">
+<a class="reference internal image-reference" href="../_images/DemoSimTranscript.png"><img alt="../_images/DemoSimTranscript.png" src="../_images/DemoSimTranscript.png" style="width: 663.5px; height: 342.5px;" /></a>
+<figcaption>
+<p><span class="caption-number">Figure 11:  </span><span class="caption-text">HTML Simulator Transcript</span><a class="headerlink" href="#simtranscriptfig" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Osvvm2GettingStarted.html" class="btn btn-neutral float-left" title="Getting Started with OSVVM" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Osvvm4VerificationFramework.html" class="btn btn-neutral float-right" title="Structured Testbench Framework" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jim Lewis Licensed under CC BY-NC-ND 4.0.</p>
+  </div>Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/buildthedocs/sphinx.theme">theme</a>
+    provided by <a href="https://buildthedocs.github.io">Build the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
