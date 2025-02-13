@@ -46,7 +46,7 @@ jobs:
         skip-deploy: true
 
     - name: '📤 Upload artifact: Sphinx HTML'
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Documentation-HTML
         path: _build/html
