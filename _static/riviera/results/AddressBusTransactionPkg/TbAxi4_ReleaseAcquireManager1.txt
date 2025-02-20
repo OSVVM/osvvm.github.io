@@ -1,0 +1,66 @@
+%%    120 ns    Log    PASSED    in Default,                               Expected Completion Time Received : 120 ns
+%%    120 ns    Log    PASSED    in Testbench,                             WRITE_RESPONSE_READY_DELAY_CYCLES Received : 2
+%%    120 ns    Log    PASSED    in Testbench,                             WRITE_RESPONSE_READY_BEFORE_VALID Received : true
+%%    120 ns    Log    PASSED    in Testbench,                             READ_DATA_READY_DELAY_CYCLES Received : 2
+%%    120 ns    Log    PASSED    in Testbench,                             READ_DATA_READY_BEFORE_VALID Received : true
+%%    120 ns    Log    INFO      in manager_1,                             Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    120 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10001000  AWProt: 000  Operation# 1
+%%    130 ns    Log    INFO      in memory_1,                              Memory Write.  AWAddr: 10001000  AWProt: 000  WData: 55555555  WStrb: 1111  Operation# 0
+%%    130 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10001000  ARProt: 000  Operation# 1
+%%    140 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 10001000  ARProt: 000  RData: 55555555  Operation# 0
+%%    150 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+%%    160 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    160 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: 55555555  Read Address: 10001000  Prot: 0
+%%    160 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000003  WStrb: 1111  Operation# 2
+%%    160 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00000008  AWProt: 000  Operation# 2
+%%    170 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000004  WStrb: 1111  Operation# 3
+%%    170 ns    Log    INFO      in memory_1,                              Memory Write.  AWAddr: 00000008  AWProt: 000  WData: 00000003  WStrb: 1111  Operation# 1
+%%    180 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000005  WStrb: 1111  Operation# 4
+%%    190 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000006  WStrb: 1111  Operation# 5
+%%    200 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000007  WStrb: 1111  Operation# 6
+%%    210 ns    Log    INFO      in manager_1,                             Write Data.  WData: 00000008  WStrb: 1111  Operation# 7
+%%    220 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00000008  ARProt: 000  Operation# 2
+%%    230 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    230 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 00000008  ARProt: 000  RData: 00000003  Operation# 1
+%%    250 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    280 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    310 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    340 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    370 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    400 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    400 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000003   Item Number: 1
+%%    400 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000004   Item Number: 2
+%%    400 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000005   Item Number: 3
+%%    400 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000006   Item Number: 4
+%%    400 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000007   Item Number: 5
+%%    400 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 00000008   Item Number: 6
+%%    410 ns    Log    PASSED    in Default,                               Expected Completion Time Received : 410 ns
+%%    410 ns    Log    PASSED    in Testbench,                             WRITE_RESPONSE_READY_DELAY_CYCLES Received : 1
+%%    410 ns    Log    PASSED    in Testbench,                             WRITE_RESPONSE_READY_BEFORE_VALID Received : false
+%%    410 ns    Log    PASSED    in Testbench,                             READ_DATA_READY_DELAY_CYCLES Received : 1
+%%    410 ns    Log    PASSED    in Testbench,                             READ_DATA_READY_BEFORE_VALID Received : false
+%%    410 ns    Log    INFO      in manager_1,                             Write Data.  WData: AAAAAAAA  WStrb: 1111  Operation# 8
+%%    410 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 10002000  AWProt: 000  Operation# 3
+%%    420 ns    Log    INFO      in memory_1,                              Memory Write.  AWAddr: 10002000  AWProt: 000  WData: AAAAAAAA  WStrb: 1111  Operation# 2
+%%    420 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 10002000  ARProt: 000  Operation# 3
+%%    430 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 10002000  ARProt: 000  RData: AAAAAAAA  Operation# 7
+%%    450 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
+%%    460 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    460 ns    Log    PASSED    in manager_1: Data Check,                 Read Data: AAAAAAAA  Read Address: 10002000  Prot: 0
+%%    460 ns    Log    INFO      in manager_1,                             Write Data.  WData: 0000000A  WStrb: 1111  Operation# 9
+%%    460 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: 00001008  AWProt: 000  Operation# 4
+%%    470 ns    Log    INFO      in manager_1,                             Write Data.  WData: 0000000B  WStrb: 1111  Operation# 10
+%%    470 ns    Log    INFO      in memory_1,                              Memory Write.  AWAddr: 00001008  AWProt: 000  WData: 0000000A  WStrb: 1111  Operation# 3
+%%    480 ns    Log    INFO      in manager_1,                             Write Data.  WData: 0000000C  WStrb: 1111  Operation# 11
+%%    490 ns    Log    INFO      in manager_1,                             Write Data.  WData: 0000000D  WStrb: 1111  Operation# 12
+%%    500 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 00001008  ARProt: 000  Operation# 4
+%%    510 ns    Log    INFO      in memory_1,                              Memory Read.  ARAddr: 00001008  ARProt: 000  RData: 0000000A  Operation# 8
+%%    530 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 4
+%%    540 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%    570 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%    600 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 11
+%%    630 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 12
+%%    630 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000A   Item Number: 7
+%%    630 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000B   Item Number: 8
+%%    630 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000C   Item Number: 9
+%%    630 ns    Log    PASSED    in manager_1: ReadBurstFifo,              Received: 0000000D   Item Number: 10

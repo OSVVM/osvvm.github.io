@@ -1,0 +1,240 @@
+build C:/OsvvmLibraries/OsvvmLibraries.pro
+creating directory reports
+Starting Build at time 09:40:17
+creating directory C:/tools/VHDL_LIBS/QuestaSim-2023.10
+library DefaultLib C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/defaultlib 
+vmap   defaultlib  C:/tools/VHDL_LIBS/QuestaSim-2023.10/defaultlib
+set CurrentWorkingDirectory C:/OsvvmLibraries
+source C:/OsvvmLibraries/OsvvmLibraries.pro
+include ./osvvm/osvvm.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/osvvm
+source C:/OsvvmLibraries/osvvm/osvvm.pro
+library osvvm C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm 
+vmap   osvvm  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm
+analyze IfElsePkg.vhd
+analyze OsvvmScriptSettingsPkg.vhd
+analyze OsvvmSettingsPkg.vhd
+analyze TextUtilPkg.vhd
+analyze ResolutionPkg.vhd
+analyze NamePkg.vhd
+analyze OsvvmGlobalPkg.vhd
+analyze VendorCovApiPkg.vhd
+analyze TranscriptPkg.vhd
+analyze AlertLogPkg.vhd
+analyze TbUtilPkg.vhd
+analyze NameStorePkg.vhd
+analyze MessageListPkg.vhd
+analyze SortListPkg_int.vhd
+analyze RandomBasePkg.vhd
+# ** Warning: C:/OsvvmLibraries/osvvm/RandomBasePkg.vhd(86): (vcom-1246) Range 0 downto 1 is null.
+analyze RandomPkg.vhd
+analyze RandomProcedurePkg.vhd
+analyze CoveragePkg.vhd
+analyze DelayCoveragePkg.vhd
+analyze ResizePkg.vhd
+analyze ScoreboardGenericPkg.vhd
+analyze ScoreboardPkg_slv.vhd
+analyze ScoreboardPkg_int.vhd
+analyze MemorySupportPkg.vhd
+analyze MemoryGenericPkg.vhd
+analyze MemoryPkg.vhd
+analyze ReportPkg.vhd
+analyze OsvvmTypesPkg.vhd
+GeneratedPkg = C:/tools/sim/questa/OsvvmScriptSettingsPkg_generated.vhd
+analyze C:/tools/sim/questa/OsvvmScriptSettingsPkg_generated.vhd
+analyze OsvvmSettingsPkg_default.vhd
+analyze OsvvmContext.vhd
+include ./Common/Common.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/Common
+source C:/OsvvmLibraries/Common/Common.pro
+library OSVVM_Common C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_common 
+vmap   osvvm_common  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_common
+include src/Common.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/Common/src
+source C:/OsvvmLibraries/Common/src/Common.pro
+library OSVVM_Common C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vmap   osvvm_common  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_common
+analyze ModelParametersPtPkg.vhd
+analyze ModelParametersSingletonPkg.vhd
+analyze FifoFillPkg_slv.vhd
+analyze StreamTransactionPkg.vhd
+analyze StreamTransactionArrayPkg.vhd
+analyze AddressBusTransactionPkg.vhd
+analyze AddressBusTransactionArrayPkg.vhd
+analyze AddressBusResponderTransactionPkg.vhd
+analyze AddressBusResponderTransactionArrayPkg.vhd
+analyze AddressBusVersionCompatibilityPkg.vhd
+analyze InterruptGlobalSignalPkg.vhd
+analyze InterruptHandler.vhd
+analyze InterruptHandlerComponentPkg.vhd
+analyze InterruptGeneratorBit.vhd
+analyze InterruptGeneratorBitVti.vhd
+# ** Warning: C:/OsvvmLibraries/Common/src/InterruptGeneratorBitVti.vhd(66): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: C:/OsvvmLibraries/Common/src/InterruptGeneratorBitVti.vhd(66): (vcom-1246) Range 1 to 0 is null.
+analyze InterruptGeneratorComponentPkg.vhd
+analyze OsvvmCommonContext.vhd
+include ./UART/UART.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/UART
+source C:/OsvvmLibraries/UART/UART.pro
+library osvvm_uart C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_uart 
+vmap   osvvm_uart  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_uart
+analyze ./src/UartTbPkg.vhd
+analyze ./src/ScoreboardPkg_Uart.vhd
+analyze ./src/UartTxComponentPkg.vhd
+analyze ./src/UartRxComponentPkg.vhd
+analyze ./src/UartContext.vhd
+analyze ./src/UartTx.vhd
+analyze ./src/UartRx.vhd
+include ./AXI4/AXI4.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4
+source C:/OsvvmLibraries/AXI4/AXI4.pro
+include ./common/common.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4/common
+source C:/OsvvmLibraries/AXI4/common/common.pro
+library osvvm_axi4 C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_axi4 
+vmap   osvvm_axi4  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_axi4
+analyze Axi4InterfaceCommonPkg.vhd
+analyze Axi4LiteInterfacePkg.vhd
+analyze Axi4InterfacePkg.vhd
+analyze Axi4CommonPkg.vhd
+analyze Axi4ModelPkg.vhd
+analyze Axi4OptionsPkg.vhd
+analyze Axi4OptionsArrayPkg.vhd
+analyze Axi4VersionCompatibilityPkg.vhd
+include ./Axi4Lite/Axi4Lite.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4/Axi4Lite
+source C:/OsvvmLibraries/AXI4/Axi4Lite/Axi4Lite.pro
+library osvvm_axi4 C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vmap   osvvm_axi4  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_axi4
+analyze ./src/Axi4LiteComponentPkg.vhd
+analyze ./src/Axi4LiteContext.vhd
+analyze ./src/Axi4LiteManager.vhd
+analyze ./src/Axi4LiteMonitor_dummy.vhd
+analyze ./src/Axi4LiteSubordinate.vhd
+analyze ./src/Axi4LiteMemory.vhd
+analyze ./src/Axi4LitePassThru.vhd
+include ./AxiStream/AxiStream.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4/AxiStream
+source C:/OsvvmLibraries/AXI4/AxiStream/AxiStream.pro
+include src 
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4/AxiStream/src
+source C:/OsvvmLibraries/AXI4/AxiStream/src/build.pro
+library osvvm_axi4 C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vmap   osvvm_axi4  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_axi4
+analyze AxiStreamOptionsPkg.vhd
+analyze AxiStreamOptionsArrayPkg.vhd
+analyze AxiStreamTbPkg.vhd
+analyze AxiStreamTransmitter.vhd
+analyze AxiStreamTransmitterVti.vhd
+analyze AxiStreamReceiver.vhd
+analyze AxiStreamReceiverVti.vhd
+analyze AxiStreamComponentPkg.vhd
+analyze AxiStreamContext.vhd
+analyze AxiStreamGenericSignalsPkg.vhd
+analyze AxiStreamSignalsPkg_32.vhd
+include ./Axi4/Axi4.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4/Axi4
+source C:/OsvvmLibraries/AXI4/Axi4/Axi4.pro
+include ./src {}
+set CurrentWorkingDirectory C:/OsvvmLibraries/AXI4/Axi4/src
+source C:/OsvvmLibraries/AXI4/Axi4/src/build.pro
+library osvvm_axi4 C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vmap   osvvm_axi4  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_axi4
+analyze Axi4ComponentPkg.vhd
+analyze Axi4ComponentVtiPkg.vhd
+analyze Axi4Context.vhd
+analyze Axi4Manager.vhd
+analyze Axi4ManagerVti.vhd
+analyze Axi4Monitor_dummy.vhd
+analyze Axi4Subordinate.vhd
+analyze Axi4SubordinateVti.vhd
+analyze Axi4Memory.vhd
+analyze Axi4MemoryVti.vhd
+analyze Axi4PassThru.vhd
+include ./DpRam/DpRam.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/DpRam
+source C:/OsvvmLibraries/DpRam/DpRam.pro
+include src 
+set CurrentWorkingDirectory C:/OsvvmLibraries/DpRam/src
+source C:/OsvvmLibraries/DpRam/src/build.pro
+library osvvm_DpRam_PT C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_dpram_pt 
+vmap   osvvm_dpram_pt  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_dpram_pt
+analyze DpRam_PT.vhd
+library osvvm_DpRam C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_dpram 
+vmap   osvvm_dpram  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_dpram
+analyze DpRam_Singleton.vhd
+analyze DpRamController_Blocking.vhd
+analyze DpRamComponentPkg.vhd
+analyze DpRamContext.vhd
+include ./Ethernet/Ethernet.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/Ethernet
+source C:/OsvvmLibraries/Ethernet/Ethernet.pro
+include src 
+set CurrentWorkingDirectory C:/OsvvmLibraries/Ethernet/src
+source C:/OsvvmLibraries/Ethernet/src/build.pro
+library osvvm_ethernet C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_ethernet 
+vmap   osvvm_ethernet  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_ethernet
+analyze xMiiTbPkg.vhd
+# ** Warning: C:/OsvvmLibraries/Ethernet/src/xMiiTbPkg.vhd(62): (vcom-1246) Range 0 downto 1 is null.
+# ** Warning: C:/OsvvmLibraries/Ethernet/src/xMiiTbPkg.vhd(63): (vcom-1246) Range 0 downto 1 is null.
+analyze xMiiComponentPkg.vhd
+analyze xMiiPhyRxTransmitter.vhd
+analyze xMiiPhyTxReceiver.vhd
+analyze xMiiPhy.vhd
+analyze xMiiMacTransmitter.vhd
+analyze xMiiMacReceiver.vhd
+analyze xMiiMac.vhd
+analyze xMiiContext.vhd
+include ./VideoBus_LouisAdriaens/VideoBus.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/VideoBus_LouisAdriaens
+source C:/OsvvmLibraries/VideoBus_LouisAdriaens/VideoBus.pro
+library osvvm_videobus C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_videobus 
+vmap   osvvm_videobus  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_videobus
+analyze ./src/VideoBusRx_pkg.vhd
+analyze ./src/VideoBusRx.vhd
+analyze ./src/VideoBusTx_pkg.vhd
+analyze ./src/VideoBusTx.vhd
+analyze ./src/PassthroughDUT_pkg.vhd
+analyze ./src/PassthroughDUT.vhd
+analyze ./src/bmp_pack.vhd
+analyze ./src/VideoBusContext.vhd
+include ./SPI_GuyEschemann/spi.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/SPI_GuyEschemann
+source C:/OsvvmLibraries/SPI_GuyEschemann/spi.pro
+library osvvm_spi C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_spi 
+vmap   osvvm_spi  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_spi
+analyze ./src/SpiTbPkg.vhd
+analyze ./src/SpiComponentPkg.vhd
+analyze ./src/SpiContext.vhd
+analyze ./src/SpiController.vhd
+analyze ./src/SpiPeripheral.vhd
+include ./CoSim/CoSim.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/CoSim
+source C:/OsvvmLibraries/CoSim/CoSim.pro
+library osvvm_cosim C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vlib   C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_cosim 
+vmap   osvvm_cosim  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_cosim
+include src/CoSim.pro 
+set CurrentWorkingDirectory C:/OsvvmLibraries/CoSim/src
+source C:/OsvvmLibraries/CoSim/src/CoSim.pro
+library osvvm_cosim C:/tools/VHDL_LIBS/QuestaSim-2023.10
+vmap   osvvm_cosim  C:/tools/VHDL_LIBS/QuestaSim-2023.10/osvvm_cosim
+analyze OsvvmVprocPkg.vhd
+analyze OsvvmTestCoSimPkg.vhd
+analyze CoSimInterruptHandler.vhd
+analyze CoSimInterruptHandlerComponentPkg.vhd
+analyze CoSimContext.vhd
+Build Start time  09:40:17 PDT Thu May 30 2024 
+Build Finish time 09:40:52, Elapsed time: 0:00:35 
+Build: OsvvmLibraries PASSED,  Passed: 0,  Failed: 0,  Skipped: 0,  Analyze Errors: 0,  Simulate Errors: 0
+creating directory C:/tools/sim/questa/logs

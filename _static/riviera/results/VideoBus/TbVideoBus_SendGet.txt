@@ -1,0 +1,4 @@
+%%    127 ns    Log    INFO      in videobusrx,                       New frame started in VideoBusRx!
+%%  53752 ns    Log    INFO      in videobusrx,                       New frame started in VideoBusRx!
+%% 107377 ns    Log    INFO      in videobusrx,                       New frame started in VideoBusRx!
+%% 161002 ns    Log    INFO      in videobusrx,                       New frame started in VideoBusRx!

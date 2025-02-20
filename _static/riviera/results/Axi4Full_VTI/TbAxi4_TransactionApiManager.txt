@@ -1,0 +1,78 @@
+%%     90 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionCount Received : 1
+%%     90 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 0
+%%     90 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 0
+%%    130 ns    Log    ALWAYS    in TB Manager Proc,                                      WriteAsync, Addr: 00000000,  Data: 00000000
+%%    130 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000000  WStrb: 1111  Operation# 1
+%%    130 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000000  AWProt: 000  Operation# 1
+%%    140 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000001  WStrb: 1111  Operation# 2
+%%    140 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000004  AWProt: 000  Operation# 2
+%%    140 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000000  AWProt: 000  WData: 00000000  WStrb: 1111  Operation# 0
+%%    150 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 1
+%%    150 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000004  AWProt: 000  WData: 00000001  WStrb: 1111  Operation# 1
+%%    160 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 2
+%%    160 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionCount Received : 8
+%%    160 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 2
+%%    200 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000002  WStrb: 1111  Operation# 3
+%%    200 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000008  AWProt: 000  Operation# 3
+%%    210 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000003  WStrb: 1111  Operation# 4
+%%    210 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 0000000C  AWProt: 000  Operation# 4
+%%    210 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000008  AWProt: 000  WData: 00000002  WStrb: 1111  Operation# 2
+%%    220 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 3
+%%    220 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 0000000C  AWProt: 000  WData: 00000003  WStrb: 1111  Operation# 3
+%%    230 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 4
+%%    230 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionCount Received : 14
+%%    230 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 4
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                                      WriteAddressAsync, Addr: 00000010,  Data: 00000004
+%%    270 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000010  AWProt: 000  Operation# 5
+%%    280 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000014  AWProt: 000  Operation# 6
+%%    290 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 6
+%%    330 ns    Log    ALWAYS    in TB Manager Proc,                                      WriteDataAsync, Addr: 00000010,  Data: 00000004
+%%    330 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000004  WStrb: 1111  Operation# 5
+%%    340 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000005  WStrb: 1111  Operation# 6
+%%    340 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000010  AWProt: 000  WData: 00000004  WStrb: 1111  Operation# 4
+%%    350 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 5
+%%    350 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000014  AWProt: 000  WData: 00000005  WStrb: 1111  Operation# 5
+%%    360 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 6
+%%    360 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 6
+%%    400 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000018  AWProt: 000  Operation# 7
+%%    410 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 0000001C  AWProt: 000  Operation# 8
+%%    420 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 8
+%%    460 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000006  WStrb: 1111  Operation# 7
+%%    470 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00000007  WStrb: 1111  Operation# 8
+%%    470 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000018  AWProt: 000  WData: 00000006  WStrb: 1111  Operation# 6
+%%    480 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 7
+%%    480 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 0000001C  AWProt: 000  WData: 00000007  WStrb: 1111  Operation# 7
+%%    490 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 8
+%%    490 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 8
+%%    530 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 0
+%%    530 ns    Log    ALWAYS    in TB Manager Proc,                                      ReadAddressAsync, Addr: 00000000,  Data: 00000000
+%%    530 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000000  ARProt: 000  Operation# 1
+%%    540 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000004  ARProt: 000  Operation# 2
+%%    540 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000000  ARProt: 000  RData: 00000000  Operation# 0
+%%    550 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 1
+%%    550 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000004  ARProt: 000  RData: 00000001  Operation# 1
+%%    560 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 2
+%%    560 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 2
+%%    560 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 8
+%%    600 ns    Log    ALWAYS    in TB Manager Proc,                                      TryReadCheckData, Addr: 00000000,  Data: 00000000
+%%    600 ns    Log    PASSED    in manager_1: Data Check,                                Read Data: 00000000  Read Address: 00000000  Prot: 0
+%%    600 ns    Log    PASSED    in TB Manager Proc,                                      TryReadCheckData Available:  Received : true
+%%    600 ns    Log    PASSED    in manager_1: Data Check,                                Read Data: 00000001  Read Address: 00000004  Prot: 0
+%%    600 ns    Log    PASSED    in TB Manager Proc,                                      TryReadCheckData Available:  Received : true
+%%    600 ns    Log    PASSED    in TB Manager Proc,                                      WaitForTransaction after TryReadCheckData takes 0 time Received : 600 ns
+%%    600 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 2
+%%    640 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000008  ARProt: 000  Operation# 3
+%%    650 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 0000000C  ARProt: 000  Operation# 4
+%%    650 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000008  ARProt: 000  RData: 00000002  Operation# 2
+%%    660 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 3
+%%    660 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 0000000C  ARProt: 000  RData: 00000003  Operation# 3
+%%    670 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 4
+%%    670 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 4
+%%    710 ns    Log    PASSED    in manager_1: Data Check,                                Read Data: 00000002  Read Address: 00000008  Prot: 0
+%%    710 ns    Log    PASSED    in TB Manager Proc,                                      TryReadCheckData Available:  Received : true
+%%    710 ns    Log    PASSED    in manager_1: Data Check,                                Read Data: 00000003  Read Address: 0000000C  Prot: 0
+%%    710 ns    Log    PASSED    in TB Manager Proc,                                      TryReadCheckData Available:  Received : true
+%%    710 ns    Log    PASSED    in TB Manager Proc,                                      WaitForTransaction after TryReadCheckData takes 0 time Received : 710 ns
+%%    710 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 4
+%%    750 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionReadCount Received : 4
+%%    750 ns    Log    PASSED    in TB Manager Proc,                                      GetTransactionWriteCount Received : 8

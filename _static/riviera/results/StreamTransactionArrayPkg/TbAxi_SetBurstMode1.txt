@@ -1,0 +1,8 @@
+%%     20 ns    Log    ALWAYS    in Default,                      Default BurstMode 0
+%%     20 ns    Log    PASSED    in Default,                      BurstMode = 2
+%%     20 ns    Log    PASSED    in Default,                      BurstMode = 0
+%%     20 ns    Log    PASSED    in Default,                      BurstMode = 1
+%%     30 ns    Log    ALWAYS    in Default,                      Default BurstMode 0
+%%     30 ns    Log    PASSED    in Default,                      BurstMode = 2
+%%     30 ns    Log    PASSED    in Default,                      BurstMode = 0
+%%     30 ns    Log    PASSED    in Default,                      BurstMode = 1
