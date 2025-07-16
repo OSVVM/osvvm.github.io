@@ -28,7 +28,7 @@ As you examine the reports also read the text below as it highlights important a
       - Link
     * - Run of OsvvmLibraries/RunAllTestsWithCoverage.pro 
       - `OsvvmLibraries_RunAllTestsWithCoverage.html <https://osvvm.github.io/_static/riviera/OsvvmLibraries_RunAllTestsWithCoverage.html>`__
-    * - Run of OsvvmLibraries/RunErrorTestsWithCoverage.pro which has test case errors
+    * - Test Case with failures.  How long does it take you to find which test cases are failing?  Also note you can find the failures by looking at the HTML Simulate Transcript (log).
       - `OsvvmLibraries_RunErrorTestsWithCoverage.html <https://osvvm.github.io/_static/questa/OsvvmLibraries_RunErrorTestsWithCoverage.html>`__
     * - Run of Coverage on Public and Private OSVVM Test Suites 
       - `sim_RunAllTestsWithCoverage.html <https://synthworks.com/papers/riviera/sim_RunAllTestsWithCov.html>`__

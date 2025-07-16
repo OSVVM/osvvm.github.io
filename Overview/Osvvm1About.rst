@@ -22,17 +22,96 @@ have helped develop VHDL standards.
 We have used our expert VHDL skills to create
 advanced verification capabilities that provide:  
 
-- A structured transaction-based framework using verification components that is suitable for all verification tasks - from Unit/RTL to full chip/system level testing.
-- Test cases and verification components that can be written any VHDL Engineer.
-- Test cases that are readable and reviewable by the whole team including software and system engineers.   
-- Unmatched reuse through the entire verification process.    
-- Unmatched test reporting with HTML based test suite reports, test case reports, and logs that facilitate debug and test artifact collection.   
-- Support for continuous integration (CI/CD) with JUnit XML test suite reporting.  
-- Powerful and concise verification capabilities including Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models, error logging and reporting, and message filtering that are simple to use and work like built-in language features.
-- A common scripting API to run all simulators - including GHDL, NVC, Aldec Riviera-PRO and ActiveHDL, Siemens Questa and ModelSim, Synopsys VCS, and Cadence Xcelium.  
-- A Co-simulation capability that supports running software (C++) in a hardware simulation environment.
-- A Model Independent Transaction (MIT) library that defines a transaction API (procedures such as read, write, send, get, …)  and transaction interface (a record) that simplifies writing verification components and test cases.
-- A rival to the verification capabilities of SystemVerilog + UVM.  
+**A structured transaction-based framework**
+
+-  Suitable for all verification tasks – from Unit/RTL to full
+   chip/system level tests.
+-  Similar block diagram to SystemVerilog + UVM, except It plugs
+   together just like RTL
+-  Facilitates re-use of VC and test cases through all levels of testing
+   (RTL to Full Chip)
+
+**Model Independent Transaction (MIT) Library**
+
+-  Defines Transaction API - procedures called by test case to build up
+   sequences of interface operations - such as send, get, write, read
+-  Defines Transaction Interface - connects Verification Component to
+   Test Sequencer.
+-  Used by all OSVVM defined VC
+
+**Simplified Verification component (VC) development**
+
+-  Uses MIT library = building block level re-use.
+-  Makes development of a VC as simple as writing a procedure.
+-  No OO or fork and join - uses natural concurrency of a VHDL
+   entity/architecture
+-  Any VHDL engineer can do this
+
+**Readable Test cases**
+
+-  Simplified since all VC of a similar type implement a subset of the
+   MIT transaction calls (send, get, …)
+-  Directed tests or complex, randomized tests can be written by any
+   VHDL engineer
+-  Readable and reviewable by the whole team including software and
+   system engineers.
+
+**Unmatched Test Reports**
+
+-  Build Summary - HTML (for humans) + JUnit XML (for CI tools)
+-  Test Cases - HTML
+-  Logs - HTML + plain text
+-  Requirements Tracking - HTML + CSV
+-  Helps Find and Debug issues faster
+
+**Powerful verification utilities that make VHDL a full verification
+language, including**
+
+-  Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory
+   Models, error logging and reporting (alerts), and message filtering
+   (logs).
+-  Capabilities are simple to use, concise, and work like built-in
+   language features.
+
+**Requirements Tracking**
+
+-  Tracked using both OSVVM's affirmations and functional coverage
+-  Tracks a count of each requirement and not just a boolean type check.
+
+**A Common Scripting API**
+
+-  Same script runs all simulators – including GHDL, NVC, Aldec
+   Riviera-PRO and ActiveHDL, Siemens Questa and ModelSim, Synopsys VCS,
+   Cadence Xcelium, and Xilinx XSIM.
+-  Is an API on top of Tcl
+-  Most scripts are just slightly more than a list of files
+-  Can run Tcl when you need it - usually no Tcl is required
+
+**Free, Open Source Verification Components include**
+
+-  AXI Full and Lite, AxiStream, Wishbone, UART, xMII, SPI, DpRam,
+   VideoBus.
+
+**Co-simulation**
+
+-  Supports running software (C++) in a hardware simulation environment.
+-  Write test cases in C++
+-  Run C++ models such as instruct set simulators
+
+**Architected by a long-time IEEE VHDL working group contributor**
+
+-  So expect better VHDL implementations.
+
+**It is Free, Open Source under APACHE 2.0**
+
+-  Upgrades an ordinary VHDL license to a full featured verification
+   capabilities
+-  `On GitHub <https://github.com/osvvm/OsvvmLibraries>`__ and IEEE Open
+   Source.
+-  We accept issues and pull requests on GitHub.
+-  Join us.
+
+**Get similar verification capabilities to SystemVerilog + UVM without needing OO.**
 
 Looking to improve your VHDL verification methodology? 
 OSVVM provides a complete solution for VHDL ASIC or FPGA verification. 
@@ -41,53 +120,6 @@ It is simple, powerful, and concise.
 Each piece can be used separately. 
 Hence, you can learn and adopt pieces as you need them.  
 
-Important benefits of OSVVM:
-
-* Each piece is independent
-    * Add them to your current VHDL testbench incrementally.
-
-* Verification Framework (aka. Structured Testbench Framework) that 
-    * Is based on transactions and verification components - just like SystemVerilog and SystemC
-    * Is simple enough to use on small blocks - unlike SystemVerilog
-    * Is powerful enough to use on large, complex FPGAs and ASICs - like SystemVerilog
-    * Is so simple that we don’t need a “Lite” or “Easy” approach - unlike SystemVerilog
-    * Uses transaction calls to write test cases which accelerates their development and simplifies readability.
-    * Defines a pattern and utilities for verification component (VC) development 
-    * Defines a pattern and utilities for using VHDL records as an interface to connect testbench components
-    * Defines a common set of Model Independent Transactions (MIT) that can be used for any address bus or streaming interface. 
-    * Facilitates reuse between RTL, Core, and System tests by using the same framework and verification components
-    * Makes test cases readable by RTL, verification, software, and system engineers
-
-* Verification utility library that
-    * Simplifies Self-checking, Error handling, and Message Filtering
-    * Implements Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models
-    * Is simple to use and works like built-in language features
-
-* Unmatched Test reporting
-    * JUnit XML for use with continuous integration (CI/CD) tools.
-    * HTML Build Summary Report for reporting test suite level information
-    * HTML Test Case Detailed report for each test case.
-    * HTML based Alert, Functional Coverage, and Scoreboard Reports
-    * HTML based test transcript/log files
-    * Find and debug issues faster
-
-* Verification component library
-    * Free open source verification components for AXI4 Full, AXI4 Lite, AXI Stream, UART, and DPRAM
-    * More in progress
-
-* One Script to Run Simulators
-    * Same script supports GHDL, Aldec Riviera-PRO and ActiveHDL, Siemens QuestaSim and ModelSim, Synopsys VCS, and Cadence Xcelium
-
-* Co-simulation 
-    * Supports running software (C++) in a hardware simulation environment
-    * Write test cases in C++
-    * Run C++ models such as instruction set simulators
-
-* Tests and verification components can be written by any VHDL Engineer
-    * While on a project it is good to separate design and verification, our engineering team members should be able to do either.
-
-* It is free open source
-    * It upgrades an ordinary VHDL license with full featured verification capabilities.
 
 SynthWorks has been using OSVVM for 25+ years in our
 training classes and consulting work.
