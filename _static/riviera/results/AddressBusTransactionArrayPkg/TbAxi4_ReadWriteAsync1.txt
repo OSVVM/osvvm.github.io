@@ -1,0 +1,150 @@
+%%    110 ns    Log    ALWAYS    in TB Manager Proc,                       Write and Read with ByteAddr = 0, 4 Bytes
+%%    110 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync, Addr: AAAA_AAA0, Data: 5555_5555
+%%    110 ns    Log    INFO      in manager_1,                             Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    110 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 1
+%%    120 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 1
+%%    120 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 55555555  WStrb: 1111  Operation# 1
+%%    120 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 1
+%%    120 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : AAAAAAA0
+%%    120 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 55555555
+%%    130 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 1
+
+%%    150 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr 1111_1110
+%%    150 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1
+%%    150 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data 2222_2222
+%%    160 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 1
+%%    160 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 22222222  RResp: 0  Operation# 1
+%%    160 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111110
+%%    170 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 1
+%%    170 ns    Log    INFO      in manager_1,                             Read Data: 22222222  Read Address: 11111110  Prot: 0
+%%    170 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : 22222222
+
+
+%%    190 ns    Log    ALWAYS    in TB Manager Proc,                       Write with 1 Byte, and ByteAddr = 0, 1, 2, 3
+%%    190 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: AAAA_AAA0, Data: 11
+%%    190 ns    Log    INFO      in manager_1,                             Write Data.  WData: UUUUUU11  WStrb: 0001  Operation# 2
+%%    190 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 2
+%%    190 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: AAAA_AAA1, Data: 22
+%%    190 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: AAAA_AAA2, Data: 33
+%%    190 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: AAAA_AAA3, Data: 44
+%%    200 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA0  AWProt: 000  Operation# 2
+%%    200 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UUUUUU11  WStrb: 0001  Operation# 2
+%%    200 ns    Log    INFO      in manager_1,                             Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 3
+%%    200 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA1  AWProt: 000  Operation# 3
+%%    200 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 2
+%%    200 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : AAAAAAA0
+%%    200 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00000011
+%%    210 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 2
+%%    210 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA1  AWProt: 000  Operation# 3
+%%    210 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 3
+%%    210 ns    Log    INFO      in manager_1,                             Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 4
+%%    210 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA2  AWProt: 000  Operation# 4
+%%    210 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 3
+%%    210 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : AAAAAAA1
+%%    210 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00002200
+%%    220 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 3
+%%    220 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA2  AWProt: 000  Operation# 4
+%%    220 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 4
+%%    220 ns    Log    INFO      in manager_1,                             Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 5
+%%    220 ns    Log    INFO      in manager_1,                             Write Address.  AWAddr: AAAAAAA3  AWProt: 000  Operation# 5
+%%    220 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 4
+%%    220 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : AAAAAAA2
+%%    220 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00330000
+%%    230 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 4
+%%    230 ns    Log    INFO      in subordinate_1,                         Write Address.  AWAddr: AAAAAAA3  AWProt: 000  Operation# 5
+%%    230 ns    Log    INFO      in subordinate_1,                         Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 5
+%%    230 ns    Log    INFO      in subordinate_1,                         Write Response.  BResp: 0  Operation# 5
+%%    230 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : AAAAAAA3
+%%    230 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 44000000
+%%    240 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 5
+
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       Read with 1 Byte, and ByteAddr = 0, 1, 2, 3
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1110
+%%    270 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1111
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1112
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1113
+%%    270 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: AA
+%%    280 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111110  ARProt: 000  Operation# 2
+%%    280 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 3
+%%    280 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 000000AA  RResp: 0  Operation# 2
+%%    280 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111110
+%%    290 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 2
+%%    290 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111111  ARProt: 000  Operation# 3
+%%    290 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 4
+%%    290 ns    Log    INFO      in manager_1,                             Read Data: 000000AA  Read Address: 11111110  Prot: 0
+%%    290 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 0000BBUU  RResp: 0  Operation# 3
+%%    290 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111111
+%%    290 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : AA
+%%    290 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: BB
+%%    300 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 3
+%%    300 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111112  ARProt: 000  Operation# 4
+%%    300 ns    Log    INFO      in manager_1,                             Read Address.  ARAddr: 11111113  ARProt: 000  Operation# 5
+%%    300 ns    Log    INFO      in manager_1,                             Read Data: 000000BB  Read Address: 11111111  Prot: 0
+%%    300 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: 00CCUUUU  RResp: 0  Operation# 4
+%%    300 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111112
+%%    300 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : BB
+%%    300 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: CC
+%%    310 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 4
+%%    310 ns    Log    INFO      in subordinate_1,                         Read Address.  ARAddr: 11111113  ARProt: 000  Operation# 5
+%%    310 ns    Log    INFO      in manager_1,                             Read Data: 000000CC  Read Address: 11111112  Prot: 0
+%%    310 ns    Log    INFO      in subordinate_1,                         Read Data.  RData: DDUUUUUU  RResp: 0  Operation# 5
+%%    310 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111113
+%%    310 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : CC
+%%    310 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: DD
+%%    320 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 5
+%%    320 ns    Log    INFO      in manager_1,                             Read Data: 000000DD  Read Address: 11111113  Prot: 0
+%%    320 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : DD
+
+
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       Write and Read with 2 Bytes, and ByteAddr = 0, 1, 2
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: BBBB_BBB0, Data: 2211
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: BBBB_BBB1, Data: 33_22
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: BBBB_BBB2, Data: 4433
+
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1110
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1111
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1112
+%%    320 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: BBAA
+%%    330 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : BBBBBBB0
+%%    330 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00002211
+%%    340 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 6
+%%    340 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : BBBBBBB1
+%%    340 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00332200
+%%    350 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 7
+%%    350 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : BBBBBBB2
+%%    350 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 44330000
+%%    350 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111110
+%%    350 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111111
+%%    350 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111112
+%%    360 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 6
+%%    360 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 8
+%%    360 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : BBAA
+%%    360 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: CCBB
+%%    370 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 7
+%%    370 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : CCBB
+%%    370 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: DDCC
+%%    380 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 8
+%%    380 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : DDCC
+
+
+%%    380 ns    Log    ALWAYS    in TB Manager Proc,                       Write and Read with 3 Bytes and ByteAddr = 0. 1
+%%    380 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: CCCC_CCC0, Data: 33_2211
+%%    380 ns    Log    ALWAYS    in TB Manager Proc,                       WriteAsync,  Addr: CCCC_CCC1, Data: 4433_22
+
+%%    380 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1110
+%%    380 ns    Log    ALWAYS    in TB Manager Proc,                       ReadAddressAsync, Addr: 1111_1111
+%%    380 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: CC_BBAA
+%%    390 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : CCCCCCC0
+%%    390 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 00332211
+%%    400 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 9
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Addr:  Received : CCCCCCC1
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Write Data:  Received : 44332200
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111110
+%%    400 ns    Log    PASSED    in TB Subordinate Proc,                   Subordinate Read Addr:  Received : 11111111
+%%    410 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 9
+%%    410 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,   Received: 0   Item Number: 10
+%%    410 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : CCBBAA
+%%    410 ns    Log    ALWAYS    in TB Manager Proc,                       ReadData, Data: DDCC_BB
+%%    420 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,    Received: 0   Item Number: 10
+%%    420 ns    Log    PASSED    in TB Manager Proc,                       Manager Read Data:  Received : DDCCBB

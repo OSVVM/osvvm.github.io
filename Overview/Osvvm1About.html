@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About OSVVM &mdash; OSVVM Documentation 2022.03 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/documentation_options.js?v=ec4c5e3f"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Getting Started with OSVVM" href="Osvvm2GettingStarted.html" />
+    <link rel="prev" title="OSVVM Table Of Contents" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> OSVVM Documentation
+          </a>
+              <div class="version">
+                2022.03
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">OSVVM Overview</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">About OSVVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm2GettingStarted.html">Getting Started with OSVVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm3Reports.html">OSVVM Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm4VerificationFramework.html">Structured Testbench Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm5UtilityLibrary.html">VHDL Utility Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm6ScriptLibrary.html">Scripting Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm7VerificationComponentLibrary.html">OSVVM Verification Component Library</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OSVVM Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+        
+          
+            <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>About OSVVM</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/OSVVM/osvvm.github.io/blob/main//Overview/Osvvm1About.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="about-osvvm">
+<h1>About OSVVM<a class="headerlink" href="#about-osvvm" title="Link to this heading">¶</a></h1>
+<a class="reference external image-reference" href="https://github.com/OSVVM"><img alt="../_images/logo_full_size.png" class="align-center" src="../_images/logo_full_size.png" style="width: 500px;" /></a>
+<section id="id1">
+<h2>About OSVVM<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>OSVVM is an advanced verification methodology that
+defines a VHDL verification framework, verification utility library,
+verification component library, scripting API, and co-simulation capability
+that simplifies your FPGA or ASIC verification project from start to finish.
+Using these libraries you can create a simple, readable,
+and powerful testbench that will boost productivity for either
+low level block tests (unit tests) or complex FPGA and ASIC tests.</p>
+<p>OSVVM is developed by the same VHDL experts who
+have helped develop VHDL standards.
+We have used our expert VHDL skills to create
+advanced verification capabilities that provide:</p>
+<p><strong>A structured transaction-based framework</strong></p>
+<ul class="simple">
+<li><p>Suitable for all verification tasks – from Unit/RTL to full
+chip/system level tests.</p></li>
+<li><p>Similar block diagram to SystemVerilog + UVM, except It plugs
+together just like RTL</p></li>
+<li><p>Facilitates re-use of VC and test cases through all levels of testing
+(RTL to Full Chip)</p></li>
+</ul>
+<p><strong>Model Independent Transaction (MIT) Library</strong></p>
+<ul class="simple">
+<li><p>Defines Transaction API - procedures called by test case to build up
+sequences of interface operations - such as send, get, write, read</p></li>
+<li><p>Defines Transaction Interface - connects Verification Component to
+Test Sequencer.</p></li>
+<li><p>Used by all OSVVM defined VC</p></li>
+</ul>
+<p><strong>Simplified Verification component (VC) development</strong></p>
+<ul class="simple">
+<li><p>Uses MIT library = building block level re-use.</p></li>
+<li><p>Makes development of a VC as simple as writing a procedure.</p></li>
+<li><p>No OO or fork and join - uses natural concurrency of a VHDL
+entity/architecture</p></li>
+<li><p>Any VHDL engineer can do this</p></li>
+</ul>
+<p><strong>Readable Test cases</strong></p>
+<ul class="simple">
+<li><p>Simplified since all VC of a similar type implement a subset of the
+MIT transaction calls (send, get, …)</p></li>
+<li><p>Directed tests or complex, randomized tests can be written by any
+VHDL engineer</p></li>
+<li><p>Readable and reviewable by the whole team including software and
+system engineers.</p></li>
+</ul>
+<p><strong>Unmatched Test Reports</strong></p>
+<ul class="simple">
+<li><p>Build Summary - HTML (for humans) + JUnit XML (for CI tools)</p></li>
+<li><p>Test Cases - HTML</p></li>
+<li><p>Logs - HTML + plain text</p></li>
+<li><p>Requirements Tracking - HTML + CSV</p></li>
+<li><p>Helps Find and Debug issues faster</p></li>
+</ul>
+<p><strong>Powerful verification utilities that make VHDL a full verification
+language, including</strong></p>
+<ul class="simple">
+<li><p>Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory
+Models, error logging and reporting (alerts), and message filtering
+(logs).</p></li>
+<li><p>Capabilities are simple to use, concise, and work like built-in
+language features.</p></li>
+</ul>
+<p><strong>Requirements Tracking</strong></p>
+<ul class="simple">
+<li><p>Tracked using both OSVVM’s affirmations and functional coverage</p></li>
+<li><p>Tracks a count of each requirement and not just a boolean type check.</p></li>
+</ul>
+<p><strong>A Common Scripting API</strong></p>
+<ul class="simple">
+<li><p>Same script runs all simulators – including GHDL, NVC, Aldec
+Riviera-PRO and ActiveHDL, Siemens Questa and ModelSim, Synopsys VCS,
+Cadence Xcelium, and Xilinx XSIM.</p></li>
+<li><p>Is an API on top of Tcl</p></li>
+<li><p>Most scripts are just slightly more than a list of files</p></li>
+<li><p>Can run Tcl when you need it - usually no Tcl is required</p></li>
+</ul>
+<p><strong>Free, Open Source Verification Components include</strong></p>
+<ul class="simple">
+<li><p>AXI Full and Lite, AxiStream, Wishbone, UART, xMII, SPI, DpRam,
+VideoBus.</p></li>
+</ul>
+<p><strong>Co-simulation</strong></p>
+<ul class="simple">
+<li><p>Supports running software (C++) in a hardware simulation environment.</p></li>
+<li><p>Write test cases in C++</p></li>
+<li><p>Run C++ models such as instruct set simulators</p></li>
+</ul>
+<p><strong>Architected by a long-time IEEE VHDL working group contributor</strong></p>
+<ul class="simple">
+<li><p>So expect better VHDL implementations.</p></li>
+</ul>
+<p><strong>It is Free, Open Source under APACHE 2.0</strong></p>
+<ul class="simple">
+<li><p>Upgrades an ordinary VHDL license to a full featured verification
+capabilities</p></li>
+<li><p><a class="reference external" href="https://github.com/osvvm/OsvvmLibraries">On GitHub</a> and IEEE Open
+Source.</p></li>
+<li><p>We accept issues and pull requests on GitHub.</p></li>
+<li><p>Join us.</p></li>
+</ul>
+<p><strong>Get similar verification capabilities to SystemVerilog + UVM without needing OO.</strong></p>
+<p>Looking to improve your VHDL verification methodology?
+OSVVM provides a complete solution for VHDL ASIC or FPGA verification.
+There is no new language to learn.
+It is simple, powerful, and concise.
+Each piece can be used separately.
+Hence, you can learn and adopt pieces as you need them.</p>
+<p>SynthWorks has been using OSVVM for 25+ years in our
+training classes and consulting work.
+During that time, we have innovated new capabilities
+and evolved our existing ones to increase
+re-use and reduce effort and time spent.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="OSVVM Table Of Contents" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Osvvm2GettingStarted.html" class="btn btn-neutral float-right" title="Getting Started with OSVVM" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jim Lewis Licensed under CC BY-NC-ND 4.0.</p>
+  </div>Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/buildthedocs/sphinx.theme">theme</a>
+    provided by <a href="https://buildthedocs.github.io">Build the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

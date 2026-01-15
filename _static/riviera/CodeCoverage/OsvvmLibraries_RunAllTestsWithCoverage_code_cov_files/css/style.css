@@ -1,0 +1,339 @@
+* { font-family: DejaVu Sans, sans-serif !important; }
+code { font-family: DejaVu Sans Mono, monospace !important; }
+
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea { font-family: DejaVu Sans Mono, monospace !important; }
+
+body { margin: 0; padding: 0; overflow: hidden }
+:focus { outline-color: transparent; outline-style: none }
+
+/* Overriding styles from library */
+.tooltip { padding: 2px !important }
+.tooltip { font-size: 11.55px !important }
+.tooltip { max-width: none !important }
+.tooltip { background: none !important }
+.tooltip { background-color: InfoBackground !important }
+.tooltip { box-shadow: 2px 2px 2px gray !important }
+.tooltip { border-radius: 0px !important }
+.tooltip { border: 1px solid !important }
+
+#sidebar { position: fixed; left: 0; top: 0; bottom: 0; width: 25%; font-size: 10.5px; border-right: 2px solid #eee }
+#sidebar .ui-tabs-wrapper { bottom: 0; overflow: hidden; top: auto }
+#sidebar .ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 0px; padding-top: 1px }
+#sidebar ul.ui-tabs-nav { white-space: nowrap; padding: 1px 17px; line-height: normal }
+#sidebar ul.ui-tabs-nav li { display: inline-block; float: none; margin-right: -1px }
+#sidebar li.ui-tabs-selected { border-bottom: 1px solid #aaaaaa !important; top: 1px !important }
+#sidebar li.ui-state-hover { border-bottom: 1px solid #999999 !important }
+#sidebar .ui-accordion .ui-accordion-header, #content .ui-accordion .ui-accordion-header { margin-top: 1px }
+#sidebar .ui-tabs .ui-tabs-nav li { margin-bottom: 0 }
+#sidebar .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-active a span { position: relative; display: inline-block; top: 1px }
+#sidebar a .jstree-icon, #content a .jstree-icon { position: relative; display: inline-block; top: 1px; left: 1px }
+
+#content { position: fixed; top: 0; bottom: 0; left: 0; right: 0; margin-left: 2px }
+#content .ui-tabs-nav { width: 100%; white-space: nowrap; padding: 0 17px; overflow: hidden }
+#content .ui-tabs-panel.ui-widget-content.ui-corner-bottom { position: absolute; left: 0; top: 30px; bottom: 0; right: 0; overflow: auto }
+#content .ui-tabs-nav li { display: inline-block; float: none; top: 2.5px }
+#content .ui-tabs-wrapper .ui-switch-button-bg { top: 2px }
+
+/* Workaround for Firefox and Internet Explorer bug */
+#content .ui-tabs-panel { padding-bottom: 0px }
+#content .ui-tabs-panel:after { content: ""; display: block; height: 1em }
+
+/* For page with source code */
+#content .code { padding-bottom: 1em }
+#content .code:after { height: 0 }
+.syntaxhighlighter { overflow: auto !important }
+#content .code > div { margin-top: -1em }
+#content .code div { height: 100% }
+
+/* Avoid line overlapping */
+.syntaxhighlighter .line, .syntaxhighlighter th { line-height: 1.25em !important }
+
+#content .jstree-default .jstree-clicked { box-shadow: none }
+
+#accord-design { overflow: hidden !important }
+#accord-cvg { padding: 0 }
+#accord-testplan { padding: 0 }
+#accord-ranking { padding: 0 }
+#hierarchy-panel { position: absolute; left: 0; top: 0; bottom: 50%; right: 0 }
+#coverage-panel { position: absolute; left: 0; top: 50%; bottom: 0; right: 0 }
+
+.ui-switch-button { position: relative; font-size: 11.55px; height: 27px; margin: 0 }
+.ui-switch-button-bg { position: absolute; background: url( "images/ui-bg_highlight-soft_75_cccccc_1x100.png" ) repeat-x scroll 50% 50% #CCCCCC; height: 27px; top: 1px }
+.ui-switch-button-bg-prev { left: 0px }
+.ui-switch-button-bg-next { right: -1px }
+.ui-switch-button-bg-next, .ui-switch-button-bg-next .ui-switch-button { border-radius: 5px 0 0 5px }
+.ui-switch-button-bg-prev, .ui-switch-button-bg-prev .ui-switch-button { border-radius: 0 5px 5px 0 }
+
+.ui-accordion .ui-accordion-content { position: relative }
+.ui-accordion.ui-widget.ui-helper-reset.ui-accordion-icons { overflow: hidden; white-space: nowrap }
+.ui-button-text-only .ui-button-text { padding: 0.3em 3px; font-weight: bold }
+.ui-tabs { padding: 0; font-size: 11.55px }
+.ui-tabs-wrapper .ui-tabs-nav { border-radius: 0; font-size: 10.5px }
+.ui-widget-content { border: none }
+.ui-accordion-header.ui-state-default.ui-accordion-header-active.ui-state-active.ui-corner-top.ui-accordion-icons { border-bottom: none }
+
+.vakata-context.jstree-contextmenu.jstree-default-contextmenu a { line-height: 1.8em; padding: 0 1.6em }
+.vakata-context.jstree-contextmenu.jstree-default-contextmenu { font-size: 11.55px }
+.vakata-context.jstree-contextmenu.jstree-default-contextmenu i, .vakata-context.jstree-contextmenu.jstree-default-contextmenu span { height: 2em; line-height: 1.8em }
+.vakata-context i, .vakata-context span { display: none !important }
+.vakata-context { z-index: 90 } /* Context menu should be above splitters */
+
+.tabs-bottom { position: absolute; left: 0; top: 0; bottom: 0; right: 0 }
+.tabs-bottom > div { position: absolute; left: 0; top: 0; bottom: 28.5px; right: 0; overflow: auto }
+
+.tabs-bottom .ui-tabs-panel { padding: 0; font-size: 11.55px }
+.tabs-bottom .ui-tabs-nav li { margin-top: -2px !important; border-top: none; border-bottom-width: 1px }
+.tabs-bottom .ui-tabs-selected { margin-top: -3px !important }
+
+.jstree-focused { background: transparent !important }
+
+table.border { border-color: #000; border-width: 0 0 1px 1px; border-style: solid; border-spacing: 0; font-size: 11.55px }
+table.border td, table.border th { border-color: #000; border-width: 1px 1px 0 0; border-style: solid; margin: 0; padding: 4px }
+
+/* Expression coverage */
+table.details { border: 0px; border-spacing: 0px }
+table.details td { border: 0px; border-spacing: 0px; padding: 12px 0px 0px 0px }
+table.details > tbody > tr:first-child td { padding: 0px }
+table.legend { border: 0px; border-spacing: 0px }
+table.legend td { border: 0px; border-spacing: 0px; padding: 0px }
+table.bins { border: 0px; border-spacing: 0px; display: inline-table }
+table.bins td { border: 0px; border-spacing: 0px; text-align: center; padding: 0px 0px 0px 6px }
+table.bins td:first-child { border-right: 1px solid; text-align: right; padding-left: 0px; padding-right: 6px }
+table.bins td.operator + td { border-right: 1px solid; text-align: right; padding-left: 0px; padding-right: 6px }
+table.bins tr:first-child td { border-bottom: 1px solid; padding-bottom: 4px }
+table.bins tr td.operator { vertical-align: top; padding: 10px 8px 0px 0px; border: 0px }
+table.simplevector { border: 0px; border-spacing: 0px; display: inline-table }
+table.simplevector td { border: 0px; border-spacing: 0px; padding: 0px; text-align: center }
+table.simplevector tr:first-child td { border-bottom: 1px solid; padding-bottom: 4px }
+table.simplevector td.leftside { padding: 0px 6px 0px 0px }
+table.simplevector td.leftside.lastcolumn { border-right: 1px solid }
+table.simplevector td.rightside.firstcolumn { padding-left: 6px }
+table.simplevector tr td.operator { vertical-align: top; padding: 10px 8px 0px 0px; border: 0px }
+#expression-table-container { display: inline-block }
+#expression-table-container > table { min-width: 100% }
+#expression-table-container > table > tbody > tr > td:nth-child(1),
+#expression-table-container > table > tbody > tr > td:nth-child(2) { width: 1px }
+
+/* Toggle coverage */
+.toggle-table td { text-align: left }
+.toggle-table td + td { text-align: right }
+.toggle-table td.toggle-status { text-align: center }
+.toggle-table td.toggle-status + td { text-align: left }
+.toggle-closed { display: inline-block; width: 10px; height: 10px; margin-right: 4px }
+.toggle-opened { display: inline-block; width: 10px; height: 10px; margin-right: 4px }
+.toggle-static, .toggle-static-last { display: inline-block; width: 10px; height: 10px; margin-right: 4px }
+.toggle-closed { background: url( "images/ui-icons_454545_256x240.png" ); background-position: -35px -19px }
+.toggle-opened { background: url( "images/ui-icons_454545_256x240.png" ); background-position: -67px -19px }
+.toggle-static { background-image: url( "jstree/32px.png" ), url( "jstree/32px.png" ) }
+.toggle-static { background-position: -77px -11px, -301px -7px; background-repeat: repeat-y }
+.toggle-static-last { background: url( "jstree/32px.png" ); background-position: -77px -11px }
+
+/* Assertion coverage */
+.assertion-table td { text-align: left }
+.assertion-table td + td + td { text-align: center }
+.assertion-table td + td + td + td { text-align: right }
+.assertion-table + p { padding-top: 11px }
+
+/* Path coverage */
+.path-table td { text-align: left }
+.path-table td + td { text-align: right }
+.path-table td + td + td { text-align: center }
+.path-table td + td + td + td { text-align: right }
+.path-table td + td + td + td  + td { text-align: left }
+
+/* FSM coverage */
+.machine-table td { text-align: left }
+.machine-table td + td { text-align: right }
+.machine-table td + td + td { text-align: left }
+
+/* Verification plan */
+.testplan-cumulative td { text-align: left }
+.testplan-cumulative td + td { text-align: right }
+.testplan-cumulative td + td + td + td { text-align: center }
+.testplan-cumulative td + td + td + td + td { text-align: right }
+.testplan-cumulative td + td + td + td + td + td + td { text-align: center }
+.testplan-cumulative td + td + td + td + td + td + td + td { text-align: right }
+.testplan-summary-short td { text-align: right }
+.testplan-summary-short td + td + td { text-align: center }
+.testplan-summary-short td + td + td + td { text-align: right }
+.testplan-summary-long td { text-align: right }
+.testplan-summary-long td + td + td { text-align: center }
+.testplan-summary-long td + td + td + td { text-align: right }
+.testplan-summary-long td + td + td + td + td + td { text-align: center }
+.testplan-summary-long td + td + td + td + td + td + td { text-align: right }
+.testplan-user td { text-align: left }
+.testplan-links td { text-align: left }
+.testplan-links td + td + td + td { text-align: right }
+
+/* Test ranking */
+.ranking td { text-align: left }
+.ranking td + td { text-align: right }
+.ranking td + td + td + td + td + td + td { text-align: left }
+
+p.summary-footer { line-height: 1.7 }
+
+.cvg-type { font-weight: bold }
+.cvg-name { font-style: italic }
+.cvg-hits { text-align: right }
+.cvg-goal { text-align: right }
+.cvg-status { font-weight: bold; text-transform: capitalize }
+
+/* Global rules */
+.hyphen { text-align: center !important }
+th { white-space: nowrap }
+
+/* HSL: 0, 240, 180 */
+tr.red,
+div.line.red,
+.summary-uncovered,
+.stmt-uncovered,
+.branch-uncovered,
+.cvg-scope.cvg-zero,
+.stmt-low,
+.exc-low,
+.toggle-low,
+.assertion-low { background-color: #FF8080 }
+
+/* HSL: 0, 240, 90 */
+.cvg-bin.cvg-occurred.cvg-illegal .cvg-status,
+.jstree .jstree-low { color: #BF0000 }
+
+/* HSL: 20, 240, 180 */
+tr.orange,
+.stmt-medium,
+.cvg-scope.cvg-uncovered { background-color: #FFBF80 }
+
+/* HSL: 20, 240, 90 */
+.cvg-bin.cvg-uncovered .cvg-status,
+.jstree .jstree-medium { color: #BF6000 }
+
+/* HSL: 40, 240, 180 */
+tr.yellow { background-color: #FFFF80 }
+
+/* HSL: 80, 120, 180 */
+tr.green,
+div.line.green,
+.summary-covered,
+.stmt-covered,
+.branch-covered,
+.cvg-scope.cvg-covered,
+.stmt-high,
+.exc-high,
+.toggle-high,
+.assertion-high { background-color: #9FDF9F }
+
+/* HSL: 80, 120, 90 */
+.cvg-bin.cvg-covered .cvg-status,
+.jstree .jstree-high { color: #308F30 }
+
+/* HSL: 0, 0, 180 */
+tr.gray,
+div.line.gray,
+.summary-excluded,
+.stmt-excluded,
+.branch-excluded,
+.cvg-scope.cvg-excluded,
+.exc-excluded,
+.toggle-excluded,
+.assertion-excluded { background-color: #BFBFBF }
+
+/* HSL: 0, 0, 90 */
+.cvg-bin.cvg-occurred.cvg-ignore .cvg-status,
+.cvg-bin.cvg-occurred.cvg-default .cvg-status,
+.jstree .jstree-excluded { color: #5F5F5F }
+
+.jstree-icon.file-edf { background: url( "../img/file-edf.png" ) no-repeat }
+.jstree-icon.file-ova { background: url( "../img/file-ova.png" ) no-repeat }
+.jstree-icon.file-psl { background: url( "../img/file-psl.png" ) no-repeat }
+.jstree-icon.file-sv { background: url( "../img/file-sv.png" ) no-repeat }
+.jstree-icon.file-v { background: url( "../img/file-v.png" ) no-repeat }
+.jstree-icon.file-vhd { background: url( "../img/file-vhd.png" ) no-repeat }
+.jstree-icon.unit-architecture { background: url( "../img/unit-architecture.png" ) no-repeat }
+.jstree-icon.unit-edif { background: url( "../img/unit-edif.png" ) no-repeat }
+.jstree-icon.unit-entity { background: url( "../img/unit-entity.png" ) no-repeat }
+.jstree-icon.unit-package-vhdl { background: url( "../img/unit-package-vhdl.png" ) no-repeat }
+.jstree-icon.unit-class { background: url( "../img/unit-class.png" ) no-repeat }
+.jstree-icon.unit-interface { background: url( "../img/unit-interface.png" ) no-repeat }
+.jstree-icon.unit-module { background: url( "../img/unit-module.png" ) no-repeat }
+.jstree-icon.unit-package-vlog { background: url( "../img/unit-package-vlog.png" ) no-repeat }
+.jstree-icon.unit-program { background: url( "../img/unit-program.png" ) no-repeat }
+.jstree-icon.unit-psl { background: url( "../img/unit-psl.png" ) no-repeat }
+.jstree-icon.unit-openvera { background: url( "../img/unit-openvera.png" ) no-repeat }
+.jstree-icon.unit-systemc { background: url( "../img/unit-systemc.png" ) no-repeat }
+.jstree-icon.instance-edif { background: url( "../img/instance-edif.png" ) no-repeat }
+.jstree-icon.instance-vhdl { background: url( "../img/instance-vhdl.png" ) no-repeat }
+.jstree-icon.instance-vlog { background: url( "../img/instance-vlog.png" ) no-repeat }
+.jstree-icon.instance-class { background: url( "../img/instance-class.png" ) no-repeat }
+.jstree-icon.instance-package-vlog { background: url( "../img/instance-package-vlog.png" ) no-repeat }
+.jstree-icon.instance-psl { background: url( "../img/instance-psl.png" ) no-repeat }
+.jstree-icon.instance-systemc { background: url( "../img/instance-systemc.png" ) no-repeat }
+.jstree-icon.padlock-verilog { background: url( "../img/padlock-verilog.png" ) no-repeat }
+.jstree-icon.padlock-vhdl { background: url( "../img/padlock-vhdl.png" ) no-repeat }
+.jstree-icon.padlock-systemc { background: url( "../img/padlock-systemc.png" ) no-repeat }
+.jstree-icon.function-vhdl { background: url( "../img/function-vhdl.png" ) no-repeat }
+.jstree-icon.procedure-vhdl { background: url( "../img/procedure-vhdl.png" ) no-repeat }
+.jstree-icon.function-vlog { background: url( "../img/function-vlog.png" ) no-repeat }
+.jstree-icon.task-vlog { background: url( "../img/task-vlog.png" ) no-repeat }
+.jstree-icon.process-vhdl { background: url( "../img/process-vhdl.png" ) no-repeat }
+.jstree-icon.process-vlog { background: url( "../img/process-vlog.png" ) no-repeat }
+.jstree-icon.signal-edif { background: url( "../img/signal-edif.png" ) no-repeat }
+.jstree-icon.signal-systemc { background: url( "../img/signal-systemc.png" ) no-repeat }
+.jstree-icon.signal-verilog { background: url( "../img/signal-verilog.png" ) no-repeat }
+.jstree-icon.signal-vhdl { background: url( "../img/signal-vhdl.png" ) no-repeat }
+.jstree-icon.signal-in-edif { background: url( "../img/signal-in-edif.png" ) no-repeat }
+.jstree-icon.signal-in-systemc { background: url( "../img/signal-in-systemc.png" ) no-repeat }
+.jstree-icon.signal-in-verilog { background: url( "../img/signal-in-verilog.png" ) no-repeat }
+.jstree-icon.signal-in-vhdl { background: url( "../img/signal-in-vhdl.png" ) no-repeat }
+.jstree-icon.signal-inout-edif { background: url( "../img/signal-inout-edif.png" ) no-repeat }
+.jstree-icon.signal-inout-systemc { background: url( "../img/signal-inout-systemc.png" ) no-repeat }
+.jstree-icon.signal-inout-verilog { background: url( "../img/signal-inout-verilog.png" ) no-repeat }
+.jstree-icon.signal-inout-vhdl { background: url( "../img/signal-inout-vhdl.png" ) no-repeat }
+.jstree-icon.signal-out-edif { background: url( "../img/signal-out-edif.png" ) no-repeat }
+.jstree-icon.signal-out-systemc { background: url( "../img/signal-out-systemc.png" ) no-repeat }
+.jstree-icon.signal-out-verilog { background: url( "../img/signal-out-verilog.png" ) no-repeat }
+.jstree-icon.signal-out-vhdl { background: url( "../img/signal-out-vhdl.png" ) no-repeat }
+.jstree-icon.signal-reg-verilog { background: url( "../img/signal-reg-verilog.png" ) no-repeat }
+.jstree-icon.signal-buffer-vhdl { background: url( "../img/signal-buffer-vhdl.png" ) no-repeat }
+.jstree-icon.signal-linkage-vhdl { background: url( "../img/signal-linkage-vhdl.png" ) no-repeat }
+.jstree-icon.assertion { background: url( "../img/assertion.png" ) no-repeat }
+.jstree-icon.cover { background: url( "../img/cover.png" ) no-repeat }
+.jstree-icon.covergroup-type { background: url( "../img/covergroup-type.png" ) no-repeat }
+.jstree-icon.covergroup-instance { background: url( "../img/covergroup-instance.png" ) no-repeat }
+.jstree-icon.coverpoint-type { background: url( "../img/coverpoint-type.png" ) no-repeat }
+.jstree-icon.coverpoint-instance { background: url( "../img/coverpoint-instance.png" ) no-repeat }
+.jstree-icon.cross-type { background: url( "../img/cross-type.png" ) no-repeat }
+.jstree-icon.cross-instance { background: url( "../img/cross-instance.png" ) no-repeat }
+.jstree-icon.if { background: url( "../img/if.png" ) no-repeat }
+.jstree-icon.case { background: url( "../img/case.png" ) no-repeat }
+.jstree-icon.ternary { background: url( "../img/ternary.png" ) no-repeat }
+.jstree-icon.branch { background: url( "../img/branch.png" ) no-repeat }
+.jstree-icon.expression { background: url( "../img/expression.png" ) no-repeat }
+.jstree-icon.condition { background: url( "../img/condition.png" ) no-repeat }
+.jstree-icon.block-vhdl { background: url( "../img/block-vhdl.png" ) no-repeat }
+.jstree-icon.generate-vlog { background: url( "../img/generate-vlog.png" ) no-repeat }
+.jstree-icon.generate-vhdl { background: url( "../img/generate-vhdl.png" ) no-repeat }
+.jstree-icon.cumulative { background: url( "../img/cumulative-coverage.png" ) no-repeat }
+.jstree-icon.testplan { background: url( "../img/testplan.png" ) no-repeat }
+.jstree-icon.unbound { background: url( "../img/unbound.png" ) no-repeat }
+.jstree-icon.error { background: url( "../img/error.png" ) no-repeat }
+.jstree-icon.group { background: url( "../img/group.png" ) no-repeat }
+.jstree-icon.ok { background: url( "../img/ok.png" ) no-repeat }
+.jstree-icon.warning { background: url( "../img/warning.png" ) no-repeat }
+.jstree-icon.pathgroup { background: url( "../img/pathgroup.png" ) no-repeat }
+.jstree-icon.path { background: url( "../img/path.png" ) no-repeat }
+.jstree-icon.machine { background: url( "../img/machine.png" ) no-repeat }
+.jstree-icon.states { background: url( "../img/states.png" ) no-repeat }
+.jstree-icon.statesillegal { background: url( "../img/statesillegal.png" ) no-repeat }
+.jstree-icon.transitions { background: url( "../img/transitions.png" ) no-repeat }
+.jstree-icon.transitionsillegal { background: url( "../img/transitionsillegal.png" ) no-repeat }
+.jstree-icon.sequences { background: url( "../img/sequences.png" ) no-repeat }
+.jstree-icon.sequencesillegal { background: url( "../img/sequencesillegal.png" ) no-repeat }

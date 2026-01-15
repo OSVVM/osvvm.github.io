@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Structured Testbench Framework &mdash; OSVVM Documentation 2022.03 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/documentation_options.js?v=ec4c5e3f"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="VHDL Utility Library" href="Osvvm5UtilityLibrary.html" />
+    <link rel="prev" title="OSVVM Reports" href="Osvvm3Reports.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> OSVVM Documentation
+          </a>
+              <div class="version">
+                2022.03
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">OSVVM Overview</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Osvvm1About.html">About OSVVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm2GettingStarted.html">Getting Started with OSVVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm3Reports.html">OSVVM Reports</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Structured Testbench Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm5UtilityLibrary.html">VHDL Utility Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm6ScriptLibrary.html">Scripting Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Osvvm7VerificationComponentLibrary.html">OSVVM Verification Component Library</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OSVVM Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+        
+          
+            <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Structured Testbench Framework</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/OSVVM/osvvm.github.io/blob/main//Overview/Osvvm4VerificationFramework.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="structured-testbench-framework">
+<h1>Structured Testbench Framework<a class="headerlink" href="#structured-testbench-framework" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>Structured Testbench Framework<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>Some methodologies (or frameworks) are so complex that you
+need a script to create initial starting
+point for writing verification components, test cases, and/or
+the test harness.
+SystemVerilog + UVM is certainly like this.
+There are even several organizations that propose that
+you use their “Lite” or “Easy” approach.</p>
+<p>OSVVM is simple enough to use on small blocks and
+powerful enough to use on large, complex chips or systems.
+This allows us to use the same style of
+framework for RTL, Core, and Chip level verification -
+which in turn facilitates re-use of verification
+components and test cases.
+OSVVM has added the abstractions needed to make our
+verification component based approach as easy as
+the “Lite” approach of other methodologies.</p>
+<p>SynthWorks has been using this framework for 25+ years in our
+training classes and consulting work.
+During that time, we have innovated new capabilities
+and evolved our existing ones to increase
+re-use and reduce effort spent.</p>
+<p>When we examine OSVVM’s framework in detail, we see that it
+has many similar elements to SystemVerilog + UVM.
+However, one thing not present is OO language constructs.
+Instead OSVVM uses ordinary VHDL constructs, such as structural and
+behavioral code.
+This makes it readily accessible to both verfication and RTL engineers.</p>
+<section id="going-further">
+<h3>Going Further<a class="headerlink" href="#going-further" title="Link to this heading">¶</a></h3>
+<p>Read the following documents for more information on
+OSVVM’s Structured Testbench Framework.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 80.0%" />
+<col style="width: 20.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Document</p></th>
+<th class="head"><p>User Guide</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>OSVVM’s Structured Testbench Framework</p></td>
+<td><p><a class="reference external" href="https://github.com/OSVVM/Documentation/blob/main/OSVVM_structured_testbench_framework.pdf">UG</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>OSVVM’s Verification Component Developer’s Guide</p></td>
+<td><p><a class="reference external" href="https://github.com/OSVVM/Documentation/blob/main/OSVVM_verification_component_developers_guide.pdf">UG</a></p></td>
+</tr>
+<tr class="row-even"><td><p>OSVVM’s Test Writers User Guide</p></td>
+<td><p><a class="reference external" href="https://github.com/OSVVM/Documentation/blob/main/OSVVM_test_writers_user_guide.pdf">UG</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>OSVVM’s Address Bus Model Independent Transactions Users Guide</p></td>
+<td><p><a class="reference external" href="https://github.com/OSVVM/Documentation/blob/main/Address_Bus_Model_Independent_Transactions_user_guide.pdf">UG</a></p></td>
+</tr>
+<tr class="row-even"><td><p>OSVVM’s Stream Model Independent Transactions Users Guide</p></td>
+<td><p><a class="reference external" href="https://github.com/OSVVM/Documentation/blob/main/Stream_Model_Independent_Transactions_user_guide.pdf">UG</a></p></td>
+</tr>
+</tbody>
+</table>
+<p>Related publications and webinars</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 60.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Publications and Webinars</p></th>
+<th class="head"><p>Event</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.aldec.com/en/support/resources/multimedia/webinars/2186">OSVVM Leading Edge Verification for the VHDL Community</a></p></td>
+<td><p>Part 1 of Better FPGA Verification with VHDL, With Aldec May 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.aldec.com/en/support/resources/multimedia/webinars/2187">Faster than Lite Verification Component Development with OSVVM</a></p></td>
+<td><p>Part 2 of Better FPGA Verification with VHDL, With Aldec June 2022</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.aldec.com/en/support/resources/multimedia/webinars/2188">OSVVM’s Test Reports and Simulator Independent Scripting</a></p></td>
+<td><p>Part 3 of Better FPGA Verification with VHDL, With Aldec June 2022</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.aldec.com/en/support/resources/multimedia/webinars/2190">Advances in OSVVM’s Verification Data Structures</a></p></td>
+<td><p>Part 4 of Better FPGA Verification with VHDL, With Aldec June 2022</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.youtube.com/watch?v=KVmGDy_PHNI">OSVVM: Leading Edge Verification for the VHDL Community</a></p></td>
+<td><p>DVClub Europe April 2022</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Osvvm3Reports.html" class="btn btn-neutral float-left" title="OSVVM Reports" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Osvvm5UtilityLibrary.html" class="btn btn-neutral float-right" title="VHDL Utility Library" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jim Lewis Licensed under CC BY-NC-ND 4.0.</p>
+  </div>Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/buildthedocs/sphinx.theme">theme</a>
+    provided by <a href="https://buildthedocs.github.io">Build the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

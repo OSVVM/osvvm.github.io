@@ -1,0 +1,8 @@
+%%    120 ns    Log    PASSED    in Default,                                              Expected Completion Time Received : 120 ns
+%%    120 ns    Log    PASSED    in Testbench,                                            WRITE_ADDRESS_READY_DELAY_CYCLES Received : 2
+%%    120 ns    Log    PASSED    in Testbench,                                            WRITE_ADDRESS_READY_BEFORE_VALID Received : true
+%%    120 ns    Log    PASSED    in subordinate_1: Data Check,                            Read Address: 10001000  Data: 55555555  Expected: 55555555
+%%    130 ns    Log    PASSED    in Default,                                              Expected Completion Time Received : 130 ns
+%%    130 ns    Log    PASSED    in Testbench,                                            WRITE_ADDRESS_READY_DELAY_CYCLES Received : 1
+%%    130 ns    Log    PASSED    in Testbench,                                            WRITE_ADDRESS_READY_BEFORE_VALID Received : false
+%%    130 ns    Log    PASSED    in subordinate_1: Data Check,                            Read Address: 10002000  Data: AAAAAAAA  Expected: AAAAAAAA

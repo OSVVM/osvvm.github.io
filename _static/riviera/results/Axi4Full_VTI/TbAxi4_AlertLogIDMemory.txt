@@ -1,0 +1,11 @@
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetErrorCount Received : 0
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetAlertCount Received : 0
+%%    110 ns    Alert  ERROR     in subordinate_1,                                        Injected Error 1
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetErrorCount Received : 1
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetAlertCount Received : 1
+%%    110 ns    Alert  FAILURE   in subordinate_1,                                        Injected FAILURE 1
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetErrorCount Received : 2
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetAlertCount Received : 2
+%%    110 ns    Alert  WARNING   in subordinate_1,                                        Injected WARNING 1
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetErrorCount Received : 3
+%%    110 ns    Log    PASSED    in Subordinate,                                          GetAlertCount Received : 3

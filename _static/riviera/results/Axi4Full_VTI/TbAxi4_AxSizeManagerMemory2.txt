@@ -1,0 +1,217 @@
+%%     10 ns    Log    PASSED    in TB Manager Proc,                                      AWSIZE Received : 2
+%%     50 ns    Log    PASSED    in TB Manager Proc,                                      AWSIZE Received : 1
+%%     50 ns    Log    ALWAYS    in TB Manager Proc,                                      Write with parameters setting #1, Defaults
+%%     50 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 00FFUUUU  WStrb: 1100  Operation# 1
+%%     50 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000002  AWProt: 000  Operation# 1
+%%     60 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU2211  WStrb: 0011  Operation# 2
+%%     60 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000002  AWProt: 000  WData: 00FFUUUU  WStrb: 1100  Operation# 0
+%%     70 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 4433UUUU  WStrb: 1100  Operation# 3
+%%     80 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU6655  WStrb: 0011  Operation# 4
+%%     90 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 8877UUUU  WStrb: 1100  Operation# 5
+%%    100 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUAA99  WStrb: 0011  Operation# 6
+%%    110 ns    Log    INFO      in manager_1,                                            Write Data.  WData: CCBBUUUU  WStrb: 1100  Operation# 7
+%%    120 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUEEDD  WStrb: 0011  Operation# 8
+%%    130 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 0000UUUU  WStrb: 1100  Operation# 9
+%%    130 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000082  AWProt: 000  Operation# 2
+%%    140 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 1
+%%    140 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU1111  WStrb: 0011  Operation# 10
+%%    140 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000082  AWProt: 000  WData: 0000UUUU  WStrb: 1100  Operation# 1
+%%    150 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 2222UUUU  WStrb: 1100  Operation# 11
+%%    160 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU3333  WStrb: 0011  Operation# 12
+%%    170 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 4444UUUU  WStrb: 1100  Operation# 13
+%%    180 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU5555  WStrb: 0011  Operation# 14
+%%    190 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 6666UUUU  WStrb: 1100  Operation# 15
+%%    200 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU7777  WStrb: 0011  Operation# 16
+%%    220 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 2
+
+
+%%    250 ns    Log    PASSED    in TB Manager Proc,                                      AWSIZE Received : 2
+%%    250 ns    Log    ALWAYS    in TB Manager Proc,                                      Write with parameters setting #2
+%%    250 ns    Log    INFO      in manager_1,                                            Write Data.  WData: CCDDUUUU  WStrb: 1100  Operation# 17
+%%    250 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000102  AWProt: 000  Operation# 3
+%%    260 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 8899AABB  WStrb: 1111  Operation# 18
+%%    260 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000102  AWProt: 000  WData: CCDDUUUU  WStrb: 1100  Operation# 2
+%%    270 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 44556677  WStrb: 1111  Operation# 19
+%%    280 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 11223344  WStrb: 1111  Operation# 20
+%%    290 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUEEFF  WStrb: 0011  Operation# 21
+%%    300 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 9999UUUU  WStrb: 1100  Operation# 22
+%%    300 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000182  AWProt: 000  Operation# 4
+%%    310 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 3
+%%    310 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 77776666  WStrb: 1111  Operation# 23
+%%    310 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000182  AWProt: 000  WData: 9999UUUU  WStrb: 1100  Operation# 3
+%%    320 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 55554444  WStrb: 1111  Operation# 24
+%%    330 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 33332222  WStrb: 1111  Operation# 25
+%%    340 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU0000  WStrb: 0011  Operation# 26
+%%    360 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 4
+
+
+%%    390 ns    Log    PASSED    in TB Manager Proc,                                      AWSIZE Received : 0
+%%    390 ns    Log    ALWAYS    in TB Manager Proc,                                      Write with parameters setting #3
+%%    390 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU22UU  WStrb: 0010  Operation# 27
+%%    390 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000201  AWProt: 000  Operation# 5
+%%    400 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UU33UUUU  WStrb: 0100  Operation# 28
+%%    400 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000201  AWProt: 000  WData: UUUU22UU  WStrb: 0010  Operation# 4
+%%    410 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 29
+%%    420 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUUU55  WStrb: 0001  Operation# 30
+%%    430 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU66UU  WStrb: 0010  Operation# 31
+%%    440 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UU77UUUU  WStrb: 0100  Operation# 32
+%%    450 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 88UUUUUU  WStrb: 1000  Operation# 33
+%%    460 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUUU99  WStrb: 0001  Operation# 34
+%%    470 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 44UUUUUU  WStrb: 1000  Operation# 35
+%%    470 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000283  AWProt: 000  Operation# 6
+%%    480 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 5
+%%    480 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUUU55  WStrb: 0001  Operation# 36
+%%    480 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000283  AWProt: 000  WData: 44UUUUUU  WStrb: 1000  Operation# 5
+%%    490 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUU77UU  WStrb: 0010  Operation# 37
+%%    500 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UU66UUUU  WStrb: 0100  Operation# 38
+%%    510 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 88UUUUUU  WStrb: 1000  Operation# 39
+%%    520 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUUU99  WStrb: 0001  Operation# 40
+%%    530 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUBBUU  WStrb: 0010  Operation# 41
+%%    540 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUAAUUUU  WStrb: 0100  Operation# 42
+%%    560 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 6
+
+
+%%    590 ns    Log    PASSED    in TB Manager Proc,                                      AWSIZE Received : 2
+%%    590 ns    Log    ALWAYS    in TB Manager Proc,                                      Write with parameters setting #4
+%%    590 ns    Log    INFO      in manager_1,                                            Write Data.  WData: CCDDEEUU  WStrb: 1110  Operation# 43
+%%    590 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000401  AWProt: 000  Operation# 7
+%%    600 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 8899AABB  WStrb: 1111  Operation# 44
+%%    600 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000401  AWProt: 000  WData: CCDDEEUU  WStrb: 1110  Operation# 6
+%%    610 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UUUUUU77  WStrb: 0001  Operation# 45
+%%    620 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 99UUUUUU  WStrb: 1000  Operation# 46
+%%    620 ns    Log    INFO      in manager_1,                                            Write Address.  AWAddr: 00000483  AWProt: 000  Operation# 8
+%%    630 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 7
+%%    630 ns    Log    INFO      in manager_1,                                            Write Data.  WData: 77776666  WStrb: 1111  Operation# 47
+%%    630 ns    Log    INFO      in subordinate_1,                                        Memory Write.  AWAddr: 00000483  AWProt: 000  WData: 99UUUUUU  WStrb: 1000  Operation# 7
+%%    640 ns    Log    INFO      in manager_1,                                            Write Data.  WData: UU554444  WStrb: 0111  Operation# 48
+%%    660 ns    Log    PASSED    in manager_1: WriteResponse Scoreboard,                  Received: 0   Item Number: 8
+
+
+%%    690 ns    Log    PASSED    in TB Manager Proc,                                      ARSIZE Received : 2
+%%    690 ns    Log    ALWAYS    in TB Manager Proc,                                      Read with parameters setting #1, Defaults
+%%    690 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000002  ARProt: 000  Operation# 1
+%%    700 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000002  ARProt: 000  RData: 00FFUUUU  Operation# 0
+%%    710 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 1
+%%    720 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 2
+%%    730 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 3
+%%    740 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 4
+%%    750 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 5
+%%    750 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 00FFUUUU   Item Number: 1
+%%    750 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 44332211   Item Number: 2
+%%    750 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 88776655   Item Number: 3
+%%    750 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: CCBBAA99   Item Number: 4
+%%    750 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUUUEEDD   Item Number: 5
+%%    750 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000082  ARProt: 000  Operation# 2
+%%    760 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000082  ARProt: 000  RData: 0000UUUU  Operation# 5
+%%    770 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 6
+%%    780 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 7
+%%    790 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 8
+%%    800 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 9
+%%    810 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 10
+%%    810 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 0000UUUU   Item Number: 6
+%%    810 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 22221111   Item Number: 7
+%%    810 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 44443333   Item Number: 8
+%%    810 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 66665555   Item Number: 9
+%%    810 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUUU7777   Item Number: 10
+
+
+%%    850 ns    Log    PASSED    in TB Manager Proc,                                      ARSIZE Received : 1
+%%    850 ns    Log    ALWAYS    in TB Manager Proc,                                      Read with parameters setting #2
+%%    850 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000102  ARProt: 000  Operation# 3
+%%    860 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000102  ARProt: 000  RData: CCDDUUUU  Operation# 10
+%%    870 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 11
+%%    880 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 12
+%%    890 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 13
+%%    900 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 14
+%%    910 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 15
+%%    920 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 16
+%%    930 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 17
+%%    940 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 18
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: CCDDUUUU   Item Number: 11
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 8899AABB   Item Number: 12
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 8899AABB   Item Number: 13
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 44556677   Item Number: 14
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 44556677   Item Number: 15
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 11223344   Item Number: 16
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 11223344   Item Number: 17
+%%    940 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUUUEEFF   Item Number: 18
+%%    940 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000182  ARProt: 000  Operation# 4
+%%    950 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000182  ARProt: 000  RData: 9999UUUU  Operation# 18
+%%    960 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 19
+%%    970 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 20
+%%    980 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 21
+%%    990 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 22
+%%   1000 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 23
+%%   1010 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 24
+%%   1020 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 25
+%%   1030 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 26
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 9999UUUU   Item Number: 19
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 77776666   Item Number: 20
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 77776666   Item Number: 21
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 55554444   Item Number: 22
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 55554444   Item Number: 23
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 33332222   Item Number: 24
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 33332222   Item Number: 25
+%%   1030 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUUU0000   Item Number: 26
+
+
+%%   1070 ns    Log    PASSED    in TB Manager Proc,                                      ARSIZE Received : 2
+%%   1070 ns    Log    ALWAYS    in TB Manager Proc,                                      Read with parameters setting #3
+%%   1070 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000201  ARProt: 000  Operation# 5
+%%   1080 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000201  ARProt: 000  RData: 443322UU  Operation# 26
+%%   1090 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 27
+%%   1100 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 28
+%%   1110 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 29
+%%   1110 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 443322UU   Item Number: 27
+%%   1110 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 88776655   Item Number: 28
+%%   1110 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUUUUU99   Item Number: 29
+%%   1110 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000283  ARProt: 000  Operation# 6
+%%   1120 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000283  ARProt: 000  RData: 44UUUUUU  Operation# 29
+%%   1130 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 30
+%%   1140 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 31
+%%   1150 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 32
+%%   1150 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 44UUUUUU   Item Number: 30
+%%   1150 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 88667755   Item Number: 31
+%%   1150 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUAABB99   Item Number: 32
+
+
+%%   1190 ns    Log    PASSED    in TB Manager Proc,                                      ARSIZE Received : 0
+%%   1190 ns    Log    ALWAYS    in TB Manager Proc,                                      Read with parameters setting #4
+%%   1190 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000401  ARProt: 000  Operation# 7
+%%   1200 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000401  ARProt: 000  RData: CCDDEEUU  Operation# 32
+%%   1210 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 33
+%%   1220 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 34
+%%   1230 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 35
+%%   1240 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 36
+%%   1250 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 37
+%%   1260 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 38
+%%   1270 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 39
+%%   1280 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 40
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: CCDDEEUU   Item Number: 33
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: CCDDEEUU   Item Number: 34
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: CCDDEEUU   Item Number: 35
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 8899AABB   Item Number: 36
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 8899AABB   Item Number: 37
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 8899AABB   Item Number: 38
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 8899AABB   Item Number: 39
+%%   1280 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UUUUUU77   Item Number: 40
+%%   1280 ns    Log    INFO      in manager_1,                                            Read Address.  ARAddr: 00000483  ARProt: 000  Operation# 8
+%%   1290 ns    Log    INFO      in subordinate_1,                                        Memory Read.  ARAddr: 00000483  ARProt: 000  RData: 99UUUUUU  Operation# 40
+%%   1300 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 41
+%%   1310 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 42
+%%   1320 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 43
+%%   1330 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 44
+%%   1340 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 45
+%%   1350 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 46
+%%   1360 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 47
+%%   1370 ns    Log    PASSED    in manager_1: ReadResponse Scoreboard,                   Received: 0   Item Number: 48
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 99UUUUUU   Item Number: 41
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 77776666   Item Number: 42
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 77776666   Item Number: 43
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 77776666   Item Number: 44
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: 77776666   Item Number: 45
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UU554444   Item Number: 46
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UU554444   Item Number: 47
+%%   1370 ns    Log    PASSED    in manager_1: ReadBurstFifo,                             Received: UU554444   Item Number: 48
+
+
